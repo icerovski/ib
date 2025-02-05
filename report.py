@@ -47,69 +47,76 @@ def parse_multiheader_csv(filename):
 
     with open(filename, newline='') as f:
         reader = csv.reader(f)
-        
-        current_section = None      # Track which section we are in
-        current_header = None       # Names of the columns for the current sub-table
-        current_header_label = None # We can store a readable label from that header row
-        current_data_rows = []      # Accumulate rows for the current sub-table
+
+        current_section = None
+        current_header = None
+        current_header_label = None
+        current_data_rows = []
 
         for row in reader:
-            # Row[0] = Section, Row[1] = Type, the rest are fields
+            # Skip empty or malformed rows
             if len(row) < 2:
-                # Skip malformed or empty lines (if any)
                 continue
-            
-            section, row_type = row[0], row[1]
-            
-            # If we have changed sections, we need to "close out" any previous sub-table
-            # and reset everything for the new section
-            if section != current_section:
-                # If there's leftover data from the old section, store it
-                if current_section is not None and current_header and current_data_rows:
-                    # Build a dataframe from the pending rows
-                    df = pd.DataFrame(current_data_rows, columns=current_header)
-                    # Append to the result for that section
-                    result[current_section].append((current_header_label, df))
 
-                # Now initialize for the new section
+            section, row_type = row[0], row[1]
+
+            # If we have changed sections, close out the old sub-table if needed
+            if section != current_section:
+                # Store the old sub-table in result
+                if current_section is not None and current_header and current_data_rows:
+                    df = pd.DataFrame(current_data_rows, columns=current_header)
+                    result[current_section].append((current_header_label, df))
+                
+                # Initialize for the new section
                 current_section = section
                 if current_section not in result:
                     result[current_section] = []
+
                 current_header = None
                 current_header_label = None
                 current_data_rows = []
-            
-            # Now, within the same section:
-            # If this is a new header row, we start a new sub-table
+
+            # If this is a new header row, start a new sub-table
             if row_type == 'Header':
-                # If there was an old sub-table in progress, store it in the result
+                # If there was a sub-table in progress, store it
                 if current_header and current_data_rows:
                     df = pd.DataFrame(current_data_rows, columns=current_header)
                     result[current_section].append((current_header_label, df))
-                
-                # The new header is row[2:]
+
+                # Grab the new header fields
                 current_header = row[2:]
                 
-                # Sometimes you want a "label" for this subtable - we can just take
-                # the first item in the header as a label, or you can store the entire list:
+                # You can define the sub-table's "label" from the header itself
                 if current_header:
                     current_header_label = current_header[0]
                 else:
                     current_header_label = "UnnamedHeader"
-                
-                # Reset data rows for the new sub-table
+
+                # Reset data rows for this sub-table
                 current_data_rows = []
-            
+
             elif row_type == 'Data':
                 # This is a data row for the current sub-table
                 data_fields = row[2:]
-                
-                # If the CSV might have trailing empty columns, you could strip them, e.g.:
-                # data_fields = [x for x in data_fields if x != '']
-                
-                current_data_rows.append(data_fields)
-        
-        # End of file: if there's a sub-table in progress, store it
+
+                # Make sure we actually have a header to map to
+                if current_header:
+                    header_len = len(current_header)
+                    row_len = len(data_fields)
+
+                    if row_len < header_len:
+                        # Pad with empty strings
+                        data_fields += [""] * (header_len - row_len)
+                    elif row_len > header_len:
+                        # Trim extra columns
+                        data_fields = data_fields[:header_len]
+                    
+                    current_data_rows.append(data_fields)
+                else:
+                    # If no header, you might decide to skip or handle differently
+                    pass
+
+        # End of file: if there's an unfinished sub-table, store it
         if current_header and current_data_rows:
             df = pd.DataFrame(current_data_rows, columns=current_header)
             result[current_section].append((current_header_label, df))
@@ -134,8 +141,10 @@ def main():
         print(f"\n--- SECTION: {section} ---")
         for header_label, df in tables:
             print(f"Header Label: {header_label}")
-            print(df)
-            print()
+            # print(df)
+            # print()
+
+    print('These were all the Sections')
 
     # Dictionary to hold section DataFrames
     sections = {}
