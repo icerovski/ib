@@ -26,15 +26,116 @@ def pull_data(source_file, criterion):
                 data.append(row[1:])
     return data
 
+def parse_multiheader_csv(filename):
+    """
+    Reads a CSV file where:
+      - Col 0 = Section Name
+      - Col 1 = Type (e.g. 'Header' or 'Data')
+      - Remaining cols = either actual header fields or data fields
+
+    Returns a dictionary:
+      {
+        "SectionName": [
+            ("HeaderName/FirstColumnOfHeader", pandas.DataFrame),
+            ...
+        ],
+        ...
+      }
+    """
+    # This dictionary will map section -> list of (header_label, DataFrame)
+    result = {}
+
+    with open(filename, newline='') as f:
+        reader = csv.reader(f)
+        
+        current_section = None      # Track which section we are in
+        current_header = None       # Names of the columns for the current sub-table
+        current_header_label = None # We can store a readable label from that header row
+        current_data_rows = []      # Accumulate rows for the current sub-table
+
+        for row in reader:
+            # Row[0] = Section, Row[1] = Type, the rest are fields
+            if len(row) < 2:
+                # Skip malformed or empty lines (if any)
+                continue
+            
+            section, row_type = row[0], row[1]
+            
+            # If we have changed sections, we need to "close out" any previous sub-table
+            # and reset everything for the new section
+            if section != current_section:
+                # If there's leftover data from the old section, store it
+                if current_section is not None and current_header and current_data_rows:
+                    # Build a dataframe from the pending rows
+                    df = pd.DataFrame(current_data_rows, columns=current_header)
+                    # Append to the result for that section
+                    result[current_section].append((current_header_label, df))
+
+                # Now initialize for the new section
+                current_section = section
+                if current_section not in result:
+                    result[current_section] = []
+                current_header = None
+                current_header_label = None
+                current_data_rows = []
+            
+            # Now, within the same section:
+            # If this is a new header row, we start a new sub-table
+            if row_type == 'Header':
+                # If there was an old sub-table in progress, store it in the result
+                if current_header and current_data_rows:
+                    df = pd.DataFrame(current_data_rows, columns=current_header)
+                    result[current_section].append((current_header_label, df))
+                
+                # The new header is row[2:]
+                current_header = row[2:]
+                
+                # Sometimes you want a "label" for this subtable - we can just take
+                # the first item in the header as a label, or you can store the entire list:
+                if current_header:
+                    current_header_label = current_header[0]
+                else:
+                    current_header_label = "UnnamedHeader"
+                
+                # Reset data rows for the new sub-table
+                current_data_rows = []
+            
+            elif row_type == 'Data':
+                # This is a data row for the current sub-table
+                data_fields = row[2:]
+                
+                # If the CSV might have trailing empty columns, you could strip them, e.g.:
+                # data_fields = [x for x in data_fields if x != '']
+                
+                current_data_rows.append(data_fields)
+        
+        # End of file: if there's a sub-table in progress, store it
+        if current_header and current_data_rows:
+            df = pd.DataFrame(current_data_rows, columns=current_header)
+            result[current_section].append((current_header_label, df))
+
+    return result
+
 def main():
     # File path to the uploaded CSV
     # month_input = input('Provide YYYYMM:')
     # ib_file_name = 'U16432685' + '_' + month_input + '_' + month_input + ".csv"
     
-    ib_file_name = 'U16432685_20240101_20241231.csv'
+    # ib_file_name = 'U16432685_20240101_20241231.csv'
+    ib_file_name = 'U16432685_202501_202501.csv'
     # ib_file_name = 'MULTI_20240101_20241231.csv'
     script_dir = os.path.dirname(os.path.abspath(__file__)) # Get the directory where the script is located
     file_path = os.path.join(script_dir, ib_file_name) # Construct the full path to the CSV file
+
+    parsed_data = parse_multiheader_csv(file_path)
+    
+    # 'parsed_data' is now a dictionary: { section: [(header_label, DataFrame), ...], ... }
+    for section, tables in parsed_data.items():
+        print(f"\n--- SECTION: {section} ---")
+        for header_label, df in tables:
+            print(f"Header Label: {header_label}")
+            print(df)
+            print()
 
     # Dictionary to hold section DataFrames
     sections = {}
@@ -42,6 +143,7 @@ def main():
     # Variables to track the current section name and its data rows
     current_section = None
     current_data = []
+
 
     # Open the CSV file in read mode
     with open(file_path, 'r') as f:
@@ -68,7 +170,6 @@ def main():
         if current_section and current_data:
             df = pd.DataFrame(current_data[1:], columns=current_data[0])
             sections[current_section] = df
-
 
     # Loop through your dictionary of DataFrames (assumed to be named 'sections')
     for section_name, df in sections.items():
