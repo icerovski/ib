@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 from collections import defaultdict
-import streamlit as st
+# import streamlit as st
 import csv
 
 # pd.set_option('display.max_rows', None) # This is used in Jupiter to show all rows of the dataframe
@@ -14,9 +14,18 @@ def summarize_section(df, group_col, cash_col):
     summary = temp_df.groupby(group_col)[cash_col].sum().reset_index()
     return summary
 
+def pull_data(source_file, criterion):
+    data = []
+    with open(str(source_file), 'r') as source_file:
+        reader = csv.reader(source_file, delimiter= ',')
+        for row in reader:
+            if row[0] == criterion:
+                data.append(row[1:])
+    return data
+
 # File path to the uploaded CSV
-# ib_file_name = 'U8432685_20240101_20241028.csv'
-ib_file_name = 'MULTI_20240101_20241231.csv'
+ib_file_name = 'U16432685_20240101_20241231.csv'
+# ib_file_name = 'MULTI_20240101_20241231.csv'
 script_dir = os.path.dirname(os.path.abspath(__file__)) # Get the directory where the script is located
 file_path = os.path.join(script_dir, ib_file_name) # Construct the full path to the CSV file
 
@@ -31,7 +40,7 @@ REQUIRED_SECTIONS = [
     'Dividends', 
     'Withholding Tax', 
     'Interest', 
-    'CYEP/Broker Fees', 
+    # 'CYEP/Broker Fees', 
     'Payment In Lieu Of Dividends', 
     'Other Fees', 
     'Sales Tax Details', 
@@ -100,7 +109,7 @@ taxed_stocks.sort_values(by=['Asset Category', 'Symbol'], ascending=[False, True
 taxed_stocks.reset_index()
 print(taxed_stocks.shape)
 
-st.subheader(f"Taxed Stocks")
+# st.subheader(f"Taxed Stocks")
 taxed_stocks # st.dataframe(taxed_stocks)
 
 # Convert filtered sections to DataFrames for structured processing
@@ -114,7 +123,7 @@ sections_dict = {
     'Realized & Unrealized Performance Summary': ['Asset Category', 'Realized Total', CATEGORIES],
     'Dividends': ['Currency', 'Amount', 'Total in EUR'],
     'Withholding Tax': ['Currency', 'Amount', 'Total Withholding Tax in EUR'],
-    'CYEP/Broker Fees': ['Currency', 'Amount', 'Total CYEP/Broker Fees in EUR'],
+    # 'CYEP/Broker Fees': ['Currency', 'Amount', 'Total CYEP/Broker Fees in EUR'],
     'Bond Interest Received': ['Currency', 'Amount', 'Total in EUR'],
     'Bond Interest Paid': ['Currency', 'Amount', 'Total in EUR'],
     'Broker Interest Received': ['Currency', 'Amount', 'Total Broker Interest Received in EUR'],
@@ -126,7 +135,7 @@ sections_dict = {
 for section, values in sections_dict.items():
     df = pd.DataFrame(section_dataframes[section])
     summary = summarize_section(df, values[0], values[1])
-    st.subheader(section)
+    # st.subheader(section)
     summary
 
 # # Capital gains, USD ()

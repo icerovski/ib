@@ -6,8 +6,8 @@ import streamlit as st
 # pd.set_option('display.max_rows', None) # This is used in Jupiter to show all rows of the dataframe
 
 # File path to the uploaded CSV
-# ib_file_name = 'U8432685_20240101_20241028.csv'
-ib_file_name = 'MULTI_20240101_20241231.csv'
+ib_file_name = 'U8432685_20240101_20241028.csv'
+# ib_file_name = 'MULTI_20240101_20241231.csv'
 script_dir = os.path.dirname(os.path.abspath(__file__)) # Get the directory where the script is located
 file_path = os.path.join(script_dir, ib_file_name) # Construct the full path to the CSV file
 
