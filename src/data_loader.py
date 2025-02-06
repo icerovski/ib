@@ -1,9 +1,18 @@
+# Handles CSV file parsing
+
 import os
 import pandas as pd
 import csv
 
+from src.calculations import get_file_path
 
 def parse_nonstandard_csv(filename):
+    file_path = get_file_path(filename, 'data', 'raw')
+    print(f"🔍 Looking for file at: {file_path}")  # DEBUG OUTPUT
+    
+    if not os.path.exists(file_path):
+        raise FileNotFoundError(f"File not found: {file_path}")  # Show full path in error
+
     """
     Parse a CSV file that is broken into sections (column 0) and row-types (column 1).
     Each new 'Header' row begins a new sub-table within that section.
@@ -19,7 +28,7 @@ def parse_nonstandard_csv(filename):
     sections = {}
     
     # Read the file as raw rows first
-    with open(filename, mode='r', newline='', encoding='utf-8') as f:
+    with open(file_path, mode='r', newline='', encoding='utf-8') as f:
         reader = csv.reader(f)
         rows = list(reader)
 
@@ -98,28 +107,3 @@ def parse_nonstandard_csv(filename):
     save_current_subtable()
 
     return sections
-
-
-def main():
-    # File path to the uploaded CSV
-    month_input = input('Provide YYYYMM:')
-    ib_file_name = 'U16432685' + '_' + month_input + '_' + month_input + ".csv"
-    
-    # ib_file_name = 'U16432685_20240101_20241231.csv'
-    # ib_file_name = 'U16432685_202501_202501.csv'
-    # ib_file_name = 'MULTI_20240101_20241231.csv'
-    script_dir = os.path.dirname(os.path.abspath(__file__)) # Get the directory where the script is located
-    file_path = os.path.join(script_dir, ib_file_name) # Construct the full path to the CSV file
-   
-    # Read the CSV without headers and handle varying columns
-    parsed_sections = parse_nonstandard_csv(file_path)
-    
-    # Now you can explore the resulting dictionary of DataFrames
-    for section, list_of_dfs in parsed_sections.items():
-        print(f"Section: {section}")
-        for i, df in enumerate(list_of_dfs, start=1):
-            print(f"  Sub-table #{i} shape: {df.shape}")
-            print(df.head())  # or do whatever you like with each sub-table
-    
-if __name__ == "__main__":
-    main()
