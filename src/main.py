@@ -7,6 +7,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from src.calculations import get_file_path
 from src.data_parser import parse_data, convert_to_dataframe
 from src.streamlit_viewer import display_sections
+from src.storage import write_to_excel
 
 def main():
     # month_input = input('Provide YYYYMM:')
@@ -16,6 +17,8 @@ def main():
 
     parsed_data = parse_data(file_path)
     df = convert_to_dataframe(parsed_data)
+
+    write_to_excel(df, ib_file_name)
     display_sections(df)
     
 if __name__ == "__main__":

@@ -1,9 +1,16 @@
 import os
+import re
 
 def remove_csv_extension(file_path):
     """Removes the .csv extension from a file path."""
     file_without_ext, _ = os.path.splitext(file_path)
     return file_without_ext
+
+def sanitize_sheet_name(raw_name, max_len=31):
+    # Replace invalid Excel characters with underscores:
+    safe_name = re.sub(r"[/\\\?\*\[\]:]", "_", raw_name)
+    # Truncate to 31 characters (Excel’s limit)
+    return safe_name[:max_len]
 
 def print_dict_pretty(d, indent=0):
     # Hint: Loop through items, handle nested dictionaries recursively
