@@ -1,47 +1,56 @@
 # Handles CSV file parsing
-
-import os
-import pandas as pd
 import csv
-from collections import defaultdict
+import pandas as pd
 
-from src.calculations import get_file_path
+from collections import defaultdict
 from src.data_selection import REQUIRED_SECTIONS
 
+def parse_data(file_path):
+    section_headers = {}
+    section_records = defaultdict(list)  # key: section name, value: list of row dicts
 
-def parse_data(data):
-    # Parse the content into sections and filter only required ones
-    filtered_sections = defaultdict(list) # Initialize dictionary to store data
-    section_headers = {} # Initialize dictionary to store headers
-    instrument_information_list = []
-    for line in data:
-        # parts = [part.strip() for part in line.strip().split(',')]
-        if line:
-            section_name = line[0]
-            if section_name in REQUIRED_SECTIONS:
-                if line[1].lower() == 'header':
-                    section_headers[section_name] = line[2:] # Store the header row
-                else:
-                    filtered_sections[section_name].append(line[2:]) # Append data rows to the filtered sections
-
-            elif section_name == 'Financial Instrument Information':
-                instrument_information_list.append(line[1:])
-    
-def load_csv(filename):
-    file_path = get_file_path(filename, 'data', 'raw')
-    print(f"🔍 Looking for file at: {file_path}")  # DEBUG OUTPUT
-    
-    if not os.path.exists(file_path):
-        raise FileNotFoundError(f"File not found: {file_path}")  # Show full path in error
-    
-    # Load the file as raw text to examine its structure
-    with open(file_path, mode='r', newline='', encoding='utf-8') as file:
-        reader = csv.reader(file)
-        data = []
-        max_length = 0
+    with open(file_path, "r", newline="") as csvfile:
+        reader = csv.reader(csvfile)
 
         for row in reader:
-            data.append(row)
-            max_length = max(max_length, len(row))  # Track the longest row length
+            if not row:
+                continue
+            
+            section_name = row[0].strip()
+            row_type = row[1].strip()
+            fields = row[2:]  # everything after the first two columns
+
+            # You might choose to skip or handle missing headers differently
+            if section_name not in REQUIRED_SECTIONS:
+                continue
+
+            if row_type.lower() == "header":
+                # Hint: store the current section’s headers
+                section_headers[section_name] = fields
+
+            elif row_type.lower() == "data":
+                # Retrieve headers for the current section (if available)
+                if section_name not in section_headers:
+                    # You might choose to skip or handle missing headers differently
+                    continue
+                                
+                # Hint: pair each header column with its corresponding data value
+                record = {}
+                for col_name, col_value in zip(section_headers[section_name], fields):
+                    record[col_name.strip()] = col_value.strip()
+                
+                # Append to the list for this section
+                section_records[section_name].append(record)
     
-    return parse_data(data)
+    return section_records
+
+def convert_to_dataframe(section_records):
+    # Convert each section’s list of dictionaries into its own DataFrame
+    section_dataframes = {}
+    for section, records_list in section_records.items():
+        # section is the dictionary key
+        # records_list is the list of row dictionaries
+        df = pd.DataFrame(records_list)
+        section_dataframes[section] = df
+
+    return section_dataframes
