@@ -15,4 +15,5 @@ REQUIRED_SECTIONS = [
     'Broker Interest Paid',
     'Broker Interest Received', 
     'Bond Interest Paid', 
-    'Bond Interest Received']
+    'Bond Interest Received',
+    'Financial Instrument Information']
