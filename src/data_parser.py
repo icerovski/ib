@@ -3,7 +3,7 @@ import csv
 import pandas as pd
 
 from collections import defaultdict
-from src.data_selection import REQUIRED_SECTIONS
+from src.data_selection import PNL_SECTIONS, DO_NOT_REPEAT, RENAME_DICT
 
 def parse_data(file_path):
     section_headers = {}
@@ -30,18 +30,20 @@ def parse_data(file_path):
             
             # Parse current row
             section_name = row[0].strip()
-            if section_name not in REQUIRED_SECTIONS:
+            if section_name not in PNL_SECTIONS:
                 continue                    
             
             row_type = row[1].strip()
             fields = row[2:]  # everything after the first two columns
 
             if row_type.lower() == "header":
-                # Store current section's header only if this is the first occurance of the section, i.e. Dividends
+                # Check if this is repeated appearance for this section, i.e. Dividends or Financial Instrument Information
                 if section_name in processed_sections:
-                    parsing_current_section = False
-                    continue
+                    # Check if section is in the REPEATED list and needs to be parsed only once
+                    if section_name in DO_NOT_REPEAT: 
+                        parsing_current_section = False
                 else:
+                    # Store current section's header only if this is the first occurance of the section, i.e. Dividends
                     processed_sections.add(section_name) # Mark the section as processed, so that it no longer gets processed
                     section_headers[section_name] = fields # Store the current section's header
                     parsing_current_section = True
@@ -60,6 +62,8 @@ def convert_to_dataframe(section_records):
         # section is the dictionary key
         # records_list is the list of row dictionaries
         df = pd.DataFrame(records_list)
+        # Rename some of the value headers to Amount so they are similar with all other dataframes
+        df.rename(columns=RENAME_DICT, inplace=True)
         section_dataframes[section] = df
 
     return section_dataframes

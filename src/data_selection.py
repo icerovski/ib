@@ -16,4 +16,26 @@ REQUIRED_SECTIONS = [
     'Broker Interest Received', 
     'Bond Interest Paid', 
     'Bond Interest Received',
-    'Financial Instrument Information']
+    'Financial Instrument Information'
+    ]
+
+PNL_SECTIONS = [
+    'Realized & Unrealized Performance Summary', 
+    'Dividends', 
+    'Withholding Tax',  
+    'Bond Interest Received',
+    'Bond Interest Paid', 
+    'Broker Interest Received', 
+    'Broker Interest Paid',
+    'Other Fees', 
+    'Sales Tax Details', 
+    ]
+
+DO_NOT_REPEAT = [
+    'Dividends'
+]
+
+RENAME_DICT = {
+    "Realized Total": "Amount",  # Correcting typo
+    "Sales Tax": "Amount"
+}

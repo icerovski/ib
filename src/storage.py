@@ -19,6 +19,6 @@ def write_to_excel(dataframes, filename):
         for section, df in dataframes.items():
             # sheet_name = section[:31]  # Excel sheet names are limited to 31 characters
             sheet_name = sanitize_sheet_name(section)
-            df.to_excel(writer, sheet_name=sheet_name, index=False)
+            df.to_excel(writer, sheet_name=sheet_name, index=True)
     
     print(f"Excel file '{output_file}' has been created.")

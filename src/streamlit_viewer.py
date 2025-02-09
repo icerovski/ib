@@ -1,5 +1,10 @@
 import streamlit as st
 
+def display_df(title, df):
+    # Make the dataframe use the full width
+    with st.expander(f"📊 {title}", expanded= False):
+        st.dataframe(df, use_container_width=True)
+
 def display_sections(dataframes):
     """
     Function to display a dictionary of Pandas DataFrames in Streamlit.
@@ -15,6 +20,4 @@ def display_sections(dataframes):
     # Iterate through sections and display each DataFrame
     for section, df in dataframes.items():
         with st.expander(f"📊 {section}", expanded= False):
-            
-            # Make the dataframe use the full width
-            st.dataframe(df, use_container_width=True)
+            display_df(df)

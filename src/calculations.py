@@ -1,5 +1,6 @@
 import os
 import re
+import pandas as pd
 
 def remove_csv_extension(file_path):
     """Removes the .csv extension from a file path."""
@@ -42,3 +43,12 @@ def get_file_path(filename, *args):
         raise FileNotFoundError(f"File not found: {file_path}")  # Show full path in error
     
     return file_path
+
+def convert_to_numeric(df, col_name):
+    df[col_name] = pd.to_numeric(df[col_name], errors='coerce')  # Ensure numeric values
+    return df
+
+def summarize_section(df, group_col, cash_col):
+    temp_df = convert_to_numeric(df, cash_col) # Ensure numeric values
+    summary = temp_df.groupby(group_col)[cash_col].sum().reset_index()
+    return summary
