@@ -19,17 +19,25 @@ REQUIRED_SECTIONS = [
     'Financial Instrument Information'
     ]
 
-PNL_SECTIONS = [
-    'Realized & Unrealized Performance Summary', 
-    'Dividends', 
-    'Withholding Tax',  
-    'Bond Interest Received',
-    'Bond Interest Paid', 
-    'Broker Interest Received', 
-    'Broker Interest Paid',
-    'Other Fees', 
-    'Sales Tax Details', 
-    ]
+# Define mapping of PNL components to actual sections in the parsed DataFrame dictionary
+pnl_mapping = {
+    'Trading Profit': ['Realized & Unrealized Performance Summary'],
+    'Net Dividend Income': ['Dividends', 'Withholding Tax'],
+    'Net Interest Profit': ['Bond Interest Received', 'Bond Interest Paid', 'Broker Interest Received', 'Broker Interest Paid'],
+    'OpEx': ["Other Fees", "Sales Tax Details"],
+}
+
+# PNL_SECTIONS = [
+#     'Realized & Unrealized Performance Summary', 
+#     'Dividends', 
+#     'Withholding Tax',  
+#     'Bond Interest Received',
+#     'Bond Interest Paid', 
+#     'Broker Interest Received', 
+#     'Broker Interest Paid',
+#     'Other Fees', 
+#     'Sales Tax Details', 
+#     ]
 
 DO_NOT_REPEAT = [
     'Dividends'
@@ -39,3 +47,7 @@ RENAME_DICT = {
     "Realized Total": "Amount",  # Correcting typo
     "Sales Tax": "Amount"
 }
+
+
+
+

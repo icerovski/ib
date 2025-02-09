@@ -9,6 +9,7 @@ from src.calculations import get_file_path, summarize_section
 from src.data_parser import parse_data, convert_to_dataframe
 from src.streamlit_viewer import display_df
 from src.storage import write_to_excel
+from src.data_selection import pnl_mapping
 
 def main():
     # month_input = input('Provide YYYYMM:')
@@ -19,20 +20,28 @@ def main():
     parsed_data = parse_data(file_path)
     sections_df = convert_to_dataframe(parsed_data)
 
-    pnl = {}
-    result = None
-    for k, v in sections_df.items():
-        # display_df(k, v)
-        result = pd.to_numeric(v.iloc[-1]['Amount'], errors='coerce')
-        pnl[k] = result
+    # Initialize dictionary to store extracted values
+    pnl_values = {component: 0 for component in pnl_mapping.keys()}
+
+    # Iterate through the PNL components and sum relevant sections
+    for component, section_names in pnl_mapping.items():
+        current_amount = 0
+        section_amount = 0
+
+        for section in section_names:
+            if section in sections_df:
+                current_df = sections_df[section]
+                current_amount = pd.to_numeric(current_df.iloc[-1]['Amount'], errors='coerce')
+                section_amount += current_amount
+        pnl_values[component] = section_amount
     
-    # Convert dictionary to DataFrame with keys as index
-    pnl_df = pd.DataFrame.from_dict(pnl, orient="index", columns=["Amount"])
+    # Convert to a DataFrame
+    pnl_df = pd.DataFrame.from_dict(pnl_values, orient="index", columns=["Amount"])
 
     # Add a total row at the bottom
     pnl_df.loc["Total"] = pnl_df["Amount"].sum()
 
-    display_df('Amount', pnl_df)
+    display_df('P&L', pnl_df)
     write_to_excel(pnl_df, ib_file_name)
     
 if __name__ == "__main__":

@@ -3,7 +3,7 @@ import csv
 import pandas as pd
 
 from collections import defaultdict
-from src.data_selection import PNL_SECTIONS, DO_NOT_REPEAT, RENAME_DICT
+from src.data_selection import REQUIRED_SECTIONS, DO_NOT_REPEAT, RENAME_DICT
 
 def parse_data(file_path):
     section_headers = {}
@@ -30,7 +30,7 @@ def parse_data(file_path):
             
             # Parse current row
             section_name = row[0].strip()
-            if section_name not in PNL_SECTIONS:
+            if section_name not in REQUIRED_SECTIONS:
                 continue                    
             
             row_type = row[1].strip()
