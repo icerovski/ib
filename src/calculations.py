@@ -28,3 +28,5 @@ def get_file_path(filename, *args):
 def convert_to_numeric(df, col_name):
     df[col_name] = pd.to_numeric(df[col_name], errors='coerce')  # Ensure numeric values
     return df
+
+
