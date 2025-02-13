@@ -39,8 +39,6 @@ RENAME_DICT = {
     "Sales Tax": "Amount"
 }
 
-
-
 def pnl_parser(file_path):
     section_headers = {}
     section_records = defaultdict(list)  # key: section name, value: list of row dicts
@@ -59,9 +57,10 @@ def pnl_parser(file_path):
             # iterate over the rows while keeping track of both the index (i) and the actual content of each row (row)
             # enumerate assigns an index (i) to each row
             for i, row in enumerate(reader):
-                if section_name in row and start_idx is None:
+                # Check the first column of each row for the section name
+                if section_name in row[0] and start_idx is None:
                     start_idx = i
-                elif start_idx is not None and section_name not in row and ",Data," not in row:
+                elif start_idx is not None and section_name not in row[0] and ",Data," not in row:
                     end_idx = i
                     break
 
@@ -69,10 +68,12 @@ def pnl_parser(file_path):
             
             return section_rows
 
-        reader = list(csv.reader(csvfile)) # csv.reader returns an iterator -> convert iterator to list        
+        reader = list(csv.reader(csvfile)) # csv.reader returns an iterator -> convert iterator to list
+        section_rows = []        
         for section_name, func in pnl_functions.items():
             # Sometimes not all sections are present, i.e. some months I don't trade any Treasury Bills. Handle the exception gracefully.
             try:
+                section_rows.clear()
                 section_rows = isolate_section(section_name)
             except ValueError:
                 print(f"Warning: {section_name} section not found. Returning empty DataFrame.")
@@ -80,9 +81,7 @@ def pnl_parser(file_path):
 
             current_pnl_df = func(section_rows)
             display_df(section_name, current_pnl_df)
-
-
-
+            # Add current pnl DataFrame to a larger DataFrame
 
         def save_current_row():
             # Hint: pair each header column with its corresponding data value

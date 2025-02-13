@@ -30,11 +30,11 @@ def main():
     display_sections(filtered_df)
 
     # Profit & Loss statement
-    # pnl_df = pnl_parser(file_path)
-    # display_df('Profit & Loss', pnl_df)
-
-    pnl_df = build_pnl(sections_df)
+    pnl_df = pnl_parser(file_path)
     display_df('Profit & Loss', pnl_df)
+
+    # pnl_df = build_pnl(sections_df)
+    # display_df('Profit & Loss', pnl_df)
     # write_to_excel(pnl_df, ib_file_name)
     
 if __name__ == "__main__":
