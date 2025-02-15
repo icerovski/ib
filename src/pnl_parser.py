@@ -79,59 +79,59 @@ def pnl_parser(file_path):
                 print(f"Warning: {section_name} section not found. Returning empty DataFrame.")
                 return pd.DataFrame()  # Or handle it differently
 
-            current_pnl_df = func(section_rows)
+            current_pnl_df = func(section_rows, section_name)
             display_df(section_name, current_pnl_df)
             # Add current pnl DataFrame to a larger DataFrame
 
-        def save_current_row():
-            # Hint: pair each header column with its corresponding data value
-            record = {}
-            for col_name, col_value in zip(section_headers[section_name], fields):
-                record[col_name.strip()] = col_value.strip()
+#         def save_current_row():
+#             # Hint: pair each header column with its corresponding data value
+#             record = {}
+#             for col_name, col_value in zip(section_headers[section_name], fields):
+#                 record[col_name.strip()] = col_value.strip()
             
-            # Append to the list for this section
-            section_records[section_name].append(record)
+#             # Append to the list for this section
+#             section_records[section_name].append(record)
         
-        for row in reader:
-            if not row:
-                continue
+#         for row in reader:
+#             if not row:
+#                 continue
             
-            # Parse current row
-            section_name = row[0].strip()
-            if section_name not in pnl_functions:
-                continue                    
+#             # Parse current row
+#             section_name = row[0].strip()
+#             if section_name not in pnl_functions:
+#                 continue                    
             
-            row_type = row[1].strip()
-            fields = row[2:]  # everything after the first two columns
+#             row_type = row[1].strip()
+#             fields = row[2:]  # everything after the first two columns
 
-            if row_type.lower() == "header":
-                # Check if this is repeated appearance for this section, i.e. Dividends or Financial Instrument Information
-                if section_name in processed_sections:
-                    # Check if section is in the REPEATED list and needs to be parsed only once
-                    if section_name in DO_NOT_REPEAT: 
-                        parsing_current_section = False
-                else:
-                    # Store current section's header only if this is the first occurance of the section, i.e. Dividends
-                    processed_sections.add(section_name) # Mark the section as processed, so that it no longer gets processed
-                    section_headers[section_name] = fields # Store the current section's header
-                    parsing_current_section = True
+#             if row_type.lower() == "header":
+#                 # Check if this is repeated appearance for this section, i.e. Dividends or Financial Instrument Information
+#                 if section_name in processed_sections:
+#                     # Check if section is in the REPEATED list and needs to be parsed only once
+#                     if section_name in DO_NOT_REPEAT: 
+#                         parsing_current_section = False
+#                 else:
+#                     # Store current section's header only if this is the first occurance of the section, i.e. Dividends
+#                     processed_sections.add(section_name) # Mark the section as processed, so that it no longer gets processed
+#                     section_headers[section_name] = fields # Store the current section's header
+#                     parsing_current_section = True
                 
-            elif row_type.lower() == "data":
-                # Process only sections that do not repeat
-                if parsing_current_section:
-                    save_current_row()
+#             elif row_type.lower() == "data":
+#                 # Process only sections that do not repeat
+#                 if parsing_current_section:
+#                     save_current_row()
 
-    return section_records
+#     return section_records
 
-def convert_to_dataframe(section_records):
-    # Convert each section’s list of dictionaries into its own DataFrame
-    section_dataframes = {}
-    for section, records_list in section_records.items():
-        # section is the dictionary key
-        # records_list is the list of row dictionaries
-        df = pd.DataFrame(records_list)
-        # Rename some of the value headers to Amount so they are similar with all other dataframes
-        df.rename(columns=RENAME_DICT, inplace=True)
-        section_dataframes[section] = df
+# def convert_to_dataframe(section_records):
+#     # Convert each section’s list of dictionaries into its own DataFrame
+#     section_dataframes = {}
+#     for section, records_list in section_records.items():
+#         # section is the dictionary key
+#         # records_list is the list of row dictionaries
+#         df = pd.DataFrame(records_list)
+#         # Rename some of the value headers to Amount so they are similar with all other dataframes
+#         df.rename(columns=RENAME_DICT, inplace=True)
+#         section_dataframes[section] = df
 
-    return section_dataframes
+#     return section_dataframes

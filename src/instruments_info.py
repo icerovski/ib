@@ -22,14 +22,14 @@ COLUMNS_TO_KEEP = [
     'Type'
 ]
 
-def add_col_underlying(df_dict):
-    for section, col_name in INSTRUMENT_MAPPING.items():
-        if section in df_dict:
-            current_section = df_dict[section]
-            current_underlying = current_section[col_name].str.extract(r'([A-Z]+)') 
-            current_section['Underlying'] = current_underlying
+# def add_col_underlying(df_dict):
+#     for section, col_name in INSTRUMENT_MAPPING.items():
+#         if section in df_dict:
+#             current_section = df_dict[section]
+#             current_underlying = current_section[col_name].str.extract(r'([A-Z]+)') 
+#             current_section['Underlying'] = current_underlying
     
-    return
+#     return
 
 def extract_underlying(section, col_name):
     # Extract underlying names using regex

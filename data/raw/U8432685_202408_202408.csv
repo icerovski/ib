@@ -1,0 +1,1379 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,BrokerName,Interactive Brokers Ireland Limited (formerly Interactive Brokers Central Europe Zrt.)
+Statement,Data,BrokerAddress,"North Dock One, 91/92 North Wall Quay, Dublin 1"
+Statement,Data,Title,Activity Statement
+Statement,Data,Period,"August 1, 2024 - August 31, 2024"
+Statement,Data,WhenGenerated,"2024-09-03, 06:44:47 EDT"
+Account Information,Header,Field Name,Field Value
+Account Information,Data,Name,High Tower Capital Ltd
+Account Information,Data,Account,U8432685
+Account Information,Data,Account Type,Institution Master
+Account Information,Data,Customer Type,Limited Liability Company
+Account Information,Data,Account Capabilities,Margin
+Account Information,Data,Base Currency,EUR
+Account Information,Data,MNB Password,002-zLQTdGmrmor3
+Net Asset Value,Header,Asset Class,Prior Total,Current Long,Current Short,Current Total,Change
+Net Asset Value,Data,Cash ,11811.124206565,4645.967595,-47662.003561124,-43016.035966124,-54827.160172689
+Net Asset Value,Data,Collateral Value,1721.038847641,97560.711695725,0,97560.711695725,95839.672848084
+Net Asset Value,Data,Stock,878456.7543175,1030657.318852,0,1030657.318852,152200.5645345
+Net Asset Value,Data,Securities Right To Use,-1721.038847641,0,-97560.711695725,-97560.711695725,-95839.672848084
+Net Asset Value,Data,Options,16633.338341,1846.5672,-4699.24197,-2852.67477,-19486.013111
+Net Asset Value,Data,Bonds,333377.9403861,328323.2779318,0,328323.2779318,-5054.6624543
+Net Asset Value,Data,Interest Accruals,1323.8426978,4087.430808,-127.1144274,3960.3163806,2636.4736828
+Net Asset Value,Data,    Broker Interest Accruals,-2.7249445,0,-127.1144274,-127.1144274,-124.3894829
+Net Asset Value,Data,    Bond Interest Accruals,1326.5676423,4087.430808,0,4087.430808,2760.8631657
+Net Asset Value,Data,CYEP/Broker Fee Accruals,26.4642915,5.114267,0,5.114267,-21.3500245
+Net Asset Value,Data,Dividend Accruals,2587.1639164,2904.0980458,0,2904.0980458,316.9341294
+Net Asset Value,Data,Total,1244216.628156865,1470030.486395325,-150049.071654249,1319981.414741076,75764.786584212
+Net Asset Value,Header,Time Weighted Rate of Return
+Net Asset Value,Data,0.970527713%
+Change in NAV,Header,Field Name,Field Value
+Change in NAV,Data,Starting Value,1244216.628156865
+Change in NAV,Data,Details not available,
+Change in NAV,Data,Ending Value,1319981.414741076
+Realized & Unrealized Performance Summary,Header,Asset Category,Symbol,Cost Adj.,Realized S/T Profit,Realized S/T Loss,Realized L/T Profit,Realized L/T Loss,Realized Total,Unrealized S/T Profit,Unrealized S/T Loss,Unrealized L/T Profit,Unrealized L/T Loss,Unrealized Total,Total,Code
+Realized & Unrealized Performance Summary,Data,Stocks,AJG,0,0,0,0,0,0,2681.550491,0,12859.7383794,0,15541.2888704,15541.2888704,
+Realized & Unrealized Performance Summary,Data,Stocks,AMD,0,0,0,0,0,0,0,-4295.757985,0,0,-4295.757985,-4295.757985,
+Realized & Unrealized Performance Summary,Data,Stocks,BRK B,0,0,0,0,0,0,9612.5409064,0,0,0,9612.5409064,9612.5409064,
+Realized & Unrealized Performance Summary,Data,Stocks,BXMT,0,0,0,0,0,0,1466.2739266,-10089.3444714,0,0,-8623.0705448,-8623.0705448,
+Realized & Unrealized Performance Summary,Data,Stocks,CRWD,0,0,0,0,0,0,1310.338568,0,0,0,1310.338568,1310.338568,
+Realized & Unrealized Performance Summary,Data,Stocks,CSX,0,0,0,0,0,0,0,0,4154.7762,0,4154.7762,4154.7762,
+Realized & Unrealized Performance Summary,Data,Stocks,EMD,0,0,0,0,0,0,1536.405960489,-3.8741704,1482.465553809,0,3014.997343898,3014.997343898,
+Realized & Unrealized Performance Summary,Data,Stocks,GILD,0,0,0,0,0,0,940.93461,0,0,-27.1554,913.77921,913.77921,
+Realized & Unrealized Performance Summary,Data,Stocks,GLD,0,0,0,0,0,0,25.028227,0,0,0,25.028227,25.028227,
+Realized & Unrealized Performance Summary,Data,Stocks,HSY,0,0,0,0,0,0,1296.987163,-729.5207692,0,0,567.4663938,567.4663938,
+Realized & Unrealized Performance Summary,Data,Stocks,IBIT,0,0,0,0,0,0,0,-310.47674,0,0,-310.47674,-310.47674,
+Realized & Unrealized Performance Summary,Data,Stocks,JPC,0,0,0,0,0,0,3122.871,0,0,0,3122.871,3122.871,
+Realized & Unrealized Performance Summary,Data,Stocks,KHC,0,0,0,0,0,0,0,-836.431579,0,-3150.0264,-3986.457979,-3986.457979,
+Realized & Unrealized Performance Summary,Data,Stocks,KMI,0,0,0,0,0,0,5094.80563,0,6083.65820625,0,11178.46383625,11178.46383625,
+Realized & Unrealized Performance Summary,Data,Stocks,MSFT,0,1508.67629768,0,0,0,1508.67629768,0,0,0,0,0,1508.67629768,
+Realized & Unrealized Performance Summary,Data,Stocks,PFE,0,0,0,0,0,0,2055.653931642,0,0,0,2055.653931642,2055.653931642,
+Realized & Unrealized Performance Summary,Data,Stocks,QRTEP,0,0,0,0,0,0,520.5056554,-11.224232,0,0,509.2814234,509.2814234,
+Realized & Unrealized Performance Summary,Data,Stocks,RGLD,0,0,0,0,0,0,65.17296,0,0,0,65.17296,65.17296,
+Realized & Unrealized Performance Summary,Data,Stocks,STLA,0,0,0,0,0,0,0,-7530.19242,0,0,-7530.19242,-7530.19242,
+Realized & Unrealized Performance Summary,Data,Stocks,UDOW,0,336.26074518,0,0,0,336.26074518,0,0,0,0,0,336.26074518,
+Realized & Unrealized Performance Summary,Data,Stocks,V,0,0,0,0,0,0,1139.62162,0,0,0,1139.62162,1139.62162,
+Realized & Unrealized Performance Summary,Data,Stocks,XLB,0,0,0,0,0,0,1131.4795259,0,0,0,1131.4795259,1131.4795259,
+Realized & Unrealized Performance Summary,Data,Total,,0,1844.93704286,0,0,0,1844.93704286,32000.170175431,-23806.822367,24580.638339459,-3177.1818,29596.804347889,31441.741390749,
+Realized & Unrealized Performance Summary,Data,Equity and Index Options,BITO 20SEP24 25 C,0,0,-5180.70903098,0,0,-5180.70903098,0,0,0,0,0,-5180.70903098,
+Realized & Unrealized Performance Summary,Data,Equity and Index Options,BITO 20DEC24 23 C,0,0,-1740.25087425,0,0,-1740.25087425,0,0,0,0,0,-1740.25087425,
+Realized & Unrealized Performance Summary,Data,Equity and Index Options,CSCO 20SEP24 45 P,0,1599.88061962,0,0,0,1599.88061962,0,0,0,0,0,1599.88061962,
+Realized & Unrealized Performance Summary,Data,Equity and Index Options,CSCO 20SEP24 47.5 C,0,3938.17756922,0,0,0,3938.17756922,0,0,0,0,0,3938.17756922,
+Realized & Unrealized Performance Summary,Data,Equity and Index Options,EW 20SEP24 62.5 P,0,991.47049669,0,0,0,991.47049669,0,0,0,0,0,991.47049669,
+Realized & Unrealized Performance Summary,Data,Equity and Index Options,GILD 20SEP24 77.5 C,0,1468.74639814,0,0,0,1468.74639814,0,0,0,0,0,1468.74639814,
+Realized & Unrealized Performance Summary,Data,Equity and Index Options,GILD 18OCT24 77.5 C,0,0,0,0,0,0,0,-417.681615627,0,0,-417.681615627,-417.681615627,
+Realized & Unrealized Performance Summary,Data,Equity and Index Options,HSY 20SEP24 200 C,0,1107.68118805,0,0,0,1107.68118805,0,0,0,0,0,1107.68118805,
+Realized & Unrealized Performance Summary,Data,Equity and Index Options,NDAQ 20SEP24 70 P,0,0,-3132.30317692,0,0,-3132.30317692,0,0,0,0,0,-3132.30317692,
+Realized & Unrealized Performance Summary,Data,Equity and Index Options,PFE 20SEP24 27.5 C,0,0,0,0,0,0,185.658359602,0,0,0,185.658359602,185.658359602,
+Realized & Unrealized Performance Summary,Data,Equity and Index Options,QQQ 18OCT24 525 C,0,0,0,0,0,0,0,-8615.89291999,0,0,-8615.89291999,-8615.89291999,
+Realized & Unrealized Performance Summary,Data,Equity and Index Options,SMH 18OCT24 275 C,0,3577.77892054,0,0,0,3577.77892054,0,0,0,0,0,3577.77892054,
+Realized & Unrealized Performance Summary,Data,Total,,0,12683.73519226,-10053.26308215,0,0,2630.47211011,185.658359602,-9033.574535617,0,0,-8847.916176015,-6217.444065905,
+Realized & Unrealized Performance Summary,Data,Forex,USD,0,710.283615,-995.046243,0,0,-284.762628,0,-223.160897594,0,0,-223.160897594,-507.923525594,
+Realized & Unrealized Performance Summary,Data,Total,,0,710.283615,-995.046243,0,0,-284.762628,0,-223.160897594,0,0,-223.160897594,-507.923525594,
+Realized & Unrealized Performance Summary,Data,Bonds,MO 4.45 05/06/50 - Altria Group Inc MO 4.45 05/06/50,0,0,0,0,0,0,526.7423456,0,5114.900626,0,5641.6429716,5641.6429716,
+Realized & Unrealized Performance Summary,Data,Bonds,PEMEX 7.69 01/23/50 QDD1 - Petroleos Mexicanos PEMEX 7.69 01/23/50,0,0,0,0,0,0,4337.176374148,0,3875.983410367,0,8213.159784516,8213.159784516,
+Realized & Unrealized Performance Summary,Data,Total,,0,0,0,0,0,0,4863.918719748,0,8990.884036367,0,13854.802756116,13854.802756116,
+Realized & Unrealized Performance Summary,Data,Total (All Assets),,0,15238.95585012,-11048.30932515,0,0,4190.64652497,37049.747254781,-33063.55780021,33571.522375826,-3177.1818,34380.530030396,38571.176555366,
+Cash Report,Header,Currency Summary,Currency,Total,
+Cash Report,Data,Starting Cash,Base Currency Summary,11811.124206565,
+Cash Report,Data,Commissions,Base Currency Summary,-197.3566861,
+Cash Report,Data,Deposits,Base Currency Summary,63453.118,
+Cash Report,Data,Dividends,Base Currency Summary,2056.4077786,
+Cash Report,Data,Broker Interest Paid,Base Currency Summary,-2.693586,
+Cash Report,Data,CYEP/Broker Fees Paid and Received,Base Currency Summary,27.575016,
+Cash Report,Data,Trades (Sales),Base Currency Summary,83977.537961,
+Cash Report,Data,Trades (Purchase),Base Currency Summary,-203299.57860705,
+Cash Report,Data,Other Fees,Base Currency Summary,-115.46,
+Cash Report,Data,Payment In Lieu of Dividends,Base Currency Summary,33.6748244,
+Cash Report,Data,Withholding Tax,Base Currency Summary,-214.5278206,
+Cash Report,Data,Sales Tax,EUR,-25.31,
+Cash Report,Data,Cash FX Translation Gain/Loss,Base Currency Summary,-520.547052939,
+Cash Report,Data,Ending Cash,Base Currency Summary,-43016.035966124,
+Cash Report,Data,Ending Settled Cash,Base Currency Summary,-13672.318057124,
+Cash Report,Data,Starting Cash,EUR,4786.737595,
+Cash Report,Data,Other Fees,EUR,-115.46,
+Cash Report,Data,Sales Tax,EUR,-25.31,
+Cash Report,Data,Ending Cash,EUR,4645.967595,
+Cash Report,Data,Ending Settled Cash,EUR,4645.967595,
+Cash Report,Data,Starting Cash,USD,7604.536717763,
+Cash Report,Data,Commissions,USD,-216.83625998,
+Cash Report,Data,Deposits,USD,70100,
+Cash Report,Data,Dividends,USD,2235.71,
+Cash Report,Data,Broker Interest Paid,USD,-2.95,
+Cash Report,Data,CYEP/Broker Fees Paid and Received,USD,30.2,
+Cash Report,Data,Trades (Sales),USD,92874.1,
+Cash Report,Data,Trades (Purchase),USD,-225082.575,
+Cash Report,Data,Payment In Lieu of Dividends,USD,36.34,
+Cash Report,Data,Withholding Tax,USD,-233.25,
+Cash Report,Data,Ending Cash,USD,-52654.724542217,
+Cash Report,Data,Ending Settled Cash,USD,-20237.174542217,
+Statement of Funds,Header,Currency,Report Date,Activity Date,Description,Debit,Credit,Balance
+Statement of Funds,Data,Base Currency Summary,2024-08-01,,Opening Balance, , ,11811.124206565
+Statement of Funds,Data,Base Currency Summary,2024-08-01,2024-08-01,EMD(US95766A1016) Cash Dividend USD 0.0845 per Share (Ordinary Dividend), ,523.0625036,12334.186710165
+Statement of Funds,Data,Base Currency Summary,2024-08-01,2024-08-01,EMD(US95766A1016) Cash Dividend USD 0.0845 per Share - US Tax,-52.309957, ,12281.876753165
+Statement of Funds,Data,Base Currency Summary,2024-08-01,2024-08-01,EMD(US95766A1016) Payment in Lieu of Dividend (Ordinary Dividend), ,33.6748244,12315.551577565
+Statement of Funds,Data,Base Currency Summary,2024-08-01,2024-08-01,EMD(US95766A1016) Payment in Lieu of Dividend - US Tax,-3.3637758, ,12312.187801765
+Statement of Funds,Data,Base Currency Summary,2024-08-01,2024-08-01,JPC(US67073B1061) Cash Dividend USD 0.0665 per Share (Ordinary Dividend), ,616.2289,12928.416701765
+Statement of Funds,Data,Base Currency Summary,2024-08-01,2024-08-01,JPC(US67073B1061) Cash Dividend USD 0.0665 per Share - US Tax,-61.62289, ,12866.793811765
+Statement of Funds,Data,Base Currency Summary,2024-08-01,2024-08-01,Sell -50 PROSHARES ULTRAPRO DOW30 , ,3924.983260178,16791.777071943
+Statement of Funds,Data,Base Currency Summary,2024-08-01,2024-08-01,Sell -2 BITO 20DEC24 23 C , ,238.720118497,17030.49719044
+Statement of Funds,Data,Base Currency Summary,2024-08-01,2024-08-01,Sell -18 BITO 20DEC24 23 C , ,2148.31426767,19178.81145811
+Statement of Funds,Data,Base Currency Summary,2024-08-01,2024-08-01,Sell -34 BITO 20SEP24 25 C , ,869.879626106,20048.691084216
+Statement of Funds,Data,Base Currency Summary,2024-08-01,2024-08-01,Sell -2 BITO 20SEP24 25 C , ,51.169389771,20099.860473987
+Statement of Funds,Data,Base Currency Summary,2024-08-01,2024-08-01,Sell -6 BITO 20SEP24 25 C , ,153.508169313,20253.368643299
+Statement of Funds,Data,Base Currency Summary,2024-08-01,2024-08-01,Sell -8 BITO 20SEP24 25 C , ,204.677559084,20458.046202383
+Statement of Funds,Data,Base Currency Summary,2024-08-02,2024-08-02,h*************al:Professional US Securities Snapshot Bundle for Jul 2024, ,9.24,20467.286202383
+Statement of Funds,Data,Base Currency Summary,2024-08-02,2024-08-02,h*************al:CUSIP Service Professional for Jul 2024, ,1.85,20469.136202383
+Statement of Funds,Data,Base Currency Summary,2024-08-02,2024-08-02,h*************al:Professional US Securities Snapshot Bundle for Aug 2024,-9.24, ,20459.896202383
+Statement of Funds,Data,Base Currency Summary,2024-08-02,2024-08-02,h*************al:CUSIP Service Professional for Aug 2024,-1.85, ,20458.046202383
+Statement of Funds,Data,Base Currency Summary,2024-08-02,2024-08-02,h*************al:US Equity and Options Add-On Streaming Bundle Professional for Aug 2024,-115.46, ,20342.586202383
+Statement of Funds,Data,Base Currency Summary,2024-08-02,2024-08-02,VAT h*************al:Professional US Securities Snapshot Bundle ,-1.848, ,20340.738202383
+Statement of Funds,Data,Base Currency Summary,2024-08-02,2024-08-02,VAT h*************al:CUSIP Service Professional ,-0.37, ,20340.368202383
+Statement of Funds,Data,Base Currency Summary,2024-08-02,2024-08-02,VAT h*************al:US Equity and Options Add-On Streaming Bundle Professional ,-23.092, ,20317.276202383
+Statement of Funds,Data,Base Currency Summary,2024-08-05,2024-08-05,USD CYEP Income for Jul-2024, ,27.575016,20344.851218383
+Statement of Funds,Data,Base Currency Summary,2024-08-05,2024-08-05,USD Investment Loan Interest for Jul-2024,-2.693586, ,20342.157632383
+Statement of Funds,Data,Base Currency Summary,2024-08-05,2024-08-05,Withholding @ 20% on Credit Interest for Jul-2024,-5.5150032, ,20336.642629183
+Statement of Funds,Data,Base Currency Summary,2024-08-06,2024-08-06,Buy 14 CSCO 20SEP24 47.5 C ,-1682.642482843, ,18654.00014634
+Statement of Funds,Data,Base Currency Summary,2024-08-06,2024-08-06,Buy 6 CSCO 20SEP24 47.5 C ,-721.132492647, ,17932.867653693
+Statement of Funds,Data,Base Currency Summary,2024-08-06,2024-08-06,Buy 10 CSCO 20SEP24 47.5 C ,-1201.887487745, ,16730.980165948
+Statement of Funds,Data,Base Currency Summary,2024-08-08,2024-08-08,Buy 20 CROWDSTRIKE HOLDINGS INC - A ,-4414.5416, ,12316.438565948
+Statement of Funds,Data,Base Currency Summary,2024-08-09,2024-08-09,Sell -1 CSCO 20SEP24 45 P , ,136.035874697,12452.474440645
+Statement of Funds,Data,Base Currency Summary,2024-08-09,2024-08-09,Sell -1 CSCO 20SEP24 45 P , ,136.677137697,12589.151578342
+Statement of Funds,Data,Base Currency Summary,2024-08-09,2024-08-09,Sell -1 CSCO 20SEP24 45 P , ,136.347345297,12725.498923639
+Statement of Funds,Data,Base Currency Summary,2024-08-09,2024-08-09,Sell -1 CSCO 20SEP24 45 P , ,136.347345297,12861.846268936
+Statement of Funds,Data,Base Currency Summary,2024-08-09,2024-08-09,Sell -1 CSCO 20SEP24 45 P , ,136.347345297,12998.193614234
+Statement of Funds,Data,Base Currency Summary,2024-08-09,2024-08-09,Sell -1 CSCO 20SEP24 45 P , ,136.951964697,13135.145578931
+Statement of Funds,Data,Base Currency Summary,2024-08-09,2024-08-09,Sell -1 CSCO 20SEP24 45 P , ,136.393149797,13271.538728728
+Statement of Funds,Data,Base Currency Summary,2024-08-09,2024-08-09,Sell -1 CSCO 20SEP24 45 P , ,136.374827997,13407.913556725
+Statement of Funds,Data,Base Currency Summary,2024-08-09,2024-08-09,Sell -3 CSCO 20SEP24 45 P , ,409.069518591,13816.983075316
+Statement of Funds,Data,Base Currency Summary,2024-08-09,2024-08-09,Sell -1 CSCO 20SEP24 45 P , ,136.374827997,13953.357903313
+Statement of Funds,Data,Base Currency Summary,2024-08-09,2024-08-09,Sell -1 CSCO 20SEP24 45 P , ,137.052734597,14090.41063791
+Statement of Funds,Data,Base Currency Summary,2024-08-09,2024-08-09,Sell -10 EW 20SEP24 62.5 P , ,1237.148462066,15327.559099977
+Statement of Funds,Data,Base Currency Summary,2024-08-12,2024-08-12,Buy 56 MICROSOFT CORP ,-20852.71418, ,-5525.155080023
+Statement of Funds,Data,Base Currency Summary,2024-08-12,2024-08-12,Buy 4 MICROSOFT CORP ,-1489.32277, ,-7014.477850023
+Statement of Funds,Data,Base Currency Summary,2024-08-12,2024-08-12,Buy 9 MICROSOFT CORP ,-3347.69228, ,-10362.170130023
+Statement of Funds,Data,Base Currency Summary,2024-08-12,2024-08-12,Buy 51 MICROSOFT CORP ,-18966.4722375, ,-29328.642367523
+Statement of Funds,Data,Base Currency Summary,2024-08-12,2024-08-12,Buy 10 MICROSOFT CORP ,-3721.660375, ,-33050.302742523
+Statement of Funds,Data,Base Currency Summary,2024-08-12,2024-08-12,Sell -3 HSY 20SEP24 200 C , ,1345.469380756,-31704.833361767
+Statement of Funds,Data,Base Currency Summary,2024-08-12,2024-08-12,Buy 6 GILD 20SEP24 77.5 C ,-338.623161225, ,-32043.456522992
+Statement of Funds,Data,Base Currency Summary,2024-08-14,2024-08-14,Buy 300 ISHARES BITCOIN TRUST ETF ,-9215.90094, ,-41259.357462992
+Statement of Funds,Data,Base Currency Summary,2024-08-14,2024-08-14,Buy 100 ISHARES BITCOIN TRUST ETF ,-3070.60489, ,-44329.962352992
+Statement of Funds,Data,Base Currency Summary,2024-08-14,2024-08-14,Buy 300 ISHARES BITCOIN TRUST ETF ,-9198.19377, ,-53528.156122992
+Statement of Funds,Data,Base Currency Summary,2024-08-15,2024-08-15,Sell -15 CSCO 20SEP24 47.5 C , ,3685.00121989,-49843.154903102
+Statement of Funds,Data,Base Currency Summary,2024-08-15,2024-08-15,Buy 10 CSCO 20SEP24 45 P ,-128.93722027, ,-49972.092123372
+Statement of Funds,Data,Base Currency Summary,2024-08-15,2024-08-15,Buy 3 CSCO 20SEP24 45 P ,-36.110961681, ,-50008.203085053
+Statement of Funds,Data,Base Currency Summary,2024-08-15,2024-08-15,Sell -7 CSCO 20SEP24 47.5 C , ,1794.629402601,-48213.573682452
+Statement of Funds,Data,Base Currency Summary,2024-08-15,2024-08-15,Sell -8 CSCO 20SEP24 47.5 C , ,2051.005031544,-46162.568650908
+Statement of Funds,Data,Base Currency Summary,2024-08-15,2024-08-15,KMI(US49456B1017) Cash Dividend USD 0.2875 per Share (Ordinary Dividend), ,917.116375,-45245.452275908
+Statement of Funds,Data,Base Currency Summary,2024-08-15,2024-08-15,KMI(US49456B1017) Cash Dividend USD 0.2875 per Share - US Tax,-91.7161946, ,-45337.168470508
+Statement of Funds,Data,Base Currency Summary,2024-08-16,2024-08-16,Buy 20 NDAQ 20SEP24 70 P ,-2914.33379286, ,-48251.502263368
+Statement of Funds,Data,Base Currency Summary,2024-08-19,2024-08-19,Buy 10 NDAQ 20SEP24 70 P ,-1278.21894448, ,-49529.721207848
+Statement of Funds,Data,Base Currency Summary,2024-08-20,2024-08-20,Buy 5 EW 20SEP24 62.5 P ,-110.94812894, ,-49640.669336788
+Statement of Funds,Data,Base Currency Summary,2024-08-20,2024-08-20,Buy 5 EW 20SEP24 62.5 P ,-110.94812894, ,-49751.617465728
+Statement of Funds,Data,Base Currency Summary,2024-08-21,2024-08-21,Buy 100 ISHARES BITCOIN TRUST ETF ,-3030.38857, ,-52782.006035728
+Statement of Funds,Data,Base Currency Summary,2024-08-22,2024-08-22,Sell -20 SMH 18OCT24 275 C , ,10786.626813056,-41995.379222672
+Statement of Funds,Data,Base Currency Summary,2024-08-22,2024-08-22,Buy 5 NDAQ 20SEP24 70 P ,-570.11048563, ,-42565.489708302
+Statement of Funds,Data,Base Currency Summary,2024-08-22,2024-08-22,Buy 5 NDAQ 20SEP24 70 P ,-570.11048563, ,-43135.600193932
+Statement of Funds,Data,Base Currency Summary,2024-08-22,2024-08-22,Sell -60 MICROSOFT CORP , ,22662.333692738,-20473.266501194
+Statement of Funds,Data,Base Currency Summary,2024-08-22,2024-08-22,Sell -70 MICROSOFT CORP , ,26442.014147745,5968.747646551
+Statement of Funds,Data,Base Currency Summary,2024-08-22,2024-08-22,Buy 5 NDAQ 20SEP24 70 P ,-552.11128563, ,5416.636360921
+Statement of Funds,Data,Base Currency Summary,2024-08-22,2024-08-22,Buy 5 NDAQ 20SEP24 70 P ,-552.11128563, ,4864.525075291
+Statement of Funds,Data,Base Currency Summary,2024-08-23,2024-08-23,Buy 10 ARTHUR J GALLAGHER & CO ,-2564.766276, ,2299.758799291
+Statement of Funds,Data,Base Currency Summary,2024-08-26,2024-08-26,Sell -6 GILD 18OCT24 77.5 C , ,1190.968386233,3490.727185524
+Statement of Funds,Data,Base Currency Summary,2024-08-27,2024-08-27,Buy 20 MATERIALS SELECT SECTOR SPDR ,-1657.911087, ,1832.816098524
+Statement of Funds,Data,Base Currency Summary,2024-08-27,2024-08-27,Buy 80 MATERIALS SELECT SECTOR SPDR ,-6628.067988, ,-4795.251889476
+Statement of Funds,Data,Base Currency Summary,2024-08-27,2024-08-27,Buy 5 MATERIALS SELECT SECTOR SPDR ,-415.10363475, ,-5210.355524226
+Statement of Funds,Data,Base Currency Summary,2024-08-27,2024-08-27,Buy 95 MATERIALS SELECT SECTOR SPDR ,-7869.98135025, ,-13080.336874476
+Statement of Funds,Data,Base Currency Summary,2024-08-27,2024-08-27,Buy 1 MATERIALS SELECT SECTOR SPDR ,-84.055904352, ,-13164.392778828
+Statement of Funds,Data,Base Currency Summary,2024-08-27,2024-08-27,Buy 99 MATERIALS SELECT SECTOR SPDR ,-8239.470480198, ,-21403.863259026
+Statement of Funds,Data,Base Currency Summary,2024-08-27,2024-08-27,Buy 100 MATERIALS SELECT SECTOR SPDR ,-8322.636765, ,-29726.500024026
+Statement of Funds,Data,Base Currency Summary,2024-08-27,2024-08-27,Buy 464 MATERIALS SELECT SECTOR SPDR ,-38635.7031888, ,-68362.203212826
+Statement of Funds,Data,Base Currency Summary,2024-08-27,2024-08-27,Buy 136 MATERIALS SELECT SECTOR SPDR ,-11324.2578312, ,-79686.461044026
+Statement of Funds,Data,Base Currency Summary,2024-08-28,2024-08-28,Buy 3 HSY 20SEP24 200 C ,-215.004567993, ,-79901.465612019
+Statement of Funds,Data,Base Currency Summary,2024-08-29,2024-08-29,Sell -20 NDAQ 20SEP24 70 P , ,1323.327558751,-78578.138053268
+Statement of Funds,Data,Base Currency Summary,2024-08-29,2024-08-29,Sell -5 NDAQ 20SEP24 70 P , ,326.318515163,-78251.819538105
+Statement of Funds,Data,Base Currency Summary,2024-08-29,2024-08-29,Sell -20 NDAQ 20SEP24 70 P , ,1323.327558751,-76928.491979354
+Statement of Funds,Data,Base Currency Summary,2024-08-29,2024-08-29,Sell -5 NDAQ 20SEP24 70 P , ,326.318515163,-76602.17346419
+Statement of Funds,Data,Base Currency Summary,2024-08-30,2024-08-30,Electronic Fund Transfer, ,63453.118,-13149.05546419
+Statement of Funds,Data,Base Currency Summary,2024-08-30,2024-08-30,Buy 100 ROYAL GOLD INC ,-12622.7351, ,-25771.79056419
+Statement of Funds,Data,Base Currency Summary,2024-08-30,2024-08-30,Buy 17 SPDR GOLD SHARES ,-3553.9312937, ,-29325.72185789
+Statement of Funds,Data,Base Currency Summary,2024-08-30,2024-08-30,Buy 33 SPDR GOLD SHARES ,-6897.0506913, ,-36222.77254919
+Statement of Funds,Data,Base Currency Summary,2024-08-30,2024-08-30,Buy 30 SPDR GOLD SHARES ,-6272.716364, ,-42495.48891319
+Statement of Funds,Data,Base Currency Summary,2024-08-30,,FX Translation P&L,-520.547052939, ,-43016.035966129
+Statement of Funds,Data,Base Currency Summary,2024-08-30,,Closing Balance,-204268.738938733,149441.578766039,-43016.035966124
+Statement of Funds,Data,EUR,2024-08-01,,Opening Balance, , ,4786.737595
+Statement of Funds,Data,EUR,2024-08-02,2024-08-02,h*************al:Professional US Securities Snapshot Bundle for Jul 2024, ,9.24,4795.977595
+Statement of Funds,Data,EUR,2024-08-02,2024-08-02,h*************al:CUSIP Service Professional for Jul 2024, ,1.85,4797.827595
+Statement of Funds,Data,EUR,2024-08-02,2024-08-02,h*************al:Professional US Securities Snapshot Bundle for Aug 2024,-9.24, ,4788.587595
+Statement of Funds,Data,EUR,2024-08-02,2024-08-02,h*************al:CUSIP Service Professional for Aug 2024,-1.85, ,4786.737595
+Statement of Funds,Data,EUR,2024-08-02,2024-08-02,h*************al:US Equity and Options Add-On Streaming Bundle Professional for Aug 2024,-115.46, ,4671.277595
+Statement of Funds,Data,EUR,2024-08-02,2024-08-02,VAT h*************al:Professional US Securities Snapshot Bundle ,-1.848, ,4669.429595
+Statement of Funds,Data,EUR,2024-08-02,2024-08-02,VAT h*************al:CUSIP Service Professional ,-0.37, ,4669.059595
+Statement of Funds,Data,EUR,2024-08-02,2024-08-02,VAT h*************al:US Equity and Options Add-On Streaming Bundle Professional ,-23.092, ,4645.967595
+Statement of Funds,Data,EUR,2024-08-30,,Closing Balance,-151.86,11.09,4645.967595
+Statement of Funds,Data,USD,2024-08-01,,Opening Balance, , ,7604.536717763
+Statement of Funds,Data,USD,2024-08-01,2024-08-01,EMD(US95766A1016) Cash Dividend USD 0.0845 per Share (Ordinary Dividend), ,564.46,8168.996717763
+Statement of Funds,Data,USD,2024-08-01,2024-08-01,EMD(US95766A1016) Cash Dividend USD 0.0845 per Share - US Tax,-56.45, ,8112.546717763
+Statement of Funds,Data,USD,2024-08-01,2024-08-01,EMD(US95766A1016) Payment in Lieu of Dividend (Ordinary Dividend), ,36.34,8148.886717763
+Statement of Funds,Data,USD,2024-08-01,2024-08-01,EMD(US95766A1016) Payment in Lieu of Dividend - US Tax,-3.63, ,8145.256717763
+Statement of Funds,Data,USD,2024-08-01,2024-08-01,JPC(US67073B1061) Cash Dividend USD 0.0665 per Share (Ordinary Dividend), ,665,8810.256717763
+Statement of Funds,Data,USD,2024-08-01,2024-08-01,JPC(US67073B1061) Cash Dividend USD 0.0665 per Share - US Tax,-66.5, ,8743.756717763
+Statement of Funds,Data,USD,2024-08-01,2024-08-01,Sell -50 PROSHARES ULTRAPRO DOW30 , ,4235.62391835,12979.380636113
+Statement of Funds,Data,USD,2024-08-01,2024-08-01,Sell -2 BITO 20DEC24 23 C , ,257.613492,13236.994128113
+Statement of Funds,Data,USD,2024-08-01,2024-08-01,Sell -18 BITO 20DEC24 23 C , ,2318.341428,15555.335556113
+Statement of Funds,Data,USD,2024-08-01,2024-08-01,Sell -34 BITO 20SEP24 25 C , ,938.7257744,16494.061330513
+Statement of Funds,Data,USD,2024-08-01,2024-08-01,Sell -2 BITO 20SEP24 25 C , ,55.2191632,16549.280493713
+Statement of Funds,Data,USD,2024-08-01,2024-08-01,Sell -6 BITO 20SEP24 25 C , ,165.6574896,16714.937983313
+Statement of Funds,Data,USD,2024-08-01,2024-08-01,Sell -8 BITO 20SEP24 25 C , ,220.8766528,16935.814636113
+Statement of Funds,Data,USD,2024-08-05,2024-08-05,USD CYEP Income for Jul-2024, ,30.2,16966.014636113
+Statement of Funds,Data,USD,2024-08-05,2024-08-05,USD Investment Loan Interest for Jul-2024,-2.95, ,16963.064636113
+Statement of Funds,Data,USD,2024-08-05,2024-08-05,Withholding @ 20% on Credit Interest for Jul-2024,-6.04, ,16957.024636113
+Statement of Funds,Data,USD,2024-08-06,2024-08-06,Buy 14 CSCO 20SEP24 47.5 C ,-1839.4159, ,15117.608736113
+Statement of Funds,Data,USD,2024-08-06,2024-08-06,Buy 6 CSCO 20SEP24 47.5 C ,-788.3211, ,14329.287636113
+Statement of Funds,Data,USD,2024-08-06,2024-08-06,Buy 10 CSCO 20SEP24 47.5 C ,-1313.8685, ,13015.419136113
+Statement of Funds,Data,USD,2024-08-08,2024-08-08,Buy 20 CROWDSTRIKE HOLDINGS INC - A ,-4820, ,8195.419136113
+Statement of Funds,Data,USD,2024-08-09,2024-08-09,Sell -1 CSCO 20SEP24 45 P , ,148.49619,8343.915326113
+Statement of Funds,Data,USD,2024-08-09,2024-08-09,Sell -1 CSCO 20SEP24 45 P , ,149.19619,8493.111516113
+Statement of Funds,Data,USD,2024-08-09,2024-08-09,Sell -1 CSCO 20SEP24 45 P , ,148.83619,8641.947706113
+Statement of Funds,Data,USD,2024-08-09,2024-08-09,Sell -1 CSCO 20SEP24 45 P , ,148.83619,8790.783896113
+Statement of Funds,Data,USD,2024-08-09,2024-08-09,Sell -1 CSCO 20SEP24 45 P , ,148.83619,8939.620086113
+Statement of Funds,Data,USD,2024-08-09,2024-08-09,Sell -1 CSCO 20SEP24 45 P , ,149.49619,9089.116276113
+Statement of Funds,Data,USD,2024-08-09,2024-08-09,Sell -1 CSCO 20SEP24 45 P , ,148.88619,9238.002466113
+Statement of Funds,Data,USD,2024-08-09,2024-08-09,Sell -1 CSCO 20SEP24 45 P , ,148.86619,9386.868656113
+Statement of Funds,Data,USD,2024-08-09,2024-08-09,Sell -3 CSCO 20SEP24 45 P , ,446.53857,9833.407226113
+Statement of Funds,Data,USD,2024-08-09,2024-08-09,Sell -1 CSCO 20SEP24 45 P , ,148.86619,9982.273416113
+Statement of Funds,Data,USD,2024-08-09,2024-08-09,Sell -1 CSCO 20SEP24 45 P , ,149.60619,10131.879606113
+Statement of Funds,Data,USD,2024-08-09,2024-08-09,Sell -10 EW 20SEP24 62.5 P , ,1350.46607,11482.345676113
+Statement of Funds,Data,USD,2024-08-12,2024-08-12,Buy 56 MICROSOFT CORP ,-22796.08, ,-11313.734323887
+Statement of Funds,Data,USD,2024-08-12,2024-08-12,Buy 4 MICROSOFT CORP ,-1628.12, ,-12941.854323887
+Statement of Funds,Data,USD,2024-08-12,2024-08-12,Buy 9 MICROSOFT CORP ,-3659.68, ,-16601.534323887
+Statement of Funds,Data,USD,2024-08-12,2024-08-12,Buy 51 MICROSOFT CORP ,-20734.05, ,-37335.584323887
+Statement of Funds,Data,USD,2024-08-12,2024-08-12,Buy 10 MICROSOFT CORP ,-4068.5, ,-41404.084323887
+Statement of Funds,Data,USD,2024-08-12,2024-08-12,Sell -3 HSY 20SEP24 200 C , ,1470.860214,-39933.224109887
+Statement of Funds,Data,USD,2024-08-12,2024-08-12,Buy 6 GILD 20SEP24 77.5 C ,-370.1811, ,-40303.405209887
+Statement of Funds,Data,USD,2024-08-14,2024-08-14,Buy 300 ISHARES BITCOIN TRUST ETF ,-10149, ,-50452.405209887
+Statement of Funds,Data,USD,2024-08-14,2024-08-14,Buy 100 ISHARES BITCOIN TRUST ETF ,-3381.5, ,-53833.905209887
+Statement of Funds,Data,USD,2024-08-14,2024-08-14,Buy 300 ISHARES BITCOIN TRUST ETF ,-10129.5, ,-63963.405209887
+Statement of Funds,Data,USD,2024-08-15,2024-08-15,Sell -15 CSCO 20SEP24 47.5 C , ,4043.14281,-59920.262399887
+Statement of Funds,Data,USD,2024-08-15,2024-08-15,Buy 10 CSCO 20SEP24 45 P ,-141.4685, ,-60061.730899887
+Statement of Funds,Data,USD,2024-08-15,2024-08-15,Buy 3 CSCO 20SEP24 45 P ,-39.62055, ,-60101.351449887
+Statement of Funds,Data,USD,2024-08-15,2024-08-15,Sell -7 CSCO 20SEP24 47.5 C , ,1969.0476428,-58132.303807087
+Statement of Funds,Data,USD,2024-08-15,2024-08-15,Sell -8 CSCO 20SEP24 47.5 C , ,2250.3401632,-55881.963643887
+Statement of Funds,Data,USD,2024-08-15,2024-08-15,KMI(US49456B1017) Cash Dividend USD 0.2875 per Share (Ordinary Dividend), ,1006.25,-54875.713643887
+Statement of Funds,Data,USD,2024-08-15,2024-08-15,KMI(US49456B1017) Cash Dividend USD 0.2875 per Share - US Tax,-100.63, ,-54976.343643887
+Statement of Funds,Data,USD,2024-08-16,2024-08-16,Buy 20 NDAQ 20SEP24 70 P ,-3213.937, ,-58190.280643887
+Statement of Funds,Data,USD,2024-08-19,2024-08-19,Buy 10 NDAQ 20SEP24 70 P ,-1416.9685, ,-59607.249143887
+Statement of Funds,Data,USD,2024-08-20,2024-08-20,Buy 5 EW 20SEP24 62.5 P ,-123.48425, ,-59730.733393887
+Statement of Funds,Data,USD,2024-08-20,2024-08-20,Buy 5 EW 20SEP24 62.5 P ,-123.48425, ,-59854.217643887
+Statement of Funds,Data,USD,2024-08-21,2024-08-21,Buy 100 ISHARES BITCOIN TRUST ETF ,-3379, ,-63233.217643887
+Statement of Funds,Data,USD,2024-08-22,2024-08-22,Sell -20 SMH 18OCT24 275 C , ,11985.6736,-51247.544043887
+Statement of Funds,Data,USD,2024-08-22,2024-08-22,Buy 5 NDAQ 20SEP24 70 P ,-633.48425, ,-51881.028293887
+Statement of Funds,Data,USD,2024-08-22,2024-08-22,Buy 5 NDAQ 20SEP24 70 P ,-633.48425, ,-52514.512543887
+Statement of Funds,Data,USD,2024-08-22,2024-08-22,Sell -60 MICROSOFT CORP , ,25181.48994704,-27333.022596847
+Statement of Funds,Data,USD,2024-08-22,2024-08-22,Sell -70 MICROSOFT CORP , ,29381.32155623,2048.298959383
+Statement of Funds,Data,USD,2024-08-22,2024-08-22,Buy 5 NDAQ 20SEP24 70 P ,-613.48425, ,1434.814709383
+Statement of Funds,Data,USD,2024-08-22,2024-08-22,Buy 5 NDAQ 20SEP24 70 P ,-613.48425, ,821.330459383
+Statement of Funds,Data,USD,2024-08-23,2024-08-23,Buy 10 ARTHUR J GALLAGHER & CO ,-2870.6, ,-2049.269540617
+Statement of Funds,Data,USD,2024-08-26,2024-08-26,Sell -6 GILD 18OCT24 77.5 C , ,1329.2651304,-720.004410217
+Statement of Funds,Data,USD,2024-08-27,2024-08-27,Buy 20 MATERIALS SELECT SECTOR SPDR ,-1854.3, ,-2574.304410217
+Statement of Funds,Data,USD,2024-08-27,2024-08-27,Buy 80 MATERIALS SELECT SECTOR SPDR ,-7413.2, ,-9987.504410217
+Statement of Funds,Data,USD,2024-08-27,2024-08-27,Buy 5 MATERIALS SELECT SECTOR SPDR ,-464.275, ,-10451.779410217
+Statement of Funds,Data,USD,2024-08-27,2024-08-27,Buy 95 MATERIALS SELECT SECTOR SPDR ,-8802.225, ,-19254.004410217
+Statement of Funds,Data,USD,2024-08-27,2024-08-27,Buy 1 MATERIALS SELECT SECTOR SPDR ,-94.0128, ,-19348.017210217
+Statement of Funds,Data,USD,2024-08-27,2024-08-27,Buy 99 MATERIALS SELECT SECTOR SPDR ,-9215.4822, ,-28563.499410217
+Statement of Funds,Data,USD,2024-08-27,2024-08-27,Buy 100 MATERIALS SELECT SECTOR SPDR ,-9308.5, ,-37871.999410217
+Statement of Funds,Data,USD,2024-08-27,2024-08-27,Buy 464 MATERIALS SELECT SECTOR SPDR ,-43212.32, ,-81084.319410217
+Statement of Funds,Data,USD,2024-08-27,2024-08-27,Buy 136 MATERIALS SELECT SECTOR SPDR ,-12665.68, ,-93749.999410217
+Statement of Funds,Data,USD,2024-08-28,2024-08-28,Buy 3 HSY 20SEP24 200 C ,-239.09055, ,-93989.089960217
+Statement of Funds,Data,USD,2024-08-29,2024-08-29,Sell -20 NDAQ 20SEP24 70 P , ,1465.966056,-92523.123904217
+Statement of Funds,Data,USD,2024-08-29,2024-08-29,Sell -5 NDAQ 20SEP24 70 P , ,361.491653,-92161.632251217
+Statement of Funds,Data,USD,2024-08-29,2024-08-29,Sell -20 NDAQ 20SEP24 70 P , ,1465.966056,-90695.666195217
+Statement of Funds,Data,USD,2024-08-29,2024-08-29,Sell -5 NDAQ 20SEP24 70 P , ,361.491653,-90334.174542217
+Statement of Funds,Data,USD,2024-08-30,2024-08-30,Electronic Fund Transfer, ,70100,-20234.174542217
+Statement of Funds,Data,USD,2024-08-30,2024-08-30,Buy 100 ROYAL GOLD INC ,-13945, ,-34179.174542217
+Statement of Funds,Data,USD,2024-08-30,2024-08-30,Buy 17 SPDR GOLD SHARES ,-3926.215, ,-38105.389542217
+Statement of Funds,Data,USD,2024-08-30,2024-08-30,Buy 33 SPDR GOLD SHARES ,-7619.535, ,-45724.924542217
+Statement of Funds,Data,USD,2024-08-30,2024-08-30,Buy 30 SPDR GOLD SHARES ,-6929.8, ,-52654.724542217
+Statement of Funds,Data,USD,2024-08-30,,Closing Balance,-225406.5522,165147.29094002,-52654.724542217
+Open Positions,Header,DataDiscriminator,Asset Category,Currency,Symbol,Open,Quantity,Mult,Cost Price,Cost Basis,Close Price,Value,Unrealized P/L,Code
+Open Positions,Data,Summary,Stocks,USD,AJG,-,290,1,233.365586207,67676.02,292.57,84845.3,17169.28,
+Open Positions,Data,Lot,Stocks,USD,AJG,"2024-08-23, 14:19:52",10,,287.06,2870.6,292.57,2925.7,55.1,ST
+Open Positions,Data,Lot,Stocks,USD,AJG,"2024-07-31, 13:09:52",20,,284.45,5689,292.57,5851.4,162.4,ST
+Open Positions,Data,Lot,Stocks,USD,AJG,"2024-07-25, 15:02:12",1,,274.11,274.11,292.57,292.57,18.46,ST
+Open Positions,Data,Lot,Stocks,USD,AJG,"2024-07-25, 15:02:11",2,,274.11,548.22,292.57,585.14,36.92,ST
+Open Positions,Data,Lot,Stocks,USD,AJG,"2024-07-25, 15:02:08",1,,274.11,274.11,292.57,292.57,18.46,ST
+Open Positions,Data,Lot,Stocks,USD,AJG,"2024-07-25, 15:01:21",6,,274.251666667,1645.51,292.57,1755.42,109.91,ST
+Open Positions,Data,Lot,Stocks,USD,AJG,"2024-07-25, 10:02:52",10,,276.49,2764.9,292.57,2925.7,160.8,ST
+Open Positions,Data,Lot,Stocks,USD,AJG,"2023-09-25, 09:34:50",40,,232.56,9302.4,292.57,11702.8,2400.4,ST
+Open Positions,Data,Lot,Stocks,USD,AJG,"2023-08-07, 13:25:48",75,,224.065,16804.875,292.57,21942.75,5137.875,LT
+Open Positions,Data,Lot,Stocks,USD,AJG,"2023-08-07, 13:25:33",1,,224.065,224.065,292.57,292.57,68.505,LT
+Open Positions,Data,Lot,Stocks,USD,AJG,"2023-08-07, 13:23:50",5,,224.06,1120.3,292.57,1462.85,342.55,LT
+Open Positions,Data,Lot,Stocks,USD,AJG,"2023-08-07, 13:23:25",1,,224.035,224.035,292.57,292.57,68.535,LT
+Open Positions,Data,Lot,Stocks,USD,AJG,"2023-08-07, 13:23:22",5,,224.005,1120.025,292.57,1462.85,342.825,LT
+Open Positions,Data,Lot,Stocks,USD,AJG,"2023-08-07, 13:23:19",1,,224.005,224.005,292.57,292.57,68.565,LT
+Open Positions,Data,Lot,Stocks,USD,AJG,"2023-08-07, 13:23:04",3,,224.005,672.015,292.57,877.71,205.695,LT
+Open Positions,Data,Lot,Stocks,USD,AJG,"2023-08-07, 13:22:42",4,,224.005,896.02,292.57,1170.28,274.26,LT
+Open Positions,Data,Lot,Stocks,USD,AJG,"2023-08-07, 13:21:05",5,,224.165,1120.825,292.57,1462.85,342.025,LT
+Open Positions,Data,Lot,Stocks,USD,AJG,"2023-08-02, 09:39:15",25,,219,5475,292.57,7314.25,1839.25,LT
+Open Positions,Data,Lot,Stocks,USD,AJG,"2023-08-02, 09:39:15",25,,219,5475,292.57,7314.25,1839.25,LT
+Open Positions,Data,Lot,Stocks,USD,AJG,"2023-08-02, 09:39:15",20,,219,4380,292.57,5851.4,1471.4,LT
+Open Positions,Data,Lot,Stocks,USD,AJG,"2023-08-02, 09:39:15",1,,219,219,292.57,292.57,73.57,LT
+Open Positions,Data,Lot,Stocks,USD,AJG,"2023-08-02, 09:39:15",1,,219,219,292.57,292.57,73.57,LT
+Open Positions,Data,Lot,Stocks,USD,AJG,"2023-08-02, 09:39:15",2,,219,438,292.57,585.14,147.14,LT
+Open Positions,Data,Lot,Stocks,USD,AJG,"2023-08-02, 09:39:15",25,,219,5475,292.57,7314.25,1839.25,LT
+Open Positions,Data,Lot,Stocks,USD,AJG,"2023-08-02, 09:39:07",1,,220.005,220.005,292.57,292.57,72.565,LT
+Open Positions,Data,Summary,Stocks,USD,AMD,-,200,1,172.28875,34457.75,148.56,29712,-4745.75,
+Open Positions,Data,Lot,Stocks,USD,AMD,"2024-07-22, 10:57:30",2,,155.38,310.76,148.56,297.12,-13.64,ST
+Open Positions,Data,Lot,Stocks,USD,AMD,"2024-07-22, 10:57:30",35,,154.88,5420.8,148.56,5199.6,-221.2,ST
+Open Positions,Data,Lot,Stocks,USD,AMD,"2024-07-22, 10:57:30",2,,154.88,309.76,148.56,297.12,-12.64,ST
+Open Positions,Data,Lot,Stocks,USD,AMD,"2024-07-22, 10:57:30",11,,154.88,1703.68,148.56,1634.16,-69.52,ST
+Open Positions,Data,Lot,Stocks,USD,AMD,"2024-07-11, 14:13:12",50,,178.605,8930.25,148.56,7428,-1502.25,ST
+Open Positions,Data,Lot,Stocks,USD,AMD,"2024-07-11, 14:04:38",100,,177.825,17782.5,148.56,14856,-2926.5,ST
+Open Positions,Data,Summary,Stocks,USD,BRK B,-,150,1,405.123466667,60768.52,475.92,71388,10619.48,
+Open Positions,Data,Lot,Stocks,USD,BRK B,"2024-04-24, 15:34:39",38,,405.55,15410.9,475.92,18084.96,2674.06,ST
+Open Positions,Data,Lot,Stocks,USD,BRK B,"2024-04-24, 15:34:26",12,,405.593333333,4867.12,475.92,5711.04,843.92,ST
+Open Positions,Data,Lot,Stocks,USD,BRK B,"2024-04-19, 15:35:54",100,,404.905,40490.5,475.92,47592,7101.5,ST
+Open Positions,Data,Summary,Stocks,USD,BXMT,-,5145,1,20.311576288,104503.06,18.46,94976.7,-9526.36,
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-07-16, 11:20:34",62,,19.205,1190.71,18.46,1144.52,-46.19,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-07-16, 11:20:19",69,,19.205,1325.145,18.46,1273.74,-51.405,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-07-16, 11:19:19",14,,19.276428571,269.87,18.46,258.44,-11.43,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-27, 15:06:31",366,,17.86,6536.76,18.46,6756.36,219.6,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-27, 15:06:31",34,,17.855,607.07,18.46,627.64,20.57,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-27, 15:06:31",200,,17.855,3571,18.46,3692,121,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-17, 14:39:59",111,,17.86,1982.46,18.46,2049.06,66.6,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-17, 14:39:09",2,,17.855,35.71,18.46,36.92,1.21,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-17, 14:39:09",60,,17.86,1071.6,18.46,1107.6,36,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-17, 14:39:08",25,,17.855,446.375,18.46,461.5,15.125,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-17, 14:39:08",25,,17.8554,446.385,18.46,461.5,15.115,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-17, 14:39:08",25,,17.86,446.5,18.46,461.5,15,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-17, 14:39:04",25,,17.855,446.375,18.46,461.5,15.125,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-17, 14:38:59",25,,17.855,446.375,18.46,461.5,15.125,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-17, 14:38:59",25,,17.855,446.375,18.46,461.5,15.125,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-17, 14:38:47",6,,17.855,107.13,18.46,110.76,3.63,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-17, 14:38:41",71,,17.869084507,1268.705,18.46,1310.66,41.955,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-17, 14:14:55",57,,17.835,1016.595,18.46,1052.22,35.625,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-17, 14:14:52",4,,17.835,71.34,18.46,73.84,2.5,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-17, 14:14:36",33,,17.835,588.555,18.46,609.18,20.625,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-17, 14:13:04",94,,17.835,1676.49,18.46,1735.24,58.75,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-17, 14:12:31",12,,17.908333333,214.9,18.46,221.52,6.62,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-12, 14:35:49",94,,17.31,1627.14,18.46,1735.24,108.1,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-12, 14:35:49",100,,17.31,1731,18.46,1846,115,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-12, 14:35:49",100,,17.32,1732,18.46,1846,114,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-12, 14:35:18",6,,17.481666667,104.89,18.46,110.76,5.87,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-12, 12:02:00",83,,17.18,1425.94,18.46,1532.18,106.24,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-12, 12:01:54",100,,17.18,1718,18.46,1846,128,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-12, 12:01:20",2,,17.18,34.36,18.46,36.92,2.56,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-12, 12:01:03",100,,17.17725,1717.725,18.46,1846,128.275,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-12, 12:01:00",25,,17.175,429.375,18.46,461.5,32.125,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-12, 11:59:02",60,,17.165,1029.9,18.46,1107.6,77.7,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-06-12, 11:58:57",60,,17.181666667,1030.9,18.46,1107.6,76.7,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2024-01-18, 15:28:28",70,,20.119285714,1408.35,18.46,1292.2,-116.15,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2023-12-28, 11:01:43",500,,22.04,11020,18.46,9230,-1790,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2023-12-21, 09:32:11",145,,22.475,3258.875,18.46,2676.7,-582.175,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2023-12-21, 09:32:10",5,,22.49,112.45,18.46,92.3,-20.15,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2023-12-21, 09:32:09",100,,22.5,2250,18.46,1846,-404,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2023-12-21, 09:32:09",100,,22.51,2251,18.46,1846,-405,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2023-12-21, 09:32:09",100,,22.515,2251.5,18.46,1846,-405.5,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2023-12-21, 09:32:09",50,,22.515,1125.75,18.46,923,-202.75,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2023-12-18, 15:24:09",69,,22.46,1549.74,18.46,1273.74,-276,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2023-12-18, 15:24:09",131,,22.46,2942.26,18.46,2418.26,-524,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2023-12-18, 15:23:17",300,,22.46,6738,18.46,5538,-1200,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2023-12-15, 09:48:01",100,,22.825,2282.5,18.46,1846,-436.5,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2023-12-15, 09:48:01",100,,22.81,2281,18.46,1846,-435,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2023-12-15, 09:46:31",2,,23.1017,46.2034,18.46,36.92,-9.2834,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2023-12-15, 09:46:31",198,,22.882710101,4530.7766,18.46,3655.08,-875.6966,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2023-12-13, 12:30:08",138,,21.51,2968.38,18.46,2547.48,-420.9,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2023-12-13, 12:30:08",100,,21.51,2151,18.46,1846,-305,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2023-12-13, 12:30:08",50,,21.51,1075.5,18.46,923,-152.5,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2023-12-13, 12:30:03",63,,21.51,1355.13,18.46,1162.98,-192.15,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2023-12-13, 12:30:03",107,,21.51,2301.57,18.46,1975.22,-326.35,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2023-12-13, 12:30:03",31,,21.51,666.81,18.46,572.26,-94.55,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2023-12-13, 12:30:03",63,,21.51,1355.13,18.46,1162.98,-192.15,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2023-12-13, 12:30:03",138,,21.51,2968.38,18.46,2547.48,-420.9,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2023-12-13, 12:29:51",100,,21.505,2150.5,18.46,1846,-304.5,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2023-12-13, 12:29:51",100,,21.509,2150.9,18.46,1846,-304.9,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2023-12-13, 12:29:51",130,,21.51,2796.3,18.46,2399.8,-396.5,ST
+Open Positions,Data,Lot,Stocks,USD,BXMT,"2023-12-13, 12:29:49",80,,21.5175,1721.4,18.46,1476.8,-244.6,ST
+Open Positions,Data,Summary,Stocks,USD,CRWD,-,120,1,265.216666667,31826,277.28,33273.6,1447.6,
+Open Positions,Data,Lot,Stocks,USD,CRWD,"2024-08-08, 15:59:47",20,,241,4820,277.28,5545.6,725.6,ST
+Open Positions,Data,Lot,Stocks,USD,CRWD,"2024-07-23, 15:41:47",12,,269.798333333,3237.58,277.28,3327.36,89.78,ST
+Open Positions,Data,Lot,Stocks,USD,CRWD,"2024-07-23, 15:41:47",38,,269.715,10249.17,277.28,10536.64,287.47,ST
+Open Positions,Data,Lot,Stocks,USD,CRWD,"2024-07-23, 15:40:28",26,,270.403461538,7030.49,277.28,7209.28,178.79,ST
+Open Positions,Data,Lot,Stocks,USD,CRWD,"2024-07-23, 15:40:28",18,,270.365,4866.57,277.28,4991.04,124.47,ST
+Open Positions,Data,Lot,Stocks,USD,CRWD,"2024-07-23, 15:40:28",1,,270.365,270.365,277.28,277.28,6.915,ST
+Open Positions,Data,Lot,Stocks,USD,CRWD,"2024-07-23, 15:40:28",5,,270.365,1351.825,277.28,1386.4,34.575,ST
+Open Positions,Data,Summary,Stocks,USD,CSX,-,1500,1,31.21,46815,34.27,51405,4590,
+Open Positions,Data,Lot,Stocks,USD,CSX,"2023-08-09, 14:57:32",200,,31.21,6242,34.27,6854,612,LT
+Open Positions,Data,Lot,Stocks,USD,CSX,"2023-08-09, 14:57:32",100,,31.21,3121,34.27,3427,306,LT
+Open Positions,Data,Lot,Stocks,USD,CSX,"2023-08-09, 14:57:32",1200,,31.21,37452,34.27,41124,3672,LT
+Open Positions,Data,Summary,Stocks,USD,EMD,-,7110,1,9.391529354,66773.773707,9.86,70104.6,3330.826293,
+Open Positions,Data,Lot,Stocks,USD,EMD,"2024-07-16, 11:23:22",6,,9.93,59.58,9.86,59.16,-0.42,ST
+Open Positions,Data,Lot,Stocks,USD,EMD,"2024-07-16, 11:20:04",44,,9.947727273,437.7,9.86,433.84,-3.86,ST
+Open Positions,Data,Lot,Stocks,USD,EMD,"2024-02-08, 09:35:20",60,,9.241666667,554.5,9.86,591.6,37.1,ST
+Open Positions,Data,Lot,Stocks,USD,EMD,"2023-12-28, 11:34:53",100,,9.31,931,9.86,986,55,ST
+Open Positions,Data,Lot,Stocks,USD,EMD,"2023-12-28, 11:34:53",100,,9.31,931,9.86,986,55,ST
+Open Positions,Data,Lot,Stocks,USD,EMD,"2023-12-28, 11:32:50",100,,9.31,931,9.86,986,55,ST
+Open Positions,Data,Lot,Stocks,USD,EMD,"2023-12-28, 11:32:48",100,,9.315,931.5,9.86,986,54.5,ST
+Open Positions,Data,Lot,Stocks,USD,EMD,"2023-12-28, 11:32:48",100,,9.305,930.5,9.86,986,55.5,ST
+Open Positions,Data,Lot,Stocks,USD,EMD,"2023-12-28, 11:08:14",100,,9.33,933,9.86,986,53,ST
+Open Positions,Data,Lot,Stocks,USD,EMD,"2023-12-28, 11:01:31",100,,9.33,933,9.86,986,53,ST
+Open Positions,Data,Lot,Stocks,USD,EMD,"2023-12-28, 11:01:31",100,,9.33,933,9.86,986,53,ST
+Open Positions,Data,Lot,Stocks,USD,EMD,"2023-12-28, 11:01:29",100,,9.335,933.5,9.86,986,52.5,ST
+Open Positions,Data,Lot,Stocks,USD,EMD,"2023-12-28, 11:01:29",100,,9.325,932.5,9.86,986,53.5,ST
+Open Positions,Data,Lot,Stocks,USD,EMD,"2023-12-28, 10:55:35",400,,9.33,3732,9.86,3944,212,ST
+Open Positions,Data,Lot,Stocks,USD,EMD,"2023-11-17, 09:32:26",100,,8.53633,853.633,9.86,986,132.367,ST
+Open Positions,Data,Lot,Stocks,USD,EMD,"2023-11-17, 09:31:25",100,,8.52633,852.633,9.86,986,133.367,ST
+Open Positions,Data,Lot,Stocks,USD,EMD,"2023-11-17, 09:30:02",100,,8.53133,853.133,9.86,986,132.867,ST
+Open Positions,Data,Lot,Stocks,USD,EMD,"2023-10-24, 09:39:27",45,,7.93633,357.13485,9.86,443.7,86.56515,ST
+Open Positions,Data,Lot,Stocks,USD,EMD,"2023-10-24, 09:39:27",100,,7.93958,793.958,9.86,986,192.042,ST
+Open Positions,Data,Lot,Stocks,USD,EMD,"2023-10-24, 09:38:57",20,,7.92633,158.5266,9.86,197.2,38.6734,ST
+Open Positions,Data,Lot,Stocks,USD,EMD,"2023-10-24, 09:38:51",100,,7.93633,793.633,9.86,986,192.367,ST
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-06-06, 09:39:46",35,,9.288508143,325.097785,9.86,345.1,20.002215,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-06-01, 10:04:08",100,,9.50804291,950.804291,9.86,986,35.195709,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-06-01, 10:04:08",71,,9.519936718,675.915507,9.86,700.06,24.144493,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-06-01, 10:04:03",100,,9.49977772,949.977772,9.86,986,36.022228,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-06-01, 10:03:55",74,,9.488132216,702.121784,9.86,729.64,27.518216,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-06-01, 10:03:55",100,,9.47461872,947.461872,9.86,986,38.538128,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-06-01, 10:03:55",100,,9.47831872,947.831872,9.86,986,38.168128,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-06-01, 10:03:55",100,,9.47961872,947.961872,9.86,986,38.038128,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-06-01, 10:03:55",100,,9.47961872,947.961872,9.86,986,38.038128,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-06-01, 10:03:55",100,,9.47961872,947.961872,9.86,986,38.038128,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-06-01, 10:03:55",74,,9.493512068,702.519893,9.86,729.64,27.120107,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-06-01, 10:03:55",71,,9.499777718,674.484218,9.86,700.06,25.575782,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-06-01, 10:03:55",10,,9.4997778,94.997778,9.86,98.6,3.602222,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-03-17, 11:00:15",60,,9.5243997,571.463982,9.86,591.6,20.136018,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-03-17, 10:51:43",10,,9.6243998,96.243998,9.86,98.6,2.356002,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-03-17, 10:51:43",10,,9.5243998,95.243998,9.86,98.6,3.356002,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-03-17, 10:51:43",100,,9.52439972,952.439972,9.86,986,33.560028,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-03-17, 10:51:43",10,,9.5243998,95.243998,9.86,98.6,3.356002,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-03-17, 10:51:43",200,,9.52764971,1905.529942,9.86,1972,66.470058,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-03-17, 10:51:43",10,,9.5293998,95.293998,9.86,98.6,3.306002,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-03-17, 10:51:43",10,,9.5293998,95.293998,9.86,98.6,3.306002,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-03-17, 10:51:43",10,,9.5293998,95.293998,9.86,98.6,3.306002,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-03-17, 10:51:43",10,,9.5293998,95.293998,9.86,98.6,3.306002,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-03-17, 10:51:43",10,,9.5293998,95.293998,9.86,98.6,3.306002,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-03-17, 10:51:43",10,,9.5293998,95.293998,9.86,98.6,3.306002,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-03-17, 10:51:43",10,,9.5293998,95.293998,9.86,98.6,3.306002,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-03-17, 10:51:43",10,,9.5293998,95.293998,9.86,98.6,3.306002,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-03-17, 10:51:43",10,,9.5293998,95.293998,9.86,98.6,3.306002,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-03-17, 10:51:43",10,,9.5293998,95.293998,9.86,98.6,3.306002,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-03-17, 10:51:43",10,,9.5293998,95.293998,9.86,98.6,3.306002,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-03-17, 10:13:48",100,,9.55939972,955.939972,9.86,986,30.060028,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-03-17, 10:13:48",100,,9.54939972,954.939972,9.86,986,31.060028,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-03-17, 10:13:48",600,,9.554399713,5732.639828,9.86,5916,183.360172,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-03-17, 10:13:48",100,,9.55439972,955.439972,9.86,986,30.560028,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-03-17, 10:13:48",89,,9.554399708,850.341574,9.86,877.54,27.198426,LT
+Open Positions,Data,Lot,Stocks,USD,EMD,"2022-03-17, 10:13:48",2511,,9.549399714,23978.542683,9.86,24758.46,779.917317,LT
+Open Positions,Data,Summary,Stocks,USD,GILD,-,600,1,77.3175,46390.5,79,47400,1009.5,
+Open Positions,Data,Lot,Stocks,USD,GILD,"2023-11-17, 09:30:00",20,,74.94,1498.8,79,1580,81.2,ST
+Open Positions,Data,Lot,Stocks,USD,GILD,"2023-11-17, 09:30:00",35,,74.89,2621.15,79,2765,143.85,ST
+Open Positions,Data,Lot,Stocks,USD,GILD,"2023-11-17, 09:30:00",100,,74.89,7489,79,7900,411,ST
+Open Positions,Data,Lot,Stocks,USD,GILD,"2023-11-17, 09:30:00",24,,74.89,1797.36,79,1896,98.64,ST
+Open Positions,Data,Lot,Stocks,USD,GILD,"2023-11-17, 09:30:00",1,,74.89,74.89,79,79,4.11,ST
+Open Positions,Data,Lot,Stocks,USD,GILD,"2023-11-17, 09:30:00",20,,74.89,1497.8,79,1580,82.2,ST
+Open Positions,Data,Lot,Stocks,USD,GILD,"2023-09-15, 09:43:20",100,,76.815,7681.5,79,7900,218.5,ST
+Open Positions,Data,Lot,Stocks,USD,GILD,"2023-03-15, 10:10:06",1,,79.88595,79.88595,79,79,-0.88595,LT
+Open Positions,Data,Lot,Stocks,USD,GILD,"2023-03-15, 10:10:06",38,,79.100501316,3005.81905,79,3002,-3.81905,LT
+Open Positions,Data,Lot,Stocks,USD,GILD,"2023-03-15, 10:10:06",261,,79.096915709,20644.295,79,20619,-25.295,LT
+Open Positions,Data,Summary,Stocks,USD,GLD,-,80,1,230.944375,18475.55,231.29,18503.2,27.65,
+Open Positions,Data,Lot,Stocks,USD,GLD,"2024-08-30, 13:47:22",30,,230.993333333,6929.8,231.29,6938.7,8.9,ST
+Open Positions,Data,Lot,Stocks,USD,GLD,"2024-08-30, 13:42:55",17,,230.953823529,3926.215,231.29,3931.93,5.715,ST
+Open Positions,Data,Lot,Stocks,USD,GLD,"2024-08-30, 13:42:55",33,,230.895,7619.535,231.29,7632.57,13.035,ST
+Open Positions,Data,Summary,Stocks,USD,HSY,-,300,1,190.9703,57291.09,193.06,57918,626.91,
+Open Positions,Data,Lot,Stocks,USD,HSY,"2024-05-14, 14:57:26",10,,209.21,2092.1,193.06,1930.6,-161.5,ST
+Open Positions,Data,Lot,Stocks,USD,HSY,"2024-05-14, 14:57:26",2,,209.21,418.42,193.06,386.12,-32.3,ST
+Open Positions,Data,Lot,Stocks,USD,HSY,"2024-05-14, 14:56:53",10,,209.145,2091.45,193.06,1930.6,-160.85,ST
+Open Positions,Data,Lot,Stocks,USD,HSY,"2024-05-14, 14:56:53",10,,209.145,2091.45,193.06,1930.6,-160.85,ST
+Open Positions,Data,Lot,Stocks,USD,HSY,"2024-05-14, 14:56:07",18,,209.195555556,3765.52,193.06,3475.08,-290.44,ST
+Open Positions,Data,Lot,Stocks,USD,HSY,"2023-12-15, 10:57:55",50,,184.525,9226.25,193.06,9653,426.75,ST
+Open Positions,Data,Lot,Stocks,USD,HSY,"2023-12-14, 10:33:48",55,,186.575,10261.625,193.06,10618.3,356.675,ST
+Open Positions,Data,Lot,Stocks,USD,HSY,"2023-12-14, 10:33:45",15,,186.661666667,2799.925,193.06,2895.9,95.975,ST
+Open Positions,Data,Lot,Stocks,USD,HSY,"2023-12-14, 10:33:45",30,,186.595,5597.85,193.06,5791.8,193.95,ST
+Open Positions,Data,Lot,Stocks,USD,HSY,"2023-12-14, 09:30:02",100,,189.465,18946.5,193.06,19306,359.5,ST
+Open Positions,Data,Summary,Stocks,USD,IBIT,-,800,1,33.79875,27039,33.37,26696,-343,
+Open Positions,Data,Lot,Stocks,USD,IBIT,"2024-08-21, 09:32:54",100,,33.79,3379,33.37,3337,-42,ST
+Open Positions,Data,Lot,Stocks,USD,IBIT,"2024-08-14, 13:09:51",300,,33.765,10129.5,33.37,10011,-118.5,ST
+Open Positions,Data,Lot,Stocks,USD,IBIT,"2024-08-14, 12:05:33",100,,33.815,3381.5,33.37,3337,-44.5,ST
+Open Positions,Data,Lot,Stocks,USD,IBIT,"2024-08-14, 12:04:04",300,,33.83,10149,33.37,10011,-138,ST
+Open Positions,Data,Summary,Stocks,USD,JPC,-,11000,1,7.546363636,83010,7.86,86460,3450,
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-25, 09:40:01",79,,7.61,601.19,7.86,620.94,19.75,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-25, 09:40:01",186,,7.61,1415.46,7.86,1461.96,46.5,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-25, 09:39:56",735,,7.61,5593.35,7.86,5777.1,183.75,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:49:56",125,,7.54,942.5,7.86,982.5,40,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:49:56",1782,,7.54,13436.28,7.86,14006.52,570.24,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:49:56",918,,7.54,6921.72,7.86,7215.48,293.76,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:49:56",25,,7.54,188.5,7.86,196.5,8,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:49:56",400,,7.54,3016,7.86,3144,128,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:46:10",300,,7.54,2262,7.86,2358,96,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:46:10",300,,7.54,2262,7.86,2358,96,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:46:05",800,,7.54,6032,7.86,6288,256,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:46:05",300,,7.54,2262,7.86,2358,96,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:46:05",50,,7.54,377,7.86,393,16,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:40:44",1,,7.54,7.54,7.86,7.86,0.32,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:35:19",300,,7.54,2262,7.86,2358,96,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:35:19",200,,7.54,1508,7.86,1572,64,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:35:19",200,,7.54,1508,7.86,1572,64,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:35:19",100,,7.54,754,7.86,786,32,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:35:19",300,,7.54,2262,7.86,2358,96,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:35:19",200,,7.54,1508,7.86,1572,64,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:35:19",90,,7.54,678.6,7.86,707.4,28.8,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:35:19",609,,7.54,4591.86,7.86,4786.74,194.88,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:34:38",22,,7.54,165.88,7.86,172.92,7.04,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:33:15",100,,7.54,754,7.86,786,32,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:33:10",200,,7.54,1508,7.86,1572,64,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:33:10",300,,7.54,2262,7.86,2358,96,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:33:10",609,,7.54,4591.86,7.86,4786.74,194.88,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:33:10",609,,7.54,4591.86,7.86,4786.74,194.88,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:33:10",100,,7.54,754,7.86,786,32,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:33:10",50,,7.54,377,7.86,393,16,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:33:10",100,,7.54,754,7.86,786,32,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:33:10",60,,7.54,452.4,7.86,471.6,19.2,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:33:10",400,,7.54,3016,7.86,3144,128,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:33:10",50,,7.54,377,7.86,393,16,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:33:10",200,,7.54,1508,7.86,1572,64,ST
+Open Positions,Data,Lot,Stocks,USD,JPC,"2024-07-10, 12:33:10",200,,7.54,1508,7.86,1572,64,ST
+Open Positions,Data,Summary,Stocks,USD,KHC,-,1500,1,38.366033333,57549.05,35.43,53145,-4404.05,
+Open Positions,Data,Lot,Stocks,USD,KHC,"2023-12-18, 13:53:04",10,,36.755,367.55,35.43,354.3,-13.25,ST
+Open Positions,Data,Lot,Stocks,USD,KHC,"2023-12-18, 13:49:40",100,,36.75,3675,35.43,3543,-132,ST
+Open Positions,Data,Lot,Stocks,USD,KHC,"2023-12-18, 13:49:39",90,,36.75,3307.5,35.43,3188.7,-118.8,ST
+Open Positions,Data,Lot,Stocks,USD,KHC,"2023-12-18, 13:49:38",100,,36.75,3675,35.43,3543,-132,ST
+Open Positions,Data,Lot,Stocks,USD,KHC,"2023-12-18, 13:49:22",200,,36.75,7350,35.43,7086,-264,ST
+Open Positions,Data,Lot,Stocks,USD,KHC,"2023-12-18, 13:49:20",100,,36.745,3674.5,35.43,3543,-131.5,ST
+Open Positions,Data,Lot,Stocks,USD,KHC,"2023-12-18, 13:48:38",100,,36.755,3675.5,35.43,3543,-132.5,ST
+Open Positions,Data,Lot,Stocks,USD,KHC,"2023-01-25, 14:47:13",600,,39.78,23868,35.43,21258,-2610,LT
+Open Positions,Data,Lot,Stocks,USD,KHC,"2023-01-25, 14:47:10",200,,39.78,7956,35.43,7086,-870,LT
+Open Positions,Data,Summary,Stocks,USD,KMI,-,3900,1,18.403477564,71773.5625,21.57,84123,12349.4375,
+Open Positions,Data,Lot,Stocks,USD,KMI,"2024-07-31, 11:53:37",100,,21.255,2125.5,21.57,2157,31.5,ST
+Open Positions,Data,Lot,Stocks,USD,KMI,"2024-07-31, 11:30:29",94,,21.25,1997.5,21.57,2027.58,30.08,ST
+Open Positions,Data,Lot,Stocks,USD,KMI,"2024-07-31, 11:30:24",6,,21.411666667,128.47,21.57,129.42,0.95,ST
+Open Positions,Data,Lot,Stocks,USD,KMI,"2024-07-31, 11:30:24",200,,21.24515,4249.03,21.57,4314,64.97,ST
+Open Positions,Data,Lot,Stocks,USD,KMI,"2023-12-28, 13:49:40",2,,17.66,35.32,21.57,43.14,7.82,ST
+Open Positions,Data,Lot,Stocks,USD,KMI,"2023-12-28, 13:49:19",498,,17.66,8794.68,21.57,10741.86,1947.18,ST
+Open Positions,Data,Lot,Stocks,USD,KMI,"2023-12-18, 13:42:30",900,,17.63,15867,21.57,19413,3546,ST
+Open Positions,Data,Lot,Stocks,USD,KMI,"2022-11-16, 10:46:35",100,,17.798125,1779.8125,21.57,2157,377.1875,LT
+Open Positions,Data,Lot,Stocks,USD,KMI,"2022-06-10, 10:59:11",100,,17.628125,1762.8125,21.57,2157,394.1875,LT
+Open Positions,Data,Lot,Stocks,USD,KMI,"2022-06-10, 10:59:10",200,,17.628125,3525.625,21.57,4314,788.375,LT
+Open Positions,Data,Lot,Stocks,USD,KMI,"2022-06-10, 10:59:09",200,,17.628125,3525.625,21.57,4314,788.375,LT
+Open Positions,Data,Lot,Stocks,USD,KMI,"2022-06-06, 10:10:41",100,,18.673125,1867.3125,21.57,2157,289.6875,LT
+Open Positions,Data,Lot,Stocks,USD,KMI,"2022-06-06, 10:10:41",100,,18.663125,1866.3125,21.57,2157,290.6875,LT
+Open Positions,Data,Lot,Stocks,USD,KMI,"2022-06-06, 10:10:41",100,,18.668125,1866.8125,21.57,2157,290.1875,LT
+Open Positions,Data,Lot,Stocks,USD,KMI,"2022-06-06, 10:10:41",200,,18.668125,3733.625,21.57,4314,580.375,LT
+Open Positions,Data,Lot,Stocks,USD,KMI,"2022-06-06, 10:05:50",35,,18.671696429,653.509375,21.57,754.95,101.440625,LT
+Open Positions,Data,Lot,Stocks,USD,KMI,"2022-06-06, 10:05:50",200,,18.644,3728.8,21.57,4314,585.2,LT
+Open Positions,Data,Lot,Stocks,USD,KMI,"2022-06-06, 10:05:50",200,,18.648125,3729.625,21.57,4314,584.375,LT
+Open Positions,Data,Lot,Stocks,USD,KMI,"2022-06-06, 10:05:50",100,,18.648125,1864.8125,21.57,2157,292.1875,LT
+Open Positions,Data,Lot,Stocks,USD,KMI,"2022-06-06, 10:05:50",100,,18.648125,1864.8125,21.57,2157,292.1875,LT
+Open Positions,Data,Lot,Stocks,USD,KMI,"2022-06-06, 10:05:50",100,,18.648125,1864.8125,21.57,2157,292.1875,LT
+Open Positions,Data,Lot,Stocks,USD,KMI,"2022-06-06, 10:05:50",65,,18.648125,1212.128125,21.57,1402.05,189.921875,LT
+Open Positions,Data,Lot,Stocks,USD,KMI,"2022-06-06, 10:05:50",200,,18.648125,3729.625,21.57,4314,584.375,LT
+Open Positions,Data,Summary,Stocks,USD,PFE,-,2000,1,27.87450544,55749.01088,29.01,58020,2270.98912,
+Open Positions,Data,Lot,Stocks,USD,PFE,"2024-02-05, 16:20:00",2000,,27.87450544,55749.01088,29.01,58020,2270.98912,ST
+Open Positions,Data,Summary,Stocks,USD,QRTEP,-,1500,1,43.044913333,64567.37,43.42,65130,562.63,
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-03, 10:01:33",250,,43.43,10857.5,43.42,10855,-2.5,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-02, 15:55:45",250,,42.96,10740,43.42,10855,115,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:55:56",100,,43.41,4341,43.42,4342,1,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:55:56",30,,43.45,1303.5,43.42,1302.6,-0.9,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:55:56",170,,43.472941176,7390.4,43.42,7381.4,-9,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:47:19",200,,43.35,8670,43.42,8684,14,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:43:40",100,,42.885,4288.5,43.42,4342,53.5,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:43:40",3,,42.885,128.655,43.42,130.26,1.605,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:43:40",16,,42.885,686.16,43.42,694.72,8.56,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:43:18",100,,42.605,4260.5,43.42,4342,81.5,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:42:28",3,,42.555,127.665,43.42,130.26,2.595,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:41:59",100,,42.4939,4249.39,43.42,4342,92.61,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:40:58",2,,42.39,84.78,43.42,86.84,2.06,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:32:38",3,,42.295,126.885,43.42,130.26,3.375,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:32:38",3,,42.295,126.885,43.42,130.26,3.375,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:32:38",3,,42.295,126.885,43.42,130.26,3.375,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:32:38",3,,42.295,126.885,43.42,130.26,3.375,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:32:38",3,,42.295,126.885,43.42,130.26,3.375,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:32:38",3,,42.295,126.885,43.42,130.26,3.375,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:32:32",3,,42.295,126.885,43.42,130.26,3.375,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:32:32",3,,42.255,126.765,43.42,130.26,3.495,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:32:32",3,,42.295,126.885,43.42,130.26,3.375,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:32:32",3,,42.295,126.885,43.42,130.26,3.375,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:32:32",3,,42.255,126.765,43.42,130.26,3.495,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:32:32",3,,42.255,126.765,43.42,130.26,3.495,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:32:32",3,,42.255,126.765,43.42,130.26,3.495,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:32:32",3,,42.295,126.885,43.42,130.26,3.375,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:32:32",3,,42.295,126.885,43.42,130.26,3.375,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:32:32",3,,42.295,126.885,43.42,130.26,3.375,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:31:52",100,,42.255,4225.5,43.42,4342,116.5,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:30:49",3,,42.255,126.765,43.42,130.26,3.495,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:30:49",3,,42.255,126.765,43.42,130.26,3.495,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:30:49",3,,42.255,126.765,43.42,130.26,3.495,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:30:49",3,,42.255,126.765,43.42,130.26,3.495,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:30:46",3,,42.255,126.765,43.42,130.26,3.495,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:30:34",3,,42.447483333,127.34245,43.42,130.26,2.91755,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:30:34",3,,42.255,126.765,43.42,130.26,3.495,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:30:34",3,,42.255,126.765,43.42,130.26,3.495,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:30:34",3,,42.255,126.765,43.42,130.26,3.495,ST
+Open Positions,Data,Lot,Stocks,USD,QRTEP,"2024-07-01, 09:30:07",1,,42.67755,42.67755,43.42,43.42,0.74245,ST
+Open Positions,Data,Summary,Stocks,USD,RGLD,-,100,1,139.45,13945,140.17,14017,72,
+Open Positions,Data,Lot,Stocks,USD,RGLD,"2024-08-30, 13:23:53",100,,139.45,13945,140.17,14017,72,ST
+Open Positions,Data,Summary,Stocks,USD,STLA,-,2500,1,20.1076,50269,16.78,41950,-8319,
+Open Positions,Data,Lot,Stocks,USD,STLA,"2024-07-10, 09:47:34",499,,19.88,9920.12,16.78,8373.22,-1546.9,ST
+Open Positions,Data,Lot,Stocks,USD,STLA,"2024-07-10, 09:47:34",1,,19.88,19.88,16.78,16.78,-3.1,ST
+Open Positions,Data,Lot,Stocks,USD,STLA,"2024-07-01, 09:40:25",299,,20.18,6033.82,16.78,5017.22,-1016.6,ST
+Open Positions,Data,Lot,Stocks,USD,STLA,"2024-07-01, 09:40:08",600,,20.179175,12107.505,16.78,10068,-2039.505,ST
+Open Positions,Data,Lot,Stocks,USD,STLA,"2024-07-01, 09:40:07",1,,20.175,20.175,16.78,16.78,-3.395,ST
+Open Positions,Data,Lot,Stocks,USD,STLA,"2024-07-01, 09:39:45",100,,20.175,2017.5,16.78,1678,-339.5,ST
+Open Positions,Data,Lot,Stocks,USD,STLA,"2024-07-01, 09:36:18",538,,20.15,10840.7,16.78,9027.64,-1813.06,ST
+Open Positions,Data,Lot,Stocks,USD,STLA,"2024-07-01, 09:36:18",462,,20.15,9309.3,16.78,7752.36,-1556.94,ST
+Open Positions,Data,Summary,Stocks,USD,V,-,200,1,270.075,54015,276.37,55274,1259,
+Open Positions,Data,Lot,Stocks,USD,V,"2024-04-19, 15:34:43",200,,270.075,54015,276.37,55274,1259,ST
+Open Positions,Data,Summary,Stocks,USD,XLB,-,1000,1,93.029995,93029.995,94.28,94280,1250.005,
+Open Positions,Data,Lot,Stocks,USD,XLB,"2024-08-27, 14:52:02",136,,93.13,12665.68,94.28,12822.08,156.4,ST
+Open Positions,Data,Lot,Stocks,USD,XLB,"2024-08-27, 14:52:01",464,,93.13,43212.32,94.28,43745.92,533.6,ST
+Open Positions,Data,Lot,Stocks,USD,XLB,"2024-08-27, 14:46:59",1,,94.0128,94.0128,94.28,94.28,0.2672,ST
+Open Positions,Data,Lot,Stocks,USD,XLB,"2024-08-27, 14:46:59",99,,93.085678788,9215.4822,94.28,9333.72,118.2378,ST
+Open Positions,Data,Lot,Stocks,USD,XLB,"2024-08-27, 14:46:59",100,,93.085,9308.5,94.28,9428,119.5,ST
+Open Positions,Data,Lot,Stocks,USD,XLB,"2024-08-27, 12:07:54",5,,92.855,464.275,94.28,471.4,7.125,ST
+Open Positions,Data,Lot,Stocks,USD,XLB,"2024-08-27, 12:07:54",95,,92.655,8802.225,94.28,8956.6,154.375,ST
+Open Positions,Data,Lot,Stocks,USD,XLB,"2024-08-27, 12:06:03",20,,92.715,1854.3,94.28,1885.6,31.3,ST
+Open Positions,Data,Lot,Stocks,USD,XLB,"2024-08-27, 12:06:03",80,,92.665,7413.2,94.28,7542.4,129.2,ST
+Open Positions,Total,,Stocks,USD,,,,,,1105924.252087,,1138621.4,32697.147913,
+Open Positions,Total,,Stocks,EUR,,,,,,1001060.514504111,,1030657.318852,29596.804347889,
+Open Positions,Header,DataDiscriminator,Asset Category,Currency,Symbol,Open,Quantity,Mult,Cost Price,Cost Basis,Close Price,Value,Unrealized P/L,Code
+Open Positions,Data,Summary,Equity and Index Options,USD,GILD 18OCT24 77.5 C,-,-6,100,2.215441883,-1329.26513,2.9845,-1790.7,-461.43487,
+Open Positions,Data,Lot,Equity and Index Options,USD,GILD 18OCT24 77.5 C,"2024-08-26, 09:54:51",-6,,2.215441883,-1329.26513,2.9845,-1790.7,-461.43487,ST
+Open Positions,Data,Summary,Equity and Index Options,USD,PFE 20SEP24 27.5 C,-,-20,100,1.802953282,-3605.906564,1.7004,-3400.8,205.106564,
+Open Positions,Data,Lot,Equity and Index Options,USD,PFE 20SEP24 27.5 C,"2024-07-01, 09:54:24",-10,,1.802953282,-1802.953282,1.7004,-1700.4,102.553282,ST
+Open Positions,Data,Lot,Equity and Index Options,USD,PFE 20SEP24 27.5 C,"2024-07-01, 09:54:24",-10,,1.802953282,-1802.953282,1.7004,-1700.4,102.553282,ST
+Open Positions,Data,Summary,Equity and Index Options,USD,QQQ 18OCT24 525 C,-,30,100,3.852810167,11558.4305,0.68,2040,-9518.4305,
+Open Positions,Data,Lot,Equity and Index Options,USD,QQQ 18OCT24 525 C,"2024-07-23, 14:33:55",5,,3.8769935,1938.49675,0.68,340,-1598.49675,ST
+Open Positions,Data,Lot,Equity and Index Options,USD,QQQ 18OCT24 525 C,"2024-07-23, 14:33:55",5,,3.8769935,1938.49675,0.68,340,-1598.49675,ST
+Open Positions,Data,Lot,Equity and Index Options,USD,QQQ 18OCT24 525 C,"2024-07-23, 09:32:43",10,,3.8469685,3846.9685,0.68,680,-3166.9685,ST
+Open Positions,Data,Lot,Equity and Index Options,USD,QQQ 18OCT24 525 C,"2024-07-23, 09:31:56",10,,3.8344685,3834.4685,0.68,680,-3154.4685,ST
+Open Positions,Total,,Equity and Index Options,USD,,,,,,6623.258806,,-3151.5,-9774.758806,
+Open Positions,Total,,Equity and Index Options,EUR,,,,,,5995.241406015,,-2852.67477,-8847.916176015,
+Open Positions,Header,DataDiscriminator,Asset Category,Currency,Symbol,Open,Quantity,Accrued Int,Cost Price,Cost Basis,Close Price,Value,Unrealized P/L,Code
+Open Positions,Data,Summary,Bonds,USD,MO 4.45 05/06/50 - Altria Group Inc MO 4.45 05/06/50,-,70000,1012.38,73.256257143,51279.38,82.160004,57512,6232.62,
+Open Positions,Data,Lot,Bonds,USD,MO 4.45 05/06/50 - Altria Group Inc MO 4.45 05/06/50,"2024-07-02, 15:54:46",13000,,77.683692308,10098.88,82.160004,10680.8,581.92,ST
+Open Positions,Data,Lot,Bonds,USD,MO 4.45 05/06/50 - Altria Group Inc MO 4.45 05/06/50,"2023-08-17, 12:15:04",7000,,71.771428571,5024,82.160004,5751.2,727.2,LT
+Open Positions,Data,Lot,Bonds,USD,MO 4.45 05/06/50 - Altria Group Inc MO 4.45 05/06/50,"2023-08-16, 15:53:51",50000,,72.313,36156.5,82.160004,41080,4923.5,LT
+Open Positions,Data,Summary,Bonds,USD,PEMEX 7.69 01/23/50 QDD1 - Petroleos Mexicanos PEMEX 7.69 01/23/50,-,410000,3503.22,72.22695122,296130.5,74.440002,305204.01,9073.510003,
+Open Positions,Data,Lot,Bonds,USD,PEMEX 7.69 01/23/50 QDD1 - Petroleos Mexicanos PEMEX 7.69 01/23/50,"2024-07-25, 12:55:36",10000,,72.45,7245,74.440002,7444.000243902,199.000244,ST
+Open Positions,Data,Lot,Bonds,USD,PEMEX 7.69 01/23/50 QDD1 - Petroleos Mexicanos PEMEX 7.69 01/23/50,"2024-07-01, 09:56:54",100000,,71.9295,71929.5,74.440002,74440.002439024,2510.502439,ST
+Open Positions,Data,Lot,Bonds,USD,PEMEX 7.69 01/23/50 QDD1 - Petroleos Mexicanos PEMEX 7.69 01/23/50,"2024-06-28, 14:25:57",30000,,73.197,21959.1,74.440002,22332.000731707,372.900732,ST
+Open Positions,Data,Lot,Bonds,USD,PEMEX 7.69 01/23/50 QDD1 - Petroleos Mexicanos PEMEX 7.69 01/23/50,"2024-06-28, 14:20:52",20000,,73.0315,14606.3,74.440002,14888.000487805,281.700488,ST
+Open Positions,Data,Lot,Bonds,USD,PEMEX 7.69 01/23/50 QDD1 - Petroleos Mexicanos PEMEX 7.69 01/23/50,"2024-06-28, 12:43:22",50000,,73.095,36547.5,74.440002,37220.001219512,672.50122,ST
+Open Positions,Data,Lot,Bonds,USD,PEMEX 7.69 01/23/50 QDD1 - Petroleos Mexicanos PEMEX 7.69 01/23/50,"2024-06-28, 09:45:58",50000,,73.544,36772,74.440002,37220.001219512,448.00122,ST
+Open Positions,Data,Lot,Bonds,USD,PEMEX 7.69 01/23/50 QDD1 - Petroleos Mexicanos PEMEX 7.69 01/23/50,"2024-06-12, 15:00:51",30000,,73.417,22025.1,74.440002,22332.000731707,306.900732,ST
+Open Positions,Data,Lot,Bonds,USD,PEMEX 7.69 01/23/50 QDD1 - Petroleos Mexicanos PEMEX 7.69 01/23/50,"2022-12-06, 12:38:01",20000,,72.3175,14463.5,74.440002,14888.000487805,424.500488,LT
+Open Positions,Data,Lot,Bonds,USD,PEMEX 7.69 01/23/50 QDD1 - Petroleos Mexicanos PEMEX 7.69 01/23/50,"2022-12-06, 10:08:07",20000,,68.4375,13687.5,74.440002,14888.000487805,1200.500488,LT
+Open Positions,Data,Lot,Bonds,USD,PEMEX 7.69 01/23/50 QDD1 - Petroleos Mexicanos PEMEX 7.69 01/23/50,"2022-12-05, 15:42:55",40000,,71.11875,28447.5,74.440002,29776.00097561,1328.500976,LT
+Open Positions,Data,Lot,Bonds,USD,PEMEX 7.69 01/23/50 QDD1 - Petroleos Mexicanos PEMEX 7.69 01/23/50,"2022-12-05, 14:58:47",30000,,71.125,21337.5,74.440002,22332.000731707,994.500732,LT
+Open Positions,Data,Lot,Bonds,USD,PEMEX 7.69 01/23/50 QDD1 - Petroleos Mexicanos PEMEX 7.69 01/23/50,"2022-12-05, 12:57:26",10000,,71.1,7110,74.440002,7444.000243902,334.000244,LT
+Open Positions,Total,,Bonds,USD,,,,,,347409.88,,362716.01,15306.130003,
+Open Positions,Total,,Bonds,EUR,,,,,,314468.4751784,,328323.2779318,13854.802756116,
+Collateral for Customer Borrowing,Header,Asset Category,Currency,Symbol,Settled Quantity,Collateral Price,Value,Securities Segregated Quantity,Securities Segregated Value,Securities Not Segregated Quantity,Securities Not Segregated Value,"Securities Not Segregated: Third Party ""Right to Use""  Quantity","Securities Not Segregated: Third Party ""Right to Use""  Value",Securities Not Segregated: Subject to Stock Yield Enhancement Program Quantity,Securities Not Segregated: Subject to Stock Yield Enhancement Program Value
+Collateral for Customer Borrowing,Data,Securities,USD,EMD,"7,110",9.8100,"69,749.10",0,0.00,"7,110","69,749.10","7,110","69,749.10",0,0.00
+Collateral for Customer Borrowing,Data,Securities,USD,MO 4.45 05/06/50,"70,000",82.719002,"57,903.30","69,998","57,901.65",2,1.65,2,1.65,0,0.00
+Collateral for Customer Borrowing,Data,Securities,USD,QRTEP,"1,500",42.7300,"64,095.00",610,"26,065.30",890,"38,029.70",890,"38,029.70",0,0.00
+Collateral for Customer Borrowing,Data,Total,,,,,"191,747.40",,"83,966.95",,"107,780.45",,"107,780.45",,0.00
+Collateral for Customer Borrowing,Data,Total in EUR,,,,,"173,565.91",,"76,005.20",,"97,560.71",,"97,560.71",,0.00
+Forex Balances,Header,Asset Category,Currency,Description,Open,Quantity,Cost Price,Cost Basis in EUR,Close Price,Value in EUR,Unrealized P/L in EUR,Code
+Forex Balances,Data,Forex,EUR,EUR,-,4645.967595,0,-4645.967595,1,4645.967595,0,
+Forex Balances,Data,Forex,EUR,USD,-,-52654.724531,0.900941807,47438.842653406,0.90518,-47662.003551,-223.160897594,
+Forex Balances,Data,Forex,EUR,Stock 30 GLD,"2024-08-30, 13:47:22",-6929.8,0.90518,6272.716364,0.90518,-6272.716364,0,
+Forex Balances,Data,Forex,EUR,Stock 17 GLD,"2024-08-30, 13:42:55",-3926.215,0.90518,3553.931294,0.90518,-3553.931294,0,
+Forex Balances,Data,Forex,EUR,Stock 33 GLD,"2024-08-30, 13:42:55",-7619.535,0.90518,6897.050691,0.90518,-6897.050691,0,
+Forex Balances,Data,Forex,EUR,Stock 100 RGLD,"2024-08-30, 13:23:53",-13945,0.90518,12622.7351,0.90518,-12622.7351,0,
+Forex Balances,Data,Forex,EUR,Option 3 HSY   240920C00200000,"2024-08-28, 09:33:01",-239.09055,0.89926,215.004568,0.90518,-216.419984,-1.415416,
+Forex Balances,Data,Forex,EUR,Stock 136 XLB,"2024-08-27, 14:52:02",-12665.68,0.89409,11324.257831,0.90518,-11464.720222,-140.462391,
+Forex Balances,Data,Forex,EUR,Stock 464 XLB,"2024-08-27, 14:52:01",-7329.403981,0.89409,6553.146805406,0.90518,-6634.429896,-81.283090594,
+Forex Balances,Data,Total,,,,,,42792.875058406,,-43016.035956,-223.160897594,
+Options Distribution by Expiration,Header,Type,Expiry,Symbol,Description,Quantity,Cost Basis in Base,Value in Base,Unrealized P/L in Base
+Options Distribution by Expiration,Data,Call,2024-09-20,PFE   240920C00027500,PFE 20SEP24 27.5 C,-20,-3263.994503602,-3078.336144,185.658359602
+Options Distribution by Expiration,Data,Total,,,,,-3263.994503602,-3078.336144,185.658359602
+Options Distribution by Expiration,Data,Call,2024-10-18,GILD  241018C00077500,GILD 18OCT24 77.5 C,-6,-1203.224210373,-1620.905826,-417.681615627
+Options Distribution by Expiration,Data,Call,2024-10-18,QQQ   241018C00525000,QQQ 18OCT24 525 C,30,10462.46011999,1846.5672,-8615.89291999
+Options Distribution by Expiration,Data,Total,,,,,9259.235909617,225.661374,-9033.574535617
+Trade Summary by Asset Class,Header,Asset Category,Total Number of Trades,Total Shares (or Contracts) Bought,Total Shares (or Contracts) Sold,Total Commissions,Commission Rate
+Trade Summary by Asset Class,Data,Stocks,27,"2,140",-180,-20.49,-0.00883223
+Trade Summary by Asset Class,Data,Equity and Index Options,43,112,-202,-176.87,-0.56326722
+Trade Summary by Symbol,Header,Asset Category,Currency,Symbol,Buys Quantity,Buys Avg. Price,Buys Proceeds,Sells Quantity,Sells Avg. Price,Sells Proceeds
+Trade Summary by Symbol,Data,Stocks,USD,AJG,10,286.96,-2869.6,0,0,0
+Trade Summary by Symbol,Data,Stocks,USD,CRWD,20,240.95,-4819,0,0,0
+Trade Summary by Symbol,Data,Stocks,USD,GLD,80,230.919375,-18473.55,0,0,0
+Trade Summary by Symbol,Data,Stocks,USD,IBIT,800,33.7925,-27034,0,0,0
+Trade Summary by Symbol,Data,Stocks,USD,MSFT,130,406.795615385,-52883.43,-130,419.733461538,54565.35
+Trade Summary by Symbol,Data,Stocks,USD,RGLD,100,139.44,-13944,0,0,0
+Trade Summary by Symbol,Data,Stocks,USD,UDOW,0,0,0,-50,84.735,4236.75
+Trade Summary by Symbol,Data,Stocks,USD,XLB,1000,93.023995,-93023.995,0,0,0
+Trade Summary by Symbol,Data,Total,,,,,-213047.575,,,58802.1
+Trade Summary by Symbol,Data,Total in EUR,,,,,-192378.71682705,,,53032.659141
+Trade Summary by Symbol,Data,Equity and Index Options,USD,BITO  240920C00025000,0,0,0,-50,0.28,1400
+Trade Summary by Symbol,Data,Equity and Index Options,USD,BITO  241220C00023000,0,0,0,-20,1.3,2600
+Trade Summary by Symbol,Data,Equity and Index Options,USD,CSCO  240920C00047500,30,1.31,-3930,-30,2.76,8280
+Trade Summary by Symbol,Data,Equity and Index Options,USD,CSCO  240920P00045000,13,0.13,-169,-13,1.5,1950
+Trade Summary by Symbol,Data,Equity and Index Options,USD,EW    240920P00062500,10,0.24,-240,-10,1.35,1350
+Trade Summary by Symbol,Data,Equity and Index Options,USD,GILD  240920C00077500,6,0.61,-366,0,0,0
+Trade Summary by Symbol,Data,Equity and Index Options,USD,GILD  241018C00077500,0,0,0,-6,2.22,1332
+Trade Summary by Symbol,Data,Equity and Index Options,USD,HSY   240920C00200000,3,0.8,-240,-3,4.9,1470
+Trade Summary by Symbol,Data,Equity and Index Options,USD,NDAQ  240920P00070000,50,1.418,-7090,-50,0.738,3690
+Trade Summary by Symbol,Data,Equity and Index Options,USD,SMH   241018C00275000,0,0,0,-20,6,12000
+Trade Summary by Symbol,Data,Total,,,,,-12035,,,34072
+Trade Summary by Symbol,Data,Total in EUR,,,,,-10920.86178,,,30944.87882
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Exchange,Quantity,T. Price,Proceeds,Comm/Fee,Basis,Realized P/L,Code
+Trades,Data,Order,Stocks,USD,AJG,"2024-08-23, 14:19:52",-,10,286.96,-2869.6,-1,2870.6,0,O
+Trades,Data,Trade,Stocks,USD,AJG,"2024-08-23, 14:19:52",ISLAND,10,286.96,-2869.6,-1,2870.6,0,O
+Trades,SubTotal,,Stocks,USD,AJG (Bought),,,10,286.96,-2869.6,-1,2870.6,0,
+Trades,Data,Order,Stocks,USD,CRWD,"2024-08-08, 15:59:47",-,20,240.95,-4819,-1,4820,0,O
+Trades,Data,Trade,Stocks,USD,CRWD,"2024-08-08, 15:59:47",IEX,20,240.95,-4819,-1,4820,0,O
+Trades,SubTotal,,Stocks,USD,CRWD (Bought),,,20,240.95,-4819,-1,4820,0,
+Trades,Data,Order,Stocks,USD,GLD,"2024-08-30, 13:42:55",-,50,230.895,-11544.75,-1,11545.75,0,O;P
+Trades,Data,Trade,Stocks,USD,GLD,"2024-08-30, 13:42:55",ISLAND,17,230.895,-3925.215,-1,3926.215,0,O;P
+Trades,Data,Trade,Stocks,USD,GLD,"2024-08-30, 13:42:55",ISLAND,33,230.895,-7619.535,0,7619.535,0,O;P
+Trades,Data,Order,Stocks,USD,GLD,"2024-08-30, 13:47:22",-,30,230.96,-6928.8,-1,6929.8,0,O
+Trades,Data,Trade,Stocks,USD,GLD,"2024-08-30, 13:47:22",BATS,30,230.96,-6928.8,-1,6929.8,0,O
+Trades,SubTotal,,Stocks,USD,GLD (Bought),,,80,230.919375,-18473.55,-2,18475.55,0,
+Trades,Data,Order,Stocks,USD,IBIT,"2024-08-14, 12:04:04",-,300,33.825,-10147.5,-1.5,10149,0,O
+Trades,Data,Trade,Stocks,USD,IBIT,"2024-08-14, 12:04:04",DRCTEDGE,300,33.825,-10147.5,-1.5,10149,0,O
+Trades,Data,Order,Stocks,USD,IBIT,"2024-08-14, 12:05:33",-,100,33.805,-3380.5,-1,3381.5,0,O
+Trades,Data,Trade,Stocks,USD,IBIT,"2024-08-14, 12:05:33",ISLAND,100,33.805,-3380.5,-1,3381.5,0,O
+Trades,Data,Order,Stocks,USD,IBIT,"2024-08-14, 13:09:51",-,300,33.76,-10128,-1.5,10129.5,0,O
+Trades,Data,Trade,Stocks,USD,IBIT,"2024-08-14, 13:09:51",ISLAND,300,33.76,-10128,-1.5,10129.5,0,O
+Trades,Data,Order,Stocks,USD,IBIT,"2024-08-21, 09:32:54",-,100,33.78,-3378,-1,3379,0,O
+Trades,Data,Trade,Stocks,USD,IBIT,"2024-08-21, 09:32:54",ISLAND,100,33.78,-3378,-1,3379,0,O
+Trades,SubTotal,,Stocks,USD,IBIT (Bought),,,800,33.7925,-27034,-5,27039,0,
+Trades,Data,Order,Stocks,USD,MSFT,"2024-08-12, 09:30:00",-,60,407.053333333,-24423.2,-1,24424.2,0,O;P
+Trades,Data,Trade,Stocks,USD,MSFT,"2024-08-12, 09:30:00",IEX,56,407.055,-22795.08,-1,22796.08,0,O;P
+Trades,Data,Trade,Stocks,USD,MSFT,"2024-08-12, 09:30:00",IEX,4,407.03,-1628.12,0,1628.12,0,O;P
+Trades,Data,Order,Stocks,USD,MSFT,"2024-08-12, 09:39:57",-,60,406.5455,-24392.73,-1,24393.73,0,O;P
+Trades,Data,Trade,Stocks,USD,MSFT,"2024-08-12, 09:39:57",ISLAND,9,406.52,-3658.68,-1,3659.68,0,O;P
+Trades,Data,Trade,Stocks,USD,MSFT,"2024-08-12, 09:39:57",ISLAND,51,406.55,-20734.05,0,20734.05,0,O;P
+Trades,Data,Order,Stocks,USD,MSFT,"2024-08-12, 09:40:43",-,10,406.75,-4067.5,-1,4068.5,0,O
+Trades,Data,Trade,Stocks,USD,MSFT,"2024-08-12, 09:40:43",ISLAND,10,406.75,-4067.5,-1,4068.5,0,O
+Trades,SubTotal,,Stocks,USD,MSFT (Bought),,,130,406.795615385,-52883.43,-3,52886.43,0,
+Trades,Data,Order,Stocks,USD,MSFT,"2024-08-22, 11:27:26",-,-130,419.733461538,54565.35,-2.53849673,-52886.43,1676.381504,C;P
+Trades,Data,Trade,Stocks,USD,MSFT,"2024-08-22, 11:27:26",IBKRATS,-60,419.72,25183.2,-1.71005296,-24424.2,757.289947,C;P
+Trades,Data,ClosedLot,Stocks,USD,MSFT,2024-08-12,,60,407.07,,,24424.2,757.289947,ST
+Trades,Data,Trade,Stocks,USD,MSFT,"2024-08-22, 11:27:26",DARK,-70,419.745,29382.15,-0.82844377,-28462.23,919.091557,C;P
+Trades,Data,ClosedLot,Stocks,USD,MSFT,2024-08-12,,70,406.603285714,,,28462.23,919.091557,ST
+Trades,SubTotal,,Stocks,USD,MSFT (Sold),,,-130,419.733461538,54565.35,-2.53849673,-52886.43,1676.381504,
+Trades,SubTotal,,Stocks,USD,MSFT,,,0,,1681.92,-5.53849673,0,1676.381504,
+Trades,Data,Order,Stocks,USD,RGLD,"2024-08-30, 13:23:53",-,100,139.44,-13944,-1,13945,0,O
+Trades,Data,Trade,Stocks,USD,RGLD,"2024-08-30, 13:23:53",IEX,100,139.44,-13944,-1,13945,0,O
+Trades,SubTotal,,Stocks,USD,RGLD (Bought),,,100,139.44,-13944,-1,13945,0,
+Trades,Data,Order,Stocks,USD,UDOW,"2024-08-01, 13:00:20",-,-50,84.735,4236.75,-1.12608165,-3872.75,362.873918,C
+Trades,Data,Trade,Stocks,USD,UDOW,"2024-08-01, 13:00:20",ISLAND,-50,84.735,4236.75,-1.12608165,-3872.75,362.873918,C
+Trades,Data,ClosedLot,Stocks,USD,UDOW,2024-06-17,,50,77.455,,,3872.75,362.873918,ST
+Trades,SubTotal,,Stocks,USD,UDOW (Sold),,,-50,84.735,4236.75,-1.12608165,-3872.75,362.873918,
+Trades,Data,Order,Stocks,USD,XLB,"2024-08-27, 12:06:03",-,100,92.665,-9266.5,-1,9267.5,0,O;P
+Trades,Data,Trade,Stocks,USD,XLB,"2024-08-27, 12:06:03",IEX,20,92.665,-1853.3,-1,1854.3,0,O;P
+Trades,Data,Trade,Stocks,USD,XLB,"2024-08-27, 12:06:03",BATS,80,92.665,-7413.2,0,7413.2,0,O;P
+Trades,Data,Order,Stocks,USD,XLB,"2024-08-27, 12:07:54",-,100,92.655,-9265.5,-1,9266.5,0,O;P
+Trades,Data,Trade,Stocks,USD,XLB,"2024-08-27, 12:07:54",IEX,5,92.655,-463.275,-1,464.275,0,O;P
+Trades,Data,Trade,Stocks,USD,XLB,"2024-08-27, 12:07:54",BATS,95,92.655,-8802.225,0,8802.225,0,O;P
+Trades,Data,Order,Stocks,USD,XLB,"2024-08-27, 14:46:59",-,200,93.084975,-18616.995,-1,18617.995,0,O;P
+Trades,Data,Trade,Stocks,USD,XLB,"2024-08-27, 14:46:59",IEX,1,93.08,-93.08,-0.9328,94.0128,0,O;P
+Trades,Data,Trade,Stocks,USD,XLB,"2024-08-27, 14:46:59",DRCTEDGE,99,93.085,-9215.415,-0.0672,9215.4822,0,O;P
+Trades,Data,Trade,Stocks,USD,XLB,"2024-08-27, 14:46:59",DRCTEDGE,100,93.085,-9308.5,0,9308.5,0,O;P
+Trades,Data,Order,Stocks,USD,XLB,"2024-08-27, 14:52:01",-,600,93.125,-55875,-3,55878,0,O;P
+Trades,Data,Trade,Stocks,USD,XLB,"2024-08-27, 14:52:01",ISLAND,464,93.125,-43210,-2.32,43212.32,0,O;P
+Trades,Data,Trade,Stocks,USD,XLB,"2024-08-27, 14:52:02",ISLAND,136,93.125,-12665,-0.68,12665.68,0,O;P
+Trades,SubTotal,,Stocks,USD,XLB (Bought),,,1000,93.023995,-93023.995,-6,93029.995,0,
+Trades,Total,,Stocks,USD,,,,,,-154245.475,-22.66457838,156307.395,2039.255422, 
+Trades,Total,,Stocks,EUR,,,,,,-139346.05768605,-20.490780339,141211.48550925,1844.937043194, 
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Exchange,Quantity,T. Price,Proceeds,Comm/Fee,Basis,Realized P/L,Code
+Trades,Data,Order,Equity and Index Options,USD,BITO 20SEP24 25 C,"2024-08-01, 13:01:53",-,-50,0.28,1400,-19.52092,-6971.2125,-5590.73342,C;P
+Trades,Data,Trade,Equity and Index Options,USD,BITO 20SEP24 25 C,"2024-08-01, 13:01:53",MERCURY,-34,0.28,952,-13.2742256,-4741.0229,-3802.297126,C;P
+Trades,Data,ClosedLot,Equity and Index Options,USD,BITO 20SEP24 25 C,2024-06-21,,34,1.3944185,,,4741.0229,-3802.297126,ST
+Trades,Data,Trade,Equity and Index Options,USD,BITO 20SEP24 25 C,"2024-08-01, 13:01:53",MERCURY,-2,0.28,56,-0.7808368,-278.7737,-223.554537,C;P
+Trades,Data,ClosedLot,Equity and Index Options,USD,BITO 20SEP24 25 C,2024-06-21,,2,1.3938685,,,278.7737,-223.554537,ST
+Trades,Data,Trade,Equity and Index Options,USD,BITO 20SEP24 25 C,"2024-08-01, 13:01:53",MERCURY,-6,0.28,168,-2.3425104,-836.3211,-670.66361,C;P
+Trades,Data,ClosedLot,Equity and Index Options,USD,BITO 20SEP24 25 C,2024-06-21,,6,1.3938685,,,836.3211,-670.66361,ST
+Trades,Data,Trade,Equity and Index Options,USD,BITO 20SEP24 25 C,"2024-08-01, 13:01:53",MERCURY,-8,0.28,224,-3.1233472,-1115.0948,-894.218147,C;P
+Trades,Data,ClosedLot,Equity and Index Options,USD,BITO 20SEP24 25 C,2024-06-21,,8,1.3938685,,,1115.0948,-894.218147,ST
+Trades,SubTotal,,Equity and Index Options,USD,BITO 20SEP24 25 C (Sold),,,-50,0.28,1400,-19.52092,-6971.2125,-5590.73342,
+Trades,Data,Order,Equity and Index Options,USD,BITO 20DEC24 23 C,"2024-08-01, 13:01:08",-,-20,1.3,2600,-24.04508,-4453.937,-1877.98208,C;P
+Trades,Data,Trade,Equity and Index Options,USD,BITO 20DEC24 23 C,"2024-08-01, 13:01:08",PSE,-2,1.3,260,-2.386508,-445.3937,-187.780208,C;P
+Trades,Data,ClosedLot,Equity and Index Options,USD,BITO 20DEC24 23 C,2024-06-28,,2,2.2269685,,,445.3937,-187.780208,ST
+Trades,Data,Trade,Equity and Index Options,USD,BITO 20DEC24 23 C,"2024-08-01, 13:01:08",EMERALD,-18,1.3,2340,-21.658572,-4008.5433,-1690.201872,C;P
+Trades,Data,ClosedLot,Equity and Index Options,USD,BITO 20DEC24 23 C,2024-06-28,,18,2.2269685,,,4008.5433,-1690.201872,ST
+Trades,SubTotal,,Equity and Index Options,USD,BITO 20DEC24 23 C (Sold),,,-20,1.3,2600,-24.04508,-4453.937,-1877.98208,
+Trades,Data,Order,Equity and Index Options,USD,CSCO 20SEP24 47.5 C,"2024-08-06, 10:40:46",-,20,1.31,-2620,-7.737,2627.737,0,O;P
+Trades,Data,Trade,Equity and Index Options,USD,CSCO 20SEP24 47.5 C,"2024-08-06, 10:40:46",PEARL,14,1.31,-1834,-5.4159,1839.4159,0,O;P
+Trades,Data,Trade,Equity and Index Options,USD,CSCO 20SEP24 47.5 C,"2024-08-06, 10:40:46",PSE,6,1.31,-786,-2.3211,788.3211,0,O;P
+Trades,Data,Order,Equity and Index Options,USD,CSCO 20SEP24 47.5 C,"2024-08-06, 10:43:00",-,10,1.31,-1310,-3.8685,1313.8685,0,O
+Trades,Data,Trade,Equity and Index Options,USD,CSCO 20SEP24 47.5 C,"2024-08-06, 10:43:00",MEMX,10,1.31,-1310,-3.8685,1313.8685,0,O
+Trades,SubTotal,,Equity and Index Options,USD,CSCO 20SEP24 47.5 C (Bought),,,30,1.31,-3930,-11.6055,3941.6055,0,
+Trades,Data,Order,Equity and Index Options,USD,CSCO 20SEP24 47.5 C,"2024-08-15, 09:30:45",-,-15,2.7,4050,-6.85719,-1970.80275,2072.34006,C
+Trades,Data,Trade,Equity and Index Options,USD,CSCO 20SEP24 47.5 C,"2024-08-15, 09:30:45",PSE,-15,2.7,4050,-6.85719,-1970.80275,2072.34006,C
+Trades,Data,ClosedLot,Equity and Index Options,USD,CSCO 20SEP24 47.5 C,2024-08-06,,15,1.3138685,,,1970.80275,2072.34006,ST
+Trades,Data,Order,Equity and Index Options,USD,CSCO 20SEP24 47.5 C,"2024-08-15, 09:44:22",-,-15,2.82,4230,-10.612194,-1970.80275,2248.585056,C;P
+Trades,Data,Trade,Equity and Index Options,USD,CSCO 20SEP24 47.5 C,"2024-08-15, 09:44:22",PHLX,-7,2.82,1974,-4.9523572,-919.70795,1049.339693,C;P
+Trades,Data,ClosedLot,Equity and Index Options,USD,CSCO 20SEP24 47.5 C,2024-08-06,,7,1.3138685,,,919.70795,1049.339693,ST
+Trades,Data,Trade,Equity and Index Options,USD,CSCO 20SEP24 47.5 C,"2024-08-15, 09:44:22",PHLX,-8,2.82,2256,-5.6598368,-1051.0948,1199.245363,C;P
+Trades,Data,ClosedLot,Equity and Index Options,USD,CSCO 20SEP24 47.5 C,2024-08-06,,8,1.3138685,,,1051.0948,1199.245363,ST
+Trades,SubTotal,,Equity and Index Options,USD,CSCO 20SEP24 47.5 C (Sold),,,-30,2.76,8280,-17.469384,-3941.6055,4320.925116,
+Trades,SubTotal,,Equity and Index Options,USD,CSCO 20SEP24 47.5 C,,,0,,4350,-29.074884,0,4320.925116,
+Trades,Data,Order,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-15, 09:33:10",-,13,0.13,-169,-12.08905,1936.46047,1755.37142,C;P
+Trades,Data,Trade,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-15, 09:33:10",BATS,10,0.13,-130,-11.4685,1489.1419,1347.6734,C;P
+Trades,Data,ClosedLot,Equity and Index Options,USD,CSCO 20SEP24 45 P,2024-08-09,,-10,1.4891419,,,-1489.1419,1347.6734,ST
+Trades,Data,Trade,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-15, 09:33:15",MEMX,3,0.13,-39,-0.62055,447.31857,407.69802,C;P
+Trades,Data,ClosedLot,Equity and Index Options,USD,CSCO 20SEP24 45 P,2024-08-09,,-3,1.4910619,,,-447.31857,407.69802,ST
+Trades,SubTotal,,Equity and Index Options,USD,CSCO 20SEP24 45 P (Bought),,,13,0.13,-169,-12.08905,1936.46047,1755.37142,
+Trades,Data,Order,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-09, 15:12:28",-,-13,1.5,1950,-13.53953,-1936.46047,0,O;P
+Trades,Data,Trade,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-09, 15:12:28",BATS,-1,1.5,150,-1.50381,-148.49619,0,O;P
+Trades,Data,Trade,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-09, 15:12:28",BATS,-1,1.5,150,-0.80381,-149.19619,0,O;P
+Trades,Data,Trade,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-09, 15:12:28",MEMX,-1,1.5,150,-1.16381,-148.83619,0,O;P
+Trades,Data,Trade,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-09, 15:12:28",MEMX,-1,1.5,150,-1.16381,-148.83619,0,O;P
+Trades,Data,Trade,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-09, 15:12:28",MEMX,-1,1.5,150,-1.16381,-148.83619,0,O;P
+Trades,Data,Trade,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-09, 15:12:28",BOX,-1,1.5,150,-0.50381,-149.49619,0,O;P
+Trades,Data,Trade,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-09, 15:12:28",GEMINI,-1,1.5,150,-1.11381,-148.88619,0,O;P
+Trades,Data,Trade,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-09, 15:12:28",CBOE2,-1,1.5,150,-1.13381,-148.86619,0,O;P
+Trades,Data,Trade,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-09, 15:12:28",BATS,-3,1.5,450,-3.46143,-446.53857,0,O;P
+Trades,Data,Trade,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-09, 15:12:28",CBOE2,-1,1.5,150,-1.13381,-148.86619,0,O;P
+Trades,Data,Trade,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-09, 15:12:28",MERCURY,-1,1.5,150,-0.39381,-149.60619,0,O;P
+Trades,SubTotal,,Equity and Index Options,USD,CSCO 20SEP24 45 P (Sold),,,-13,1.5,1950,-13.53953,-1936.46047,0,
+Trades,SubTotal,,Equity and Index Options,USD,CSCO 20SEP24 45 P,,,0,,1781,-25.62858,0,1755.37142,
+Trades,Data,Order,Equity and Index Options,USD,EW 20SEP24 62.5 P,"2024-08-20, 11:35:48",-,10,0.24,-240,-6.9685,1350.46607,1103.49757,C;P
+Trades,Data,Trade,Equity and Index Options,USD,EW 20SEP24 62.5 P,"2024-08-20, 11:35:48",PHLX,5,0.24,-120,-3.48425,675.233035,551.748785,C;P
+Trades,Data,ClosedLot,Equity and Index Options,USD,EW 20SEP24 62.5 P,2024-08-09,,-5,1.35046607,,,-675.233035,551.748785,ST
+Trades,Data,Trade,Equity and Index Options,USD,EW 20SEP24 62.5 P,"2024-08-20, 11:35:48",PHLX,5,0.24,-120,-3.48425,675.233035,551.748785,C;P
+Trades,Data,ClosedLot,Equity and Index Options,USD,EW 20SEP24 62.5 P,2024-08-09,,-5,1.35046607,,,-675.233035,551.748785,ST
+Trades,SubTotal,,Equity and Index Options,USD,EW 20SEP24 62.5 P (Bought),,,10,0.24,-240,-6.9685,1350.46607,1103.49757,
+Trades,Data,Order,Equity and Index Options,USD,EW 20SEP24 62.5 P,"2024-08-09, 15:17:11",-,-10,1.35,1350,0.46607,-1350.46607,0,O
+Trades,Data,Trade,Equity and Index Options,USD,EW 20SEP24 62.5 P,"2024-08-09, 15:17:11",GEMINI,-10,1.35,1350,0.46607,-1350.46607,0,O
+Trades,SubTotal,,Equity and Index Options,USD,EW 20SEP24 62.5 P (Sold),,,-10,1.35,1350,0.46607,-1350.46607,0,
+Trades,SubTotal,,Equity and Index Options,USD,EW 20SEP24 62.5 P,,,0,,1110,-6.50243,0,1103.49757,
+Trades,Data,Order,Equity and Index Options,USD,GILD 20SEP24 77.5 C,"2024-08-12, 13:10:58",-,6,0.61,-366,-4.1811,1975.807116,1605.626016,C
+Trades,Data,Trade,Equity and Index Options,USD,GILD 20SEP24 77.5 C,"2024-08-12, 13:10:58",MIAX,6,0.61,-366,-4.1811,1975.807116,1605.626016,C
+Trades,Data,ClosedLot,Equity and Index Options,USD,GILD 20SEP24 77.5 C,2024-07-25,,-6,3.29301186,,,-1975.807116,1605.626016,ST
+Trades,SubTotal,,Equity and Index Options,USD,GILD 20SEP24 77.5 C (Bought),,,6,0.61,-366,-4.1811,1975.807116,1605.626016,
+Trades,Data,Order,Equity and Index Options,USD,GILD 18OCT24 77.5 C,"2024-08-26, 09:54:51",-,-6,2.22,1332,-2.7348696,-1329.2651304,0,O
+Trades,Data,Trade,Equity and Index Options,USD,GILD 18OCT24 77.5 C,"2024-08-26, 09:54:51",PSE,-6,2.22,1332,-2.7348696,-1329.2651304,0,O
+Trades,SubTotal,,Equity and Index Options,USD,GILD 18OCT24 77.5 C (Sold),,,-6,2.22,1332,-2.7348696,-1329.2651304,0,
+Trades,Data,Order,Equity and Index Options,USD,HSY 20SEP24 200 C,"2024-08-28, 09:33:01",-,3,0.8,-240,0.90945,1470.860214,1231.769664,C
+Trades,Data,Trade,Equity and Index Options,USD,HSY 20SEP24 200 C,"2024-08-28, 09:33:01",ISE,3,0.8,-240,0.90945,1470.860214,1231.769664,C
+Trades,Data,ClosedLot,Equity and Index Options,USD,HSY 20SEP24 200 C,2024-08-12,,-3,4.90286738,,,-1470.860214,1231.769664,ST
+Trades,SubTotal,,Equity and Index Options,USD,HSY 20SEP24 200 C (Bought),,,3,0.8,-240,0.90945,1470.860214,1231.769664,
+Trades,Data,Order,Equity and Index Options,USD,HSY 20SEP24 200 C,"2024-08-12, 10:17:19",-,-3,4.9,1470,0.860214,-1470.860214,0,O
+Trades,Data,Trade,Equity and Index Options,USD,HSY 20SEP24 200 C,"2024-08-12, 10:17:19",ISE,-3,4.9,1470,0.860214,-1470.860214,0,O
+Trades,SubTotal,,Equity and Index Options,USD,HSY 20SEP24 200 C (Sold),,,-3,4.9,1470,0.860214,-1470.860214,0,
+Trades,SubTotal,,Equity and Index Options,USD,HSY 20SEP24 200 C,,,0,,1230,1.769664,0,1231.769664,
+Trades,Data,Order,Equity and Index Options,USD,NDAQ 20SEP24 70 P,"2024-08-16, 15:59:55",-,20,1.6,-3200,-13.937,3213.937,0,O
+Trades,Data,Trade,Equity and Index Options,USD,NDAQ 20SEP24 70 P,"2024-08-16, 15:59:55",PHLX,20,1.6,-3200,-13.937,3213.937,0,O
+Trades,Data,Order,Equity and Index Options,USD,NDAQ 20SEP24 70 P,"2024-08-19, 12:02:10",-,10,1.41,-1410,-6.9685,1416.9685,0,O
+Trades,Data,Trade,Equity and Index Options,USD,NDAQ 20SEP24 70 P,"2024-08-19, 12:02:10",PHLX,10,1.41,-1410,-6.9685,1416.9685,0,O
+Trades,Data,Order,Equity and Index Options,USD,NDAQ 20SEP24 70 P,"2024-08-22, 11:25:48",-,10,1.26,-1260,-6.9685,1266.9685,0,O;P
+Trades,Data,Trade,Equity and Index Options,USD,NDAQ 20SEP24 70 P,"2024-08-22, 11:25:48",PHLX,5,1.26,-630,-3.48425,633.48425,0,O;P
+Trades,Data,Trade,Equity and Index Options,USD,NDAQ 20SEP24 70 P,"2024-08-22, 11:25:48",PHLX,5,1.26,-630,-3.48425,633.48425,0,O;P
+Trades,Data,Order,Equity and Index Options,USD,NDAQ 20SEP24 70 P,"2024-08-22, 11:50:32",-,10,1.22,-1220,-6.9685,1226.9685,0,O;P
+Trades,Data,Trade,Equity and Index Options,USD,NDAQ 20SEP24 70 P,"2024-08-22, 11:50:32",BOX,5,1.22,-610,-3.48425,613.48425,0,O;P
+Trades,Data,Trade,Equity and Index Options,USD,NDAQ 20SEP24 70 P,"2024-08-22, 11:50:32",BOX,5,1.22,-610,-3.48425,613.48425,0,O;P
+Trades,SubTotal,,Equity and Index Options,USD,NDAQ 20SEP24 70 P (Bought),,,50,1.418,-7090,-34.8425,7124.8425,0,
+Trades,Data,Order,Equity and Index Options,USD,NDAQ 20SEP24 70 P,"2024-08-29, 09:31:26",-,-50,0.738,3690,-35.084582,-7124.8425,-3469.927082,C;P
+Trades,Data,Trade,Equity and Index Options,USD,NDAQ 20SEP24 70 P,"2024-08-29, 09:31:26",PHLX,-20,0.74,1480,-14.033944,-3213.937,-1747.970944,C;P
+Trades,Data,ClosedLot,Equity and Index Options,USD,NDAQ 20SEP24 70 P,2024-08-16,,20,1.6069685,,,3213.937,-1747.970944,ST
+Trades,Data,Trade,Equity and Index Options,USD,NDAQ 20SEP24 70 P,"2024-08-29, 09:31:26",PHLX,-5,0.73,365,-3.508347,-708.48425,-346.992597,C;P
+Trades,Data,ClosedLot,Equity and Index Options,USD,NDAQ 20SEP24 70 P,2024-08-19,,5,1.4169685,,,708.48425,-346.992597,ST
+Trades,Data,Trade,Equity and Index Options,USD,NDAQ 20SEP24 70 P,"2024-08-29, 09:31:26",PHLX,-20,0.74,1480,-14.033944,-2588.937,-1122.970944,C;P
+Trades,Data,ClosedLot,Equity and Index Options,USD,NDAQ 20SEP24 70 P,2024-08-19,,5,1.4169685,,,708.48425,-341.992736,ST
+Trades,Data,ClosedLot,Equity and Index Options,USD,NDAQ 20SEP24 70 P,2024-08-22,,15,1.253635167,,,1880.45275,-780.978208,ST
+Trades,Data,Trade,Equity and Index Options,USD,NDAQ 20SEP24 70 P,"2024-08-29, 09:31:26",PHLX,-5,0.73,365,-3.508347,-613.48425,-251.992597,C;P
+Trades,Data,ClosedLot,Equity and Index Options,USD,NDAQ 20SEP24 70 P,2024-08-22,,5,1.2269685,,,613.48425,-251.992597,ST
+Trades,SubTotal,,Equity and Index Options,USD,NDAQ 20SEP24 70 P (Sold),,,-50,0.738,3690,-35.084582,-7124.8425,-3469.927082,
+Trades,SubTotal,,Equity and Index Options,USD,NDAQ 20SEP24 70 P,,,0,,-3400,-69.927082,0,-3469.927082,
+Trades,Data,Order,Equity and Index Options,USD,SMH 18OCT24 275 C,"2024-08-22, 09:37:14",-,-20,6,12000,-14.3264,-8010.187,3975.4866,C
+Trades,Data,Trade,Equity and Index Options,USD,SMH 18OCT24 275 C,"2024-08-22, 09:37:14",MERCURY,-20,6,12000,-14.3264,-8010.187,3975.4866,C
+Trades,Data,ClosedLot,Equity and Index Options,USD,SMH 18OCT24 275 C,2024-07-25,,20,4.0050935,,,8010.187,3975.4866,ST
+Trades,SubTotal,,Equity and Index Options,USD,SMH 18OCT24 275 C (Sold),,,-20,6,12000,-14.3264,-8010.187,3975.4866,
+Trades,Total,,Equity and Index Options,USD,,,,,,22037,-194.1716816,-18788.7945144,3054.033804, 
+Trades,Total,,Equity and Index Options,EUR,,,,,,20024.01704,-176.865905766,-17216.67902413,2630.472110104, 
+"No exercises, assignments or expirations for August 1, 2024 - August 31, 2024"
+Forex P/L Details,Header,Asset Category,Currency,Description,Date/Time,FX Currency,Quantity,Proceeds in EUR,Basis in EUR,Realized P/L in EUR,Code
+Forex P/L Details,Data,Forex,EUR,Stock -50 UDOW,"2024-08-01, 13:00:20",USD,4235.623918,3924.98326,-3924.98326,0,O
+Forex P/L Details,Data,Forex,EUR,Option -2 BITO  241220C00023000,"2024-08-01, 13:01:08",USD,257.613492,238.720118,-238.720118,0,O
+Forex P/L Details,Data,Forex,EUR,Option -18 BITO  241220C00023000,"2024-08-01, 13:01:08",USD,2318.341428,2148.314268,-2148.314268,0,O
+Forex P/L Details,Data,Forex,EUR,Option -34 BITO  240920C00025000,"2024-08-01, 13:01:53",USD,938.725774,869.879626,-869.879626,0,O
+Forex P/L Details,Data,Forex,EUR,Option -2 BITO  240920C00025000,"2024-08-01, 13:01:53",USD,55.219163,51.16939,-51.16939,0,O
+Forex P/L Details,Data,Forex,EUR,Option -6 BITO  240920C00025000,"2024-08-01, 13:01:53",USD,165.65749,153.508169,-153.508169,0,O
+Forex P/L Details,Data,Forex,EUR,Option -8 BITO  240920C00025000,"2024-08-01, 13:01:53",USD,220.876653,204.677559,-204.677559,0,O
+Forex P/L Details,Data,Forex,EUR,EMD(US95766A1016) Cash Dividen..,"2024-08-01, 20:20:00",USD,600.8,556.737328,-556.737328,0,O
+Forex P/L Details,Data,Forex,EUR,EMD(US95766A1016) Payment in L..,"2024-08-01, 20:20:00",USD,-60.08,55.673733,-55.396764,0.276969,C
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -3 GILD  240920C00077500,"2024-07-25, 10:13:27",USD,-60.08,55.673733,-55.396764,0.276969,
+Forex P/L Details,Data,Forex,EUR,JPC(US67073B1061) Cash Dividen..,"2024-08-01, 20:20:00",USD,665,616.2289,-616.2289,0,O
+Forex P/L Details,Data,Forex,EUR,JPC(US67073B1061) Cash Dividen..,"2024-08-01, 20:20:00",USD,-66.5,61.62289,-61.316325,0.306565,C
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -3 GILD  240920C00077500,"2024-07-25, 10:13:27",USD,-66.5,61.62289,-61.316325,0.306565,
+Forex P/L Details,Data,Forex,EUR,Net cash activity,2024-08-05,USD,21.21,19.366427,-19.366427,0,O
+Forex P/L Details,Data,Forex,EUR,Option 14 CSCO  240920C00047500,"2024-08-06, 10:40:46",USD,-1839.4159,1682.642483,-1696.033431,-13.390948,C
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -5 CSCO  240920C00047500,"2024-07-25, 12:21:43",USD,-819.398746,749.561391,-755.526614,-5.965223,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -3 GILD  240920C00077500,"2024-07-25, 10:13:27",USD,-302.13609,276.385031,-278.584582,-2.199551,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -3 CSCO  240920C00047500,"2024-07-25, 12:21:43",USD,-717.881064,656.696061,-661.922235,-5.226174,
+Forex P/L Details,Data,Forex,EUR,Option 6 CSCO  240920C00047500,"2024-08-06, 10:40:46",USD,-788.3211,721.132493,-726.87147,-5.738977,C
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -6 CSCO  240920C00047500,"2024-07-25, 12:21:43",USD,-413.251406,378.029989,-381.038459,-3.00847,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -5 CSCO  240920C00047500,"2024-07-25, 12:21:43",USD,-375.069694,343.102504,-345.833011,-2.730507,
+Forex P/L Details,Data,Forex,EUR,Option 10 CSCO  240920C00047500,"2024-08-06, 10:43:00",USD,-1313.8685,1201.887488,-1211.452451,-9.564963,C
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -5 CSCO  240920C00047500,"2024-07-25, 12:21:43",USD,-293.757778,268.720803,-270.85936,-2.138557,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -6 CSCO  240920C00047500,"2024-07-25, 12:21:43",USD,-1020.110722,933.166685,-940.593091,-7.426406,
+Forex P/L Details,Data,Forex,EUR,Stock 20 CRWD,"2024-08-08, 15:59:47",USD,-4820,4414.5416,-4450.198622,-35.657022,C;O
+Forex P/L Details,Data,Forex,EUR,Opening Lot Summary,,,,0.000001,-0.000001,0,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -11 CSCO  240920C00047500,"2024-07-25, 12:21:43",USD,-2635.640568,2413.930483,-2430.192386,-16.261903,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock -50 UDOW,"2024-08-01, 13:00:20",USD,-1283.64877,1175.668235,-1189.505969,-13.837734,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -5 CSCO  240920C00047500,"2024-07-25, 12:21:43",USD,-900.710662,824.942881,-830.500266,-5.557385,
+Forex P/L Details,Data,Forex,EUR,Option -1 CSCO  240920P00045000,"2024-08-09, 15:12:28",USD,148.49619,136.035875,-136.035875,0,O
+Forex P/L Details,Data,Forex,EUR,Option -1 CSCO  240920P00045000,"2024-08-09, 15:12:28",USD,149.19619,136.677138,-136.677138,0,O
+Forex P/L Details,Data,Forex,EUR,Option -1 CSCO  240920P00045000,"2024-08-09, 15:12:28",USD,148.83619,136.347345,-136.347345,0,O
+Forex P/L Details,Data,Forex,EUR,Option -1 CSCO  240920P00045000,"2024-08-09, 15:12:28",USD,148.83619,136.347345,-136.347345,0,O
+Forex P/L Details,Data,Forex,EUR,Option -1 CSCO  240920P00045000,"2024-08-09, 15:12:28",USD,148.83619,136.347345,-136.347345,0,O
+Forex P/L Details,Data,Forex,EUR,Option -1 CSCO  240920P00045000,"2024-08-09, 15:12:28",USD,149.49619,136.951965,-136.951965,0,O
+Forex P/L Details,Data,Forex,EUR,Option -1 CSCO  240920P00045000,"2024-08-09, 15:12:28",USD,148.88619,136.39315,-136.39315,0,O
+Forex P/L Details,Data,Forex,EUR,Option -1 CSCO  240920P00045000,"2024-08-09, 15:12:28",USD,148.86619,136.374828,-136.374828,0,O
+Forex P/L Details,Data,Forex,EUR,Option -3 CSCO  240920P00045000,"2024-08-09, 15:12:28",USD,446.53857,409.069519,-409.069519,0,O
+Forex P/L Details,Data,Forex,EUR,Option -1 CSCO  240920P00045000,"2024-08-09, 15:12:28",USD,148.86619,136.374828,-136.374828,0,O
+Forex P/L Details,Data,Forex,EUR,Option -1 CSCO  240920P00045000,"2024-08-09, 15:12:28",USD,149.60619,137.052735,-137.052735,0,O
+Forex P/L Details,Data,Forex,EUR,Option -10 EW    240920P00062500,"2024-08-09, 15:17:11",USD,1350.46607,1237.148462,-1237.148462,0,O
+Forex P/L Details,Data,Forex,EUR,Stock 56 MSFT,"2024-08-12, 09:30:00",USD,-22796.08,20852.71418,-20954.438073,-101.723893,C;O
+Forex P/L Details,Data,Forex,EUR,Opening Lot Summary,,,,10349.238462,-10349.238462,0,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -1 CSCO  240920P00045000,"2024-08-09, 15:12:28",USD,-149.60619,136.852262,-137.052735,-0.200473,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: EMD(US95766A1016) Cash Dividen..,"2024-08-01, 20:20:00",USD,-600.8,549.5818,-556.737328,-7.155528,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -10 EW    240920P00062500,"2024-08-09, 15:17:11",USD,-1350.46607,1235.338838,-1237.148462,-1.809624,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -2 BITO  241220C00023000,"2024-08-01, 13:01:08",USD,-257.613492,235.651942,-238.720118,-3.068176,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock -50 UDOW,"2024-08-01, 13:00:20",USD,-2951.975148,2700.319267,-2735.477291,-35.158024,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -18 BITO  241220C00023000,"2024-08-01, 13:01:08",USD,-2318.341428,2120.702821,-2148.314268,-27.611447,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -1 CSCO  240920P00045000,"2024-08-09, 15:12:28",USD,-148.49619,135.83689,-136.035875,-0.198985,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -1 CSCO  240920P00045000,"2024-08-09, 15:12:28",USD,-149.19619,136.477215,-136.677138,-0.199923,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -6 BITO  240920C00025000,"2024-08-01, 13:01:53",USD,-165.65749,151.535189,-153.508169,-1.97298,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: JPC(US67073B1061) Cash Dividen..,"2024-08-01, 20:20:00",USD,-665,608.30875,-616.2289,-7.92015,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -8 BITO  240920C00025000,"2024-08-01, 13:01:53",USD,-220.876653,202.046918,-204.677559,-2.630641,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -3 CSCO  240920P00045000,"2024-08-09, 15:12:28",USD,-446.53857,408.471157,-409.069519,-0.598362,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -1 CSCO  240920P00045000,"2024-08-09, 15:12:28",USD,-148.86619,136.175347,-136.374828,-0.199481,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Net cash activity,2024-08-05,USD,-21.21,19.401847,-19.366427,0.03542,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -1 CSCO  240920P00045000,"2024-08-09, 15:12:28",USD,-148.88619,136.193642,-136.39315,-0.199508,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -1 CSCO  240920P00045000,"2024-08-09, 15:12:28",USD,-148.86619,136.175347,-136.374828,-0.199481,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -1 CSCO  240920P00045000,"2024-08-09, 15:12:28",USD,-148.83619,136.147905,-136.347345,-0.19944,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -34 BITO  240920C00025000,"2024-08-01, 13:01:53",USD,-938.725774,858.699402,-869.879626,-11.180224,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -1 CSCO  240920P00045000,"2024-08-09, 15:12:28",USD,-149.49619,136.75164,-136.951965,-0.200325,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -2 BITO  240920C00025000,"2024-08-01, 13:01:53",USD,-55.219163,50.511729,-51.16939,-0.657661,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -1 CSCO  240920P00045000,"2024-08-09, 15:12:28",USD,-148.83619,136.147905,-136.347345,-0.19944,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option -1 CSCO  240920P00045000,"2024-08-09, 15:12:28",USD,-148.83619,136.147905,-136.347345,-0.19944,
+Forex P/L Details,Data,Forex,EUR,Stock 4 MSFT,"2024-08-12, 09:30:00",USD,-1628.12,1489.32277,-1489.32277,0,O
+Forex P/L Details,Data,Forex,EUR,Stock 9 MSFT,"2024-08-12, 09:39:57",USD,-3659.68,3347.69228,-3347.69228,0,O
+Forex P/L Details,Data,Forex,EUR,Stock 51 MSFT,"2024-08-12, 09:39:57",USD,-20734.05,18966.472237,-18966.472237,0,O
+Forex P/L Details,Data,Forex,EUR,Stock 10 MSFT,"2024-08-12, 09:40:43",USD,-4068.5,3721.660375,-3721.660375,0,O
+Forex P/L Details,Data,Forex,EUR,Option -3 HSY   240920C00200000,"2024-08-12, 10:17:19",USD,1470.860214,1345.469381,-1345.469381,0,C
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 56 MSFT,"2024-08-12, 09:30:00",USD,1470.860214,1345.469381,-1345.469381,0,
+Forex P/L Details,Data,Forex,EUR,Option 6 GILD  240920C00077500,"2024-08-12, 13:10:58",USD,-370.1811,338.623161,-338.623161,0,O
+Forex P/L Details,Data,Forex,EUR,Stock 300 IBIT,"2024-08-14, 12:04:04",USD,-10149,9215.90094,-9215.90094,0,O
+Forex P/L Details,Data,Forex,EUR,Stock 100 IBIT,"2024-08-14, 12:05:33",USD,-3381.5,3070.60489,-3070.60489,0,O
+Forex P/L Details,Data,Forex,EUR,Stock 300 IBIT,"2024-08-14, 13:09:51",USD,-10129.5,9198.19377,-9198.19377,0,O
+Forex P/L Details,Data,Forex,EUR,Option -15 CSCO  240920C00047500,"2024-08-15, 09:30:45",USD,4043.14281,3698.464886,-3685.00122,13.463666,C
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 56 MSFT,"2024-08-12, 09:30:00",USD,4043.14281,3698.464886,-3685.00122,13.463666,
+Forex P/L Details,Data,Forex,EUR,Option 10 CSCO  240920P00045000,"2024-08-15, 09:33:10",USD,-141.4685,128.93722,-128.93722,0,O
+Forex P/L Details,Data,Forex,EUR,Option 3 CSCO  240920P00045000,"2024-08-15, 09:33:15",USD,-39.62055,36.110962,-36.110962,0,O
+Forex P/L Details,Data,Forex,EUR,Option -7 CSCO  240920C00047500,"2024-08-15, 09:44:22",USD,1969.047643,1801.186332,-1794.629403,6.556929,C
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 56 MSFT,"2024-08-12, 09:30:00",USD,1969.0476428,1801.186332,-1794.629403,6.556929,
+Forex P/L Details,Data,Forex,EUR,Option -8 CSCO  240920C00047500,"2024-08-15, 09:44:22",USD,2250.340163,2058.498665,-2051.005032,7.493633,C
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 56 MSFT,"2024-08-12, 09:30:00",USD,2250.3401632,2058.498665,-2051.005032,7.493633,
+Forex P/L Details,Data,Forex,EUR,KMI(US49456B1017) Cash Dividen..,"2024-08-15, 20:20:00",USD,1006.25,920.467187,-917.116375,3.350812,C
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 56 MSFT,"2024-08-12, 09:30:00",USD,1006.25,920.467187,-917.116375,3.350812,
+Forex P/L Details,Data,Forex,EUR,KMI(US49456B1017) Cash Dividen..,"2024-08-15, 20:20:00",USD,-100.63,91.716195,-91.716195,0,O
+Forex P/L Details,Data,Forex,EUR,Option 20 NDAQ  240920P00070000,"2024-08-16, 15:59:55",USD,-3213.937,2914.333793,-2914.333793,0,O
+Forex P/L Details,Data,Forex,EUR,Option 10 NDAQ  240920P00070000,"2024-08-19, 12:02:10",USD,-1416.9685,1278.218944,-1278.218944,0,O
+Forex P/L Details,Data,Forex,EUR,Option 5 EW    240920P00062500,"2024-08-20, 11:35:48",USD,-123.48425,110.948129,-110.948129,0,O
+Forex P/L Details,Data,Forex,EUR,Option 5 EW    240920P00062500,"2024-08-20, 11:35:48",USD,-123.48425,110.948129,-110.948129,0,O
+Forex P/L Details,Data,Forex,EUR,Stock 100 IBIT,"2024-08-21, 09:32:54",USD,-3379,3030.38857,-3030.38857,0,O
+Forex P/L Details,Data,Forex,EUR,Option -20 SMH   241018C00275000,"2024-08-22, 09:37:14",USD,11985.6736,10963.894926,-10786.626813,177.268113,C
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 4 MSFT,"2024-08-12, 09:30:00",USD,1628.12,1489.32277,-1465.242875,24.079895,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 9 MSFT,"2024-08-12, 09:39:57",USD,3659.68,3347.69228,-3293.565613,54.126667,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 51 MSFT,"2024-08-12, 09:39:57",USD,6123.780118,5601.727863,-5511.157155,90.570708,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 56 MSFT,"2024-08-12, 09:30:00",USD,574.093482,525.152013,-516.66117,8.490843,
+Forex P/L Details,Data,Forex,EUR,Option 5 NDAQ  240920P00070000,"2024-08-22, 11:25:48",USD,-633.48425,570.110486,-570.110486,0,O
+Forex P/L Details,Data,Forex,EUR,Option 5 NDAQ  240920P00070000,"2024-08-22, 11:25:48",USD,-633.48425,570.110486,-570.110486,0,O
+Forex P/L Details,Data,Forex,EUR,Stock -60 MSFT,"2024-08-22, 11:27:26",USD,25181.489947,22993.741243,-22662.333693,331.40755,C
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 10 MSFT,"2024-08-12, 09:40:43",USD,4068.5,3721.660375,-3661.48726,60.173115,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 300 IBIT,"2024-08-14, 12:04:04",USD,6132.53896504,5568.713333,-5519.039767,49.673566,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option 6 GILD  240920C00077500,"2024-08-12, 13:10:58",USD,370.1811,338.623161,-333.148183,5.474978,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 51 MSFT,"2024-08-12, 09:39:57",USD,14610.269882,13364.744374,-13148.658483,216.085891,
+Forex P/L Details,Data,Forex,EUR,Stock -70 MSFT,"2024-08-22, 11:27:26",USD,29381.321556,26601.196322,-26442.014148,159.182174,C;O
+Forex P/L Details,Data,Forex,EUR,Opening Lot Summary,,,,1843.387141,-1843.387141,0,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 300 IBIT,"2024-08-14, 12:04:04",USD,4016.46103496,3647.187607,-3614.654273,32.533334,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 100 IBIT,"2024-08-21, 09:32:54",USD,3379,3030.38857,-3040.96484,-10.57627,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 100 IBIT,"2024-08-14, 12:05:33",USD,3381.5,3070.60489,-3043.21474,27.39015,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option 3 CSCO  240920P00045000,"2024-08-15, 09:33:15",USD,39.62055,36.110962,-35.65691,0.454052,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option 5 NDAQ  240920P00070000,"2024-08-22, 11:25:48",USD,633.48425,570.110486,-570.110486,0,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option 20 NDAQ  240920P00070000,"2024-08-16, 15:59:55",USD,3213.937,2914.333793,-2892.414743,21.91905,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option 5 NDAQ  240920P00070000,"2024-08-22, 11:25:48",USD,633.48425,570.110486,-570.110486,0,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: KMI(US49456B1017) Cash Dividen..,"2024-08-15, 20:20:00",USD,100.63,91.716195,-90.562975,1.15322,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option 10 NDAQ  240920P00070000,"2024-08-19, 12:02:10",USD,1416.9685,1278.218944,-1275.214971,3.003973,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option 10 CSCO  240920P00045000,"2024-08-15, 09:33:10",USD,141.4685,128.93722,-127.315991,1.621229,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option 5 EW    240920P00062500,"2024-08-20, 11:35:48",USD,123.48425,110.948129,-111.130886,-0.182757,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Option 5 EW    240920P00062500,"2024-08-20, 11:35:48",USD,123.48425,110.948129,-111.130886,-0.182757,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 300 IBIT,"2024-08-14, 13:09:51",USD,10129.5,9198.19377,-9116.14482,82.04895,
+Forex P/L Details,Data,Forex,EUR,Option 5 NDAQ  240920P00070000,"2024-08-22, 11:50:32",USD,-613.48425,552.111286,-552.111286,0,C
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock -70 MSFT,"2024-08-22, 11:27:26",USD,-613.48425,552.111286,-552.111286,0,
+Forex P/L Details,Data,Forex,EUR,Option 5 NDAQ  240920P00070000,"2024-08-22, 11:50:32",USD,-613.48425,552.111286,-552.111286,0,C
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock -70 MSFT,"2024-08-22, 11:27:26",USD,-613.48425,552.111286,-552.111286,0,
+Forex P/L Details,Data,Forex,EUR,Stock 10 AJG,"2024-08-23, 14:19:52",USD,-2870.6,2564.766276,-2570.104924,-5.338648,C;O
+Forex P/L Details,Data,Forex,EUR,Opening Lot Summary,,,,1830.940353,-1830.940353,0,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock -70 MSFT,"2024-08-22, 11:27:26",USD,-821.330471,733.825923,-739.164571,-5.338648,
+Forex P/L Details,Data,Forex,EUR,Option -6 GILD  241018C00077500,"2024-08-26, 09:54:51",USD,1329.26513,1187.645223,-1190.968386,-3.323163,C
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 10 AJG,"2024-08-23, 14:19:52",USD,1329.2651304,1187.645223,-1190.968386,-3.323163,
+Forex P/L Details,Data,Forex,EUR,Stock 20 XLB,"2024-08-27, 12:06:03",USD,-1854.3,1657.911087,-1657.911087,0,O
+Forex P/L Details,Data,Forex,EUR,Stock 80 XLB,"2024-08-27, 12:06:03",USD,-7413.2,6628.067988,-6628.067988,0,O
+Forex P/L Details,Data,Forex,EUR,Stock 5 XLB,"2024-08-27, 12:07:54",USD,-464.275,415.103635,-415.103635,0,O
+Forex P/L Details,Data,Forex,EUR,Stock 95 XLB,"2024-08-27, 12:07:54",USD,-8802.225,7869.98135,-7869.98135,0,O
+Forex P/L Details,Data,Forex,EUR,Stock 1 XLB,"2024-08-27, 14:46:59",USD,-94.0128,84.055904,-84.055904,0,O
+Forex P/L Details,Data,Forex,EUR,Stock 99 XLB,"2024-08-27, 14:46:59",USD,-9215.4822,8239.47048,-8239.47048,0,O
+Forex P/L Details,Data,Forex,EUR,Stock 100 XLB,"2024-08-27, 14:46:59",USD,-9308.5,8322.636765,-8322.636765,0,O
+Forex P/L Details,Data,Forex,EUR,Stock 464 XLB,"2024-08-27, 14:52:01",USD,-43212.32,38635.703189,-38635.703189,0,O
+Forex P/L Details,Data,Forex,EUR,Stock 136 XLB,"2024-08-27, 14:52:02",USD,-12665.68,11324.257831,-11324.257831,0,O
+Forex P/L Details,Data,Forex,EUR,Option 3 HSY   240920C00200000,"2024-08-28, 09:33:01",USD,-239.09055,215.004568,-215.004568,0,O
+Forex P/L Details,Data,Forex,EUR,Option -20 NDAQ  240920P00070000,"2024-08-29, 09:31:26",USD,1465.966056,1310.251988,-1323.327559,-13.075571,C
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 20 XLB,"2024-08-27, 12:06:03",USD,745.961657,666.956858,-673.379588,-6.42273,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 10 AJG,"2024-08-23, 14:19:52",USD,720.004399,643.29513,-649.947971,-6.652841,
+Forex P/L Details,Data,Forex,EUR,Option -5 NDAQ  240920P00070000,"2024-08-29, 09:31:26",USD,361.491653,323.206072,-326.318515,-3.112443,C
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 20 XLB,"2024-08-27, 12:06:03",USD,361.491653,323.206072,-326.318515,-3.112443,
+Forex P/L Details,Data,Forex,EUR,Option -20 NDAQ  240920P00070000,"2024-08-29, 09:31:26",USD,1465.966056,1310.705591,-1323.327559,-12.621968,C
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 20 XLB,"2024-08-27, 12:06:03",USD,746.84669,667.748157,-674.178507,-6.43035,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 80 XLB,"2024-08-27, 12:06:03",USD,719.119366,642.957434,-649.149052,-6.191618,
+Forex P/L Details,Data,Forex,EUR,Option -5 NDAQ  240920P00070000,"2024-08-29, 09:31:26",USD,361.491653,323.206072,-326.318515,-3.112443,C
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 80 XLB,"2024-08-27, 12:06:03",USD,361.491653,323.206072,-326.318515,-3.112443,
+Forex P/L Details,Data,Forex,EUR,Net cash activity,2024-08-30,USD,70100,62675.709,-63453.118,-777.409,C
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 99 XLB,"2024-08-27, 14:46:59",USD,9215.4822,8239.47048,-8341.670178,-102.199698,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 100 XLB,"2024-08-27, 14:46:59",USD,9308.5,8322.636765,-8425.86803,-103.231265,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 95 XLB,"2024-08-27, 12:07:54",USD,8802.225,7869.98135,-7967.598026,-97.616676,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 1 XLB,"2024-08-27, 14:46:59",USD,94.0128,84.055904,-85.098506,-1.042602,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 464 XLB,"2024-08-27, 14:52:01",USD,35882.916019,32082.556384,-32480.497922,-397.941538,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 80 XLB,"2024-08-27, 12:06:03",USD,6332.588981,5661.904482,-5732.132894,-70.228412,
+Forex P/L Details,Data,Forex,EUR,Closed Lot: Stock 5 XLB,"2024-08-27, 12:07:54",USD,464.275,415.103635,-420.252444,-5.148809,
+Forex P/L Details,Data,Forex,EUR,Stock 100 RGLD,"2024-08-30, 13:23:53",USD,-13945,12622.7351,-12622.7351,0,O
+Forex P/L Details,Data,Forex,EUR,Stock 17 GLD,"2024-08-30, 13:42:55",USD,-3926.215,3553.931294,-3553.931294,0,O
+Forex P/L Details,Data,Forex,EUR,Stock 33 GLD,"2024-08-30, 13:42:55",USD,-7619.535,6897.050691,-6897.050691,0,O
+Forex P/L Details,Data,Forex,EUR,Stock 30 GLD,"2024-08-30, 13:47:22",USD,-6929.8,6272.716364,-6272.716364,0,O
+Forex P/L Details,Data,Total,,,,,,352896.471766,-353181.234394,-284.762628,
+Commission Details,Header,Asset Category,Currency,Symbol,Date/Time,Quantity,Commission,Broker Charges Execution,Broker Charges Clearing,Third-Party Charges Execution,Third-Party Charges Clearing,Third-Party Charges Transaction Fee,Other
+Commission Details,Data,Stocks,USD,AJG,"2024-08-23, 14:19:52",10,-1,-1,0,0,0,0,0
+Commission Details,Data,Stocks,USD,CRWD,"2024-08-08, 15:59:47",20,-1,-1,0,0,0,0,0
+Commission Details,Data,Stocks,USD,GLD,"2024-08-30, 13:42:55",17,-1,-1,0,0,0,0,0
+Commission Details,Data,Stocks,USD,GLD,"2024-08-30, 13:47:22",30,-1,-1,0,0,0,0,0
+Commission Details,Data,Stocks,USD,IBIT,"2024-08-14, 12:04:04",300,-1.5,-1.5,0,0,0,0,0
+Commission Details,Data,Stocks,USD,IBIT,"2024-08-14, 12:05:33",100,-1,-1,0,0,0,0,0
+Commission Details,Data,Stocks,USD,IBIT,"2024-08-14, 13:09:51",300,-1.5,-1.5,0,0,0,0,0
+Commission Details,Data,Stocks,USD,IBIT,"2024-08-21, 09:32:54",100,-1,-1,0,0,0,0,0
+Commission Details,Data,Stocks,USD,MSFT,"2024-08-12, 09:30:00",56,-1,-1,0,0,0,0,0
+Commission Details,Data,Stocks,USD,MSFT,"2024-08-12, 09:39:57",9,-1,-1,0,0,0,0,0
+Commission Details,Data,Stocks,USD,MSFT,"2024-08-12, 09:40:43",10,-1,-1,0,0,0,0,0
+Commission Details,Data,Stocks,USD,MSFT,"2024-08-22, 11:27:26",-70,-0.82844377,0,0,0,0,-0.82844377,0
+Commission Details,Data,Stocks,USD,MSFT,"2024-08-22, 11:27:26",-60,-1.71005296,-1,0,0,0,-0.71005296,0
+Commission Details,Data,Stocks,USD,RGLD,"2024-08-30, 13:23:53",100,-1,-1,0,0,0,0,0
+Commission Details,Data,Stocks,USD,UDOW,"2024-08-01, 13:00:20",-50,-1.12608165,-1,0,0,0,-0.12608165,0
+Commission Details,Data,Stocks,USD,XLB,"2024-08-27, 12:06:03",20,-1,-1,0,0,0,0,0
+Commission Details,Data,Stocks,USD,XLB,"2024-08-27, 12:07:54",5,-1,-1,0,0,0,0,0
+Commission Details,Data,Stocks,USD,XLB,"2024-08-27, 14:46:59",1,-0.9328,-0.9328,0,0,0,0,0
+Commission Details,Data,Stocks,USD,XLB,"2024-08-27, 14:46:59",99,-0.0672,-0.0672,0,0,0,0,0
+Commission Details,Data,Stocks,USD,XLB,"2024-08-27, 14:52:01",464,-2.32,-2.32,0,0,0,0,0
+Commission Details,Data,Stocks,USD,XLB,"2024-08-27, 14:52:02",136,-0.68,-0.68,0,0,0,0,0
+Commission Details,Data,Total,,,,,-22.66457838,-21,0,0,0,-1.66457838,0
+Commission Details,Data,Total in EUR,,,,,-20.490780339,-18.98936,0,0,0,-1.501420339,0
+Commission Details,Header,Asset Category,Currency,Symbol,Date/Time,Quantity,Commission,Broker Charges Execution,Broker Charges Clearing,Third-Party Charges Execution,Third-Party Charges Clearing,Third-Party Charges Transaction Fee,Other
+Commission Details,Data,Equity and Index Options,USD,BITO 20DEC24 23 C,"2024-08-01, 13:01:08",-18,-21.658572,-11.7,-0.36,-9,0,-0.598572,0
+Commission Details,Data,Equity and Index Options,USD,BITO 20DEC24 23 C,"2024-08-01, 13:01:08",-2,-2.386508,-1.3,-0.04,-0.98,0,-0.066508,0
+Commission Details,Data,Equity and Index Options,USD,BITO 20SEP24 25 C,"2024-08-01, 13:01:53",-34,-13.2742256,-22.1,-0.68,10.54,0,-1.0342256,0
+Commission Details,Data,Equity and Index Options,USD,BITO 20SEP24 25 C,"2024-08-01, 13:01:53",-2,-0.7808368,-1.3,-0.04,0.62,0,-0.0608368,0
+Commission Details,Data,Equity and Index Options,USD,BITO 20SEP24 25 C,"2024-08-01, 13:01:53",-8,-3.1233472,-5.2,-0.16,2.48,0,-0.2433472,0
+Commission Details,Data,Equity and Index Options,USD,BITO 20SEP24 25 C,"2024-08-01, 13:01:53",-6,-2.3425104,-3.9,-0.12,1.86,0,-0.1825104,0
+Commission Details,Data,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-09, 15:12:28",-3,-3.46143,-1.95,-0.06,-1.35,0,-0.10143,0
+Commission Details,Data,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-09, 15:12:28",-1,-0.39381,-0.65,-0.02,0.31,0,-0.03381,0
+Commission Details,Data,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-09, 15:12:28",-1,-1.16381,-0.65,-0.02,-0.46,0,-0.03381,0
+Commission Details,Data,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-09, 15:12:28",-1,-1.16381,-0.65,-0.02,-0.46,0,-0.03381,0
+Commission Details,Data,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-09, 15:12:28",-1,-0.50381,-0.65,-0.02,0.2,0,-0.03381,0
+Commission Details,Data,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-09, 15:12:28",-1,-1.13381,-0.65,-0.02,-0.43,0,-0.03381,0
+Commission Details,Data,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-09, 15:12:28",-1,-1.11381,-0.65,-0.02,-0.41,0,-0.03381,0
+Commission Details,Data,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-09, 15:12:28",-1,-1.13381,-0.65,-0.02,-0.43,0,-0.03381,0
+Commission Details,Data,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-09, 15:12:28",-1,-1.50381,-1,-0.02,-0.45,0,-0.03381,0
+Commission Details,Data,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-09, 15:12:28",-1,-1.16381,-0.65,-0.02,-0.46,0,-0.03381,0
+Commission Details,Data,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-09, 15:12:28",-1,-0.80381,-0.3,-0.02,-0.45,0,-0.03381,0
+Commission Details,Data,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-15, 09:33:10",10,-11.4685,-6.5,-0.2,-4.5,0,-0.2685,0
+Commission Details,Data,Equity and Index Options,USD,CSCO 20SEP24 45 P,"2024-08-15, 09:33:15",3,-0.62055,-1.95,-0.06,1.47,0,-0.08055,0
+Commission Details,Data,Equity and Index Options,USD,CSCO 20SEP24 47.5 C,"2024-08-06, 10:40:46",14,-5.4159,-9.1,-0.28,4.34,0,-0.3759,0
+Commission Details,Data,Equity and Index Options,USD,CSCO 20SEP24 47.5 C,"2024-08-06, 10:40:46",6,-2.3211,-3.9,-0.12,1.86,0,-0.1611,0
+Commission Details,Data,Equity and Index Options,USD,CSCO 20SEP24 47.5 C,"2024-08-06, 10:43:00",10,-3.8685,-6.5,-0.2,3.1,0,-0.2685,0
+Commission Details,Data,Equity and Index Options,USD,CSCO 20SEP24 47.5 C,"2024-08-15, 09:30:45",-15,-6.85719,-9.75,-0.3,3.75,0,-0.55719,0
+Commission Details,Data,Equity and Index Options,USD,CSCO 20SEP24 47.5 C,"2024-08-15, 09:44:22",-8,-5.6598368,-5.2,-0.16,0,0,-0.2998368,0
+Commission Details,Data,Equity and Index Options,USD,CSCO 20SEP24 47.5 C,"2024-08-15, 09:44:22",-7,-4.9523572,-4.55,-0.14,0,0,-0.2623572,0
+Commission Details,Data,Equity and Index Options,USD,EW 20SEP24 62.5 P,"2024-08-09, 15:17:11",-10,0.46607,-6.5,-0.2,7.5,0,-0.33393,0
+Commission Details,Data,Equity and Index Options,USD,EW 20SEP24 62.5 P,"2024-08-20, 11:35:48",5,-3.48425,-3.25,-0.1,0,0,-0.13425,0
+Commission Details,Data,Equity and Index Options,USD,EW 20SEP24 62.5 P,"2024-08-20, 11:35:48",5,-3.48425,-3.25,-0.1,0,0,-0.13425,0
+Commission Details,Data,Equity and Index Options,USD,GILD 18OCT24 77.5 C,"2024-08-26, 09:54:51",-6,-2.7348696,-3.9,-0.12,1.5,0,-0.2148696,0
+Commission Details,Data,Equity and Index Options,USD,GILD 20SEP24 77.5 C,"2024-08-12, 13:10:58",6,-4.1811,-3.9,-0.12,0,0,-0.1611,0
+Commission Details,Data,Equity and Index Options,USD,HSY 20SEP24 200 C,"2024-08-12, 10:17:19",-3,0.860214,-1.95,-0.06,3,0,-0.129786,0
+Commission Details,Data,Equity and Index Options,USD,HSY 20SEP24 200 C,"2024-08-28, 09:33:01",3,0.90945,-1.95,-0.06,3,0,-0.08055,0
+Commission Details,Data,Equity and Index Options,USD,NDAQ 20SEP24 70 P,"2024-08-16, 15:59:55",20,-13.937,-13,-0.4,0,0,-0.537,0
+Commission Details,Data,Equity and Index Options,USD,NDAQ 20SEP24 70 P,"2024-08-19, 12:02:10",10,-6.9685,-6.5,-0.2,0,0,-0.2685,0
+Commission Details,Data,Equity and Index Options,USD,NDAQ 20SEP24 70 P,"2024-08-22, 11:25:48",5,-3.48425,-3.25,-0.1,0,0,-0.13425,0
+Commission Details,Data,Equity and Index Options,USD,NDAQ 20SEP24 70 P,"2024-08-22, 11:25:48",5,-3.48425,-3.25,-0.1,0,0,-0.13425,0
+Commission Details,Data,Equity and Index Options,USD,NDAQ 20SEP24 70 P,"2024-08-22, 11:50:32",5,-3.48425,-3.25,-0.1,0,0,-0.13425,0
+Commission Details,Data,Equity and Index Options,USD,NDAQ 20SEP24 70 P,"2024-08-22, 11:50:32",5,-3.48425,-3.25,-0.1,0,0,-0.13425,0
+Commission Details,Data,Equity and Index Options,USD,NDAQ 20SEP24 70 P,"2024-08-29, 09:31:26",-5,-3.508347,-3.25,-0.1,0,0,-0.158347,0
+Commission Details,Data,Equity and Index Options,USD,NDAQ 20SEP24 70 P,"2024-08-29, 09:31:26",-20,-14.033944,-13,-0.4,0,0,-0.633944,0
+Commission Details,Data,Equity and Index Options,USD,NDAQ 20SEP24 70 P,"2024-08-29, 09:31:26",-5,-3.508347,-3.25,-0.1,0,0,-0.158347,0
+Commission Details,Data,Equity and Index Options,USD,NDAQ 20SEP24 70 P,"2024-08-29, 09:31:26",-20,-14.033944,-13,-0.4,0,0,-0.633944,0
+Commission Details,Data,Equity and Index Options,USD,SMH 18OCT24 275 C,"2024-08-22, 09:37:14",-20,-14.3264,-13,-0.4,0,0,-0.9264,0
+Commission Details,Data,Total,,,,,-194.1716816,-204.1,-6.28,26.15,0,-9.9416816,0
+Commission Details,Data,Total in EUR,,,,,-176.865905766,-185.998358,-5.7230264,23.9137565,0,-9.058277866,0
+Deposits & Withdrawals,Header,Currency,Settle Date,Description,Amount
+Deposits & Withdrawals,Data,USD,2024-08-30,Electronic Fund Transfer,70100
+Deposits & Withdrawals,Data,Total,,,70100
+Deposits & Withdrawals,Data,Total in EUR,,,63453.118
+Fees,Header,Subtitle,Currency,Date,Description,Amount
+Fees,Data,Other Fees,EUR,2024-08-02,h*************al:US Equity and Options Add-On Streaming Bundle Professional for Aug 2024,-115.46
+Fees,Data,Other Fees,EUR,2024-08-02,h*************al:CUSIP Service Professional for Jul 2024,1.85
+Fees,Data,Other Fees,EUR,2024-08-02,h*************al:CUSIP Service Professional for Aug 2024,-1.85
+Fees,Data,Other Fees,EUR,2024-08-02,h*************al:Professional US Securities Snapshot Bundle for Jul 2024,9.24
+Fees,Data,Other Fees,EUR,2024-08-02,h*************al:Professional US Securities Snapshot Bundle for Aug 2024,-9.24
+Fees,Data,Total,,,,-115.46
+Fees,Notes,"Market data is provided by Global Financial Information Services (GmbH). Your local broker collects amounts owed for fees and tax for such data on behalf of Global Financial Information Services (GmbH). Note, you are responsible for any applicable taxes relating to the provision of these services."
+Dividends,Header,Currency,Date,Description,Amount
+Dividends,Data,USD,2024-08-01,EMD(US95766A1016) Cash Dividend USD 0.0845 per Share (Ordinary Dividend),564.46
+Dividends,Data,USD,2024-08-01,EMD(US95766A1016) Payment in Lieu of Dividend (Ordinary Dividend),36.34
+Dividends,Data,USD,2024-08-01,JPC(US67073B1061) Cash Dividend USD 0.0665 per Share (Ordinary Dividend),665
+Dividends,Data,USD,2024-08-15,KMI(US49456B1017) Cash Dividend USD 0.2875 per Share (Ordinary Dividend),1006.25
+Dividends,Data,Total,,,2272.05
+Dividends,Data,Total in EUR,,,2090.082603
+Withholding Tax,Header,Currency,Date,Description,Amount,Code
+Withholding Tax,Data,USD,2024-08-01,EMD(US95766A1016) Cash Dividend USD 0.0845 per Share - US Tax,-56.45,
+Withholding Tax,Data,USD,2024-08-01,EMD(US95766A1016) Payment in Lieu of Dividend - US Tax,-3.63,
+Withholding Tax,Data,USD,2024-08-01,JPC(US67073B1061) Cash Dividend USD 0.0665 per Share - US Tax,-66.5,
+Withholding Tax,Data,USD,2024-08-05,Withholding @ 20% on Credit Interest for Jul-2024,-6.04,
+Withholding Tax,Data,USD,2024-08-15,KMI(US49456B1017) Cash Dividend USD 0.2875 per Share - US Tax,-100.63,
+Withholding Tax,Data,Total,,,-233.25,
+Withholding Tax,Data,Total in EUR,,,-214.5278206,
+Interest,Header,Currency,Date,Description,Amount
+Interest,Data,USD,2024-08-05,USD Investment Loan Interest for Jul-2024,-2.95
+Interest,Data,Total,,,-2.95
+Interest,Data,Total in EUR,,,-2.693586
+CYEP/Broker Fees,Header,Currency,Date,Description,Amount,Code
+CYEP/Broker Fees,Data,USD,2024-08-05,USD CYEP Income for Jul-2024,30.2,
+CYEP/Broker Fees,Data,Total,,,30.2,
+CYEP/Broker Fees,Data,Total in EUR,,,27.575016,
+CYEP/Broker Fees,Notes,"Irish tax rules will apply to CYEP payments paid to you by Interactive Brokers Ireland Limited (""IBIE"") following the merger between IBIE and Interactive Brokers Central Europe Zrt. (""IBCE""). IBIE may be required to withhold tax on such payments. For the avoidance of doubt, these rules apply to all CYEP payments paid by IBIE, including those paid in respect of income accrued at IBCE prior to the date the merger takes effect. For more info on the merger, please visit https://www.ibkrguides.com/kb/merger-of-two-eu-broker-dealers.htm"
+Interest Accruals,Header,Currency,Field Name,Field Value
+Interest Accruals,Data,Base Currency Summary,Starting Accrual Balance,1323.8426978
+Interest Accruals,Data,Base Currency Summary,Interest Accrued,2634.1705966
+Interest Accruals,Data,Base Currency Summary,Accrual Reversal,2.693586
+Interest Accruals,Data,Base Currency Summary,FX Translation,-0.3904998
+Interest Accruals,Data,Base Currency Summary,Ending Accrual Balance,3960.3163806
+Interest Accruals,Data,USD,Starting Accrual Balance,1433.18
+Interest Accruals,Data,USD,Interest Accrued,2939.04
+Interest Accruals,Data,USD,Accrual Reversal,2.95
+Interest Accruals,Data,USD,Ending Accrual Balance,4375.17
+Interest Accruals,Data,USD,Ending Accrual Balance in EUR,3960.3163806
+CYEP/Broker Fee Accruals,Header,Currency,Field Name,Field Value
+CYEP/Broker Fee Accruals,Data,Base Currency Summary,Starting Accrual Balance,1323.8426978
+CYEP/Broker Fee Accruals,Data,Base Currency Summary,CYEP/Broker Fee Accrued,2634.1705966
+CYEP/Broker Fee Accruals,Data,Base Currency Summary,Accrual Reversal,2.693586
+CYEP/Broker Fee Accruals,Data,Base Currency Summary,FX Translation,-0.3904998
+CYEP/Broker Fee Accruals,Data,Base Currency Summary,Ending Accrual Balance,3960.3163806
+CYEP/Broker Fee Accruals,Data,USD,Starting Accrual Balance,1433.18
+CYEP/Broker Fee Accruals,Data,USD,CYEP/Broker Fee Accrued,2939.04
+CYEP/Broker Fee Accruals,Data,USD,Accrual Reversal,2.95
+CYEP/Broker Fee Accruals,Data,USD,Ending Accrual Balance,4375.17
+CYEP/Broker Fee Accruals,Data,USD,Ending Accrual Balance in EUR,3960.3163806
+Dividends,Header,Currency,Date,Description,Amount,Code
+Dividends,Data,USD,2024-08-01,EMD(US95766A1016) Cash Dividend USD 0.0845 per Share (Ordinary Dividend),564.46,
+Dividends,Data,USD,2024-08-01,JPC(US67073B1061) Cash Dividend USD 0.0665 per Share (Ordinary Dividend),665,
+Dividends,Data,USD,2024-08-15,KMI(US49456B1017) Cash Dividend USD 0.2875 per Share (Ordinary Dividend),1006.25,
+Dividends,Data,Total,,,2235.71,
+Dividends,Data,Total in EUR,,,2056.4077786,
+Payment In Lieu Of Dividends,Header,Currency,Date,Description,Amount,Code
+Payment In Lieu Of Dividends,Data,USD,2024-08-01,EMD(US95766A1016) Payment in Lieu of Dividend (Ordinary Dividend),36.34,
+Payment In Lieu Of Dividends,Data,Total,,,36.34,
+Payment In Lieu Of Dividends,Data,Total in EUR,,,33.6748244,
+Change in Dividend Accruals,Header,Asset Category,Currency,Symbol,Date,Ex Date,Pay Date,Quantity,Tax,Fee,Gross Rate,Gross Amount,Net Amount,Code
+Change in Dividend Accruals,Data,Starting Dividend Accruals in EUR,,,,,,,,,,,2587.1639164,
+Change in Dividend Accruals,Data,Stocks,USD,CSX,2024-08-29,2024-08-30,2024-09-13,1500,18,0,0.12,180,162,Po
+Change in Dividend Accruals,Data,Stocks,USD,EMD,2024-08-01,2024-07-24,2024-08-01,7110,-60.08,0,0.0845,-600.8,-540.72,Re
+Change in Dividend Accruals,Data,Stocks,USD,EMD,2024-08-22,2024-08-23,2024-09-03,7110,60.08,0,0.0845,600.8,540.72,Po
+Change in Dividend Accruals,Data,Stocks,USD,EMD,2024-08-22,2024-08-23,2024-09-03,7110,60.08,0,0.0845,600.79,540.71,Po
+Change in Dividend Accruals,Data,Stocks,USD,EMD,2024-08-22,2024-08-23,2024-09-03,7110,-60.08,0,0.0845,-600.8,-540.72,Re
+Change in Dividend Accruals,Data,Stocks,USD,HSY,2024-08-15,2024-08-16,2024-09-16,300,41.1,0,1.37,411,369.9,Po
+Change in Dividend Accruals,Data,Stocks,USD,JPC,2024-08-01,2024-07-15,2024-08-01,10000,-66.5,0,0.0665,-665,-598.5,Re
+Change in Dividend Accruals,Data,Stocks,USD,JPC,2024-08-14,2024-08-15,2024-09-03,11000,73.15,0,0.0665,731.5,658.35,Po
+Change in Dividend Accruals,Data,Stocks,USD,KHC,2024-08-29,2024-08-30,2024-09-27,1500,60,0,0.4,600,540,Po
+Change in Dividend Accruals,Data,Stocks,USD,KMI,2024-08-15,2024-07-31,2024-08-15,3500,-100.63,0,0.2875,-1006.25,-905.62,Re
+Change in Dividend Accruals,Data,Stocks,USD,MSFT,2024-08-14,2024-08-15,2024-09-12,130,9.75,0,0.75,97.5,87.75,Po
+Change in Dividend Accruals,Data,Stocks,USD,V,2024-08-08,2024-08-09,2024-09-03,200,10.4,0,0.52,104,93.6,Po
+Change in Dividend Accruals,Data,Total,,,,,,,45.27,0,,452.74,407.47,
+Change in Dividend Accruals,Data,Total in EUR,,,,,,,37.6230114,0,,376.2667254,338.643714,
+Change in Dividend Accruals,Data,Ending Dividend Accruals in EUR,,,,,,,,,,,2904.0980458,
+Open Dividend Accruals,Header,Asset Category,Currency,Symbol,Ex Date,Pay Date,Quantity,Tax,Fee,Gross Rate,Gross Amount,Net Amount,Code
+Open Dividend Accruals,Data,Stocks,USD,CSX,2024-08-30,2024-09-13,1500,18,0,0.12,180,162,
+Open Dividend Accruals,Data,Stocks,USD,EMD,2024-08-23,2024-09-03,7110,60.08,0,0.0845,600.79,540.71,
+Open Dividend Accruals,Data,Stocks,USD,HSY,2024-08-16,2024-09-16,300,41.1,0,1.37,411,369.9,
+Open Dividend Accruals,Data,Stocks,USD,JPC,2024-08-15,2024-09-03,11000,73.15,0,0.0665,731.5,658.35,
+Open Dividend Accruals,Data,Stocks,USD,KHC,2024-08-30,2024-09-27,1500,60,0,0.4,600,540,
+Open Dividend Accruals,Data,Stocks,USD,MSFT,2024-08-15,2024-09-12,130,9.75,0,0.75,97.5,87.75,
+Open Dividend Accruals,Data,Stocks,USD,PFE,2024-07-26,2024-09-03,2000,84,0,0.42,840,756,
+Open Dividend Accruals,Data,Stocks,USD,V,2024-08-09,2024-09-03,200,10.4,0,0.52,104,93.6,
+Open Dividend Accruals,Data,Total,,,,,,356.48,0.00,,"3,564.79","3,208.31",
+Open Dividend Accruals,Data,Total in EUR,,,,,,322.68,0.00,,"3,226.78","2,904.10",
+Other Fees,Header,Currency,Date,Description,Amount,Code
+Other Fees,Data,EUR,2024-08-02,h*************al:US Equity and Options Add-On Streaming Bundle Professional for Aug 2024,-115.46,
+Other Fees,Data,EUR,2024-08-02,h*************al:CUSIP Service Professional for Aug 2024,-1.85,
+Other Fees,Data,EUR,2024-08-02,h*************al:CUSIP Service Professional for Jul 2024,1.85,
+Other Fees,Data,EUR,2024-08-02,h*************al:Professional US Securities Snapshot Bundle for Aug 2024,-9.24,
+Other Fees,Data,EUR,2024-08-02,h*************al:Professional US Securities Snapshot Bundle for Jul 2024,9.24,
+Other Fees,Data,Total,,,-115.46,
+Deposits & Withdrawals,Header,Currency,Settle Date,Description,Amount,Code
+Deposits & Withdrawals,Data,USD,2024-08-30,Electronic Fund Transfer,70100,
+Deposits & Withdrawals,Data,Total,,,70100,
+Deposits & Withdrawals,Data,Total in EUR,,,63453.118,
+Sales Tax Details,Header,Currency,Date,Description,Country,Type,Taxable Amount,Tax Rate,Sales Tax,Code
+Sales Tax Details,Data,EUR,2024-08-02,h*************al:Professional US Securities Snapshot Bundle ,Bulgaria,VAT,-9.24,0.2,-1.848,
+Sales Tax Details,Data,EUR,2024-08-02,h*************al:CUSIP Service Professional ,Bulgaria,VAT,-1.85,0.2,-0.37,
+Sales Tax Details,Data,EUR,2024-08-02,h*************al:US Equity and Options Add-On Streaming Bundle Professional ,Bulgaria,VAT,-115.46,0.2,-23.092,
+Sales Tax Details,Data,Total,,,,,,,-25.31,
+ДДС Details,Header,Grouping,Currency,Date,Description,Country,Type,Taxable Amount excl. ДДС,Tax Rate,ДДС,Payable Amount incl. ДДС,Code
+ДДС Details,Data,Global Financial Information Services GmbH,EUR,2024-08-02,h*************al:Professional US Securities Snapshot Bundle ,Bulgaria,ДДС,-9.24,0.2,-1.848,-11.088,
+ДДС Details,Data,Global Financial Information Services GmbH,EUR,2024-08-02,h*************al:CUSIP Service Professional ,Bulgaria,ДДС,-1.85,0.2,-0.37,-2.22,
+ДДС Details,Data,Global Financial Information Services GmbH,EUR,2024-08-02,h*************al:US Equity and Options Add-On Streaming Bundle Professional ,Bulgaria,ДДС,-115.46,0.2,-23.092,-138.552,
+ДДС Details,Total,,EUR,,,,,-126.55,,-25.31,-151.86,
+ДДС Details,Notes,Tax Invoice #:8432685202408 Global Financial Information Services GmbH, Australia ARN #: 300016820952 Ireland VAT MOSS Registration #: EU372010894, Singapore GST Registration #: M90373300R Gewerbestrasse 11, Cham 6330, Switzerland,,,,,,,
+Broker Interest Paid,Header,Currency,Date,Description,Amount,Code
+Broker Interest Paid,Data,USD,2024-08-05,USD Investment Loan Interest for Jul-2024,-2.95,
+Broker Interest Paid,Data,Total,,,-2.95,
+Broker Interest Paid,Data,Total in EUR,,,-2.693586,
+Financial Instrument Information,Header,Asset Category,Symbol,Description,Conid,Security ID,Listing Exch,Multiplier,Type,Code
+Financial Instrument Information,Data,Stocks,AJG,ARTHUR J GALLAGHER & CO,4325,US3635761097,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,AMD,ADVANCED MICRO DEVICES,4391,US0079031078,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,BRK B,BERKSHIRE HATHAWAY INC-CL B,72063691,US0846707026,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,BXMT,BLACKSTONE MORTGAGE TRU-CL A,127149807,US09257W1009,NYSE,1,REIT,
+Financial Instrument Information,Data,Stocks,CRWD,CROWDSTRIKE HOLDINGS INC - A,370757467,US22788C1053,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,CSX,CSX CORP,6150,US1264081035,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,EMD,WESTERN ASSET EMRG MRKT DBT,41073515,US95766A1016,NYSE,1,CLOSED-END FUND,
+Financial Instrument Information,Data,Stocks,GILD,GILEAD SCIENCES INC,269753,US3755581036,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,GLD,SPDR GOLD SHARES,51529211,US78463V1070,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,HSY,HERSHEY CO/THE,8199,US4278661081,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,IBIT,ISHARES BITCOIN TRUST ETF,677037673,US46438F1012,NASDAQ,1,ETF,
+Financial Instrument Information,Data,Stocks,JPC,NUVEEN PREFERED & INCOME OPP,17635192,US67073B1061,NYSE,1,CLOSED-END FUND,
+Financial Instrument Information,Data,Stocks,KHC,KRAFT HEINZ CO/THE,199169586,US5007541064,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,KMI,KINDER MORGAN INC,83975037,US49456B1017,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,MSFT,MICROSOFT CORP,272093,US5949181045,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,PFE,PFIZER INC,11031,US7170811035,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,QRTEP,QURATE RETAIL INC,442948738,US74915M3088,NASDAQ,1,PUBLIC,
+Financial Instrument Information,Data,Stocks,RGLD,ROYAL GOLD INC,4817403,US7802871084,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,STLA,STELLANTIS NV,463647466,NL00150001Q9,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,UDOW,PROSHARES ULTRAPRO DOW30,72539713,US74347X8231,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,V,VISA INC-CLASS A SHARES,49462172,US92826C8394,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,XLB,MATERIALS SELECT SECTOR SPDR,4215200,US81369Y1001,ARCA,1,ETF,
+Financial Instrument Information,Header,Asset Category,Symbol,Description,Conid,Listing Exch,Multiplier,Expiry,Delivery Month,Type,Strike,Code
+Financial Instrument Information,Data,Equity and Index Options,BITO  240920C00025000,BITO 20SEP24 25 C,678308532,CBOE,100,2024-09-20,2024-09,C,25,
+Financial Instrument Information,Data,Equity and Index Options,BITO  241220C00023000,BITO 20DEC24 23 C,697754300,CBOE,100,2024-12-20,2024-12,C,23,
+Financial Instrument Information,Data,Equity and Index Options,CSCO  240920C00047500,CSCO 20SEP24 47.5 C,662951991,CBOE,100,2024-09-20,2024-09,C,47.5,
+Financial Instrument Information,Data,Equity and Index Options,CSCO  240920P00045000,CSCO 20SEP24 45 P,662952889,CBOE,100,2024-09-20,2024-09,P,45,
+Financial Instrument Information,Data,Equity and Index Options,EW    240920P00062500,EW 20SEP24 62.5 P,718708238,CBOE,100,2024-09-20,2024-09,P,62.5,
+Financial Instrument Information,Data,Equity and Index Options,GILD  240920C00077500,GILD 20SEP24 77.5 C,711590743,CBOE,100,2024-09-20,2024-09,C,77.5,
+Financial Instrument Information,Data,Equity and Index Options,GILD  241018C00077500,GILD 18OCT24 77.5 C,716588591,CBOE,100,2024-10-18,2024-10,C,77.5,
+Financial Instrument Information,Data,Equity and Index Options,HSY   240920C00200000,HSY 20SEP24 200 C,687705661,CBOE,100,2024-09-20,2024-09,C,200,
+Financial Instrument Information,Data,Equity and Index Options,NDAQ  240920P00070000,NDAQ 20SEP24 70 P,678604937,CBOE,100,2024-09-20,2024-09,P,70,
+Financial Instrument Information,Data,Equity and Index Options,PFE   240920C00027500,PFE 20SEP24 27.5 C,652387997,CBOE,100,2024-09-20,2024-09,C,27.5,
+Financial Instrument Information,Data,Equity and Index Options,QQQ   241018C00525000,QQQ 18OCT24 525 C,679745716,CBOE,100,2024-10-18,2024-10,C,525,
+Financial Instrument Information,Data,Equity and Index Options,SMH   241018C00275000,SMH 18OCT24 275 C,717449339,CBOE,100,2024-10-18,2024-10,C,275,
+Financial Instrument Information,Header,Asset Category,Symbol,Description,Conid,Security ID,Listing Exch,Multiplier,Type,Issuer,Maturity,Code
+Financial Instrument Information,Data,Bonds,MO 4.45 05/06/50,MO 4.45 05/06/50,420620286,US02209SBK87,,1,Corp,Altria Group Inc MO 4.45 05/06/50,2050-05-06,
+Financial Instrument Information,Data,Bonds,PEMEX 7.69 01/23/50 QDD1,PEMEX 7.69 01/23/50,449941383,US71654QDD16,,1,Corp,Petroleos Mexicanos PEMEX 7.69 01/23/50,2050-01-23,
+Codes,Header,Code,Meaning,Code (Cont.),Meaning (Cont.)
+Codes,Data,A,Assignment
+Codes,Data,ADR,ADR Fee Accrual
+Codes,Data,AEx,Automatic exercise for dividend-related recommendation.
+Codes,Data,AFx,AutoFX conversion resulting from trading
+Codes,Data,Adj,Adjustment
+Codes,Data,Al,Allocation
+Codes,Data,Aw,Away Trade
+Codes,Data,B,Automatic Buy-in
+Codes,Data,Bo,Direct Borrow
+Codes,Data,C,Closing Trade
+Codes,Data,CD,Cash Delivery
+Codes,Data,CP,Complex Position
+Codes,Data,Ca,Cancelled
+Codes,Data,Co,Corrected Trade
+Codes,Data,Cx,Part or all of this transaction was a Crossing executed as dual agent by IB for two IB customers
+Codes,Data,DT,Discounted Trade
+Codes,Data,De,Delivery or Conversion Action
+Codes,Data,ETF,ETF Creation/Redemption
+Codes,Data,Ep,Resulted from an Expired Position
+Codes,Data,Ex,Exercise
+Codes,Data,FP,The fractional portion of this trade was executed against IB or an affiliate.
+Codes,Data,FPA,The fractional portion of this trade was executed against IB or an affiliate. IB acted as agent for the whole share portion of this trade.
+Codes,Data,G,Trade in Guaranteed Account Segment
+Codes,Data,GEA,Exercise or Assignment resulting from offsetting positions
+Codes,Data,HC,Highest Cost tax basis election
+Codes,Data,HFI,Investment Transferred to Hedge Fund
+Codes,Data,HFR,Redemption from Hedge Fund
+Codes,Data,I,Internal Transfer
+Codes,Data,IA,The transaction was executed against IB or an affiliate
+Codes,Data,IM,A portion of the order was executed against IB or an affiliate; IB acted as agent on a portion.
+Codes,Data,INV,Investment Transfer from Investor
+Codes,Data,IPO,This transaction was executed as part of an IPO in which IB was a member of the selling group and is classified as a Principal trade.
+Codes,Data,L,Ordered by IB (Margin Violation)
+Codes,Data,LD,Adjusted by Loss Disallowed from Wash Sale
+Codes,Data,LI,"Last In, First Out (LIFO) tax basis election"
+Codes,Data,LT,Long Term P/L
+Codes,Data,Lo,Direct Loan
+Codes,Data,M,Entered manually by IB
+Codes,Data,MEx,Manual exercise for dividend-related recommendation.
+Codes,Data,ML,Maximize Losses tax basis election
+Codes,Data,MLG,Maximize Long Term Gain tax basis election
+Codes,Data,MLL,Maximize Long Term Loss tax basis election
+Codes,Data,MSG,Maximize Short Term Gain tax basis election
+Codes,Data,MSL,Maximize Short Term Loss tax basis election
+Codes,Data,O,Opening Trade
+Codes,Data,Off,Yes and No contracts offset to $1.00 cash settlement
+Codes,Data,P,Partial Execution
+Codes,Data,PE,Perpetual Investment
+Codes,Data,PI,Price Improvement
+Codes,Data,PTA,Post Trade Allocation
+Codes,Data,Po,Interest or Dividend Accrual Posting
+Codes,Data,Pr,Part or all of this transaction was executed by the Exchange as a Crossing by IB against an IB affiliate and is therefore classified as a Principal and not an agency trade
+Codes,Data,R,Dividend Reinvestment
+Codes,Data,RED,Redemption to Investor
+Codes,Data,RI,Recurring Investment
+Codes,Data,RP,"IB acted as agent for the fractional share portion of this trade, which was executed by an IB affiliate as riskless principal."
+Codes,Data,RPA,IB acted as agent for both the fractional share portion and the whole share portion of this trade; the fractional share portion was executed by an IB Affiliate as riskless principal.
+Codes,Data,Rb,Rebill
+Codes,Data,Re,Interest or Dividend Accrual Reversal
+Codes,Data,Ri,Reimbursement
+Codes,Data,S0,Contract settled to zero value
+Codes,Data,S1,Contract settled to $1.00
+Codes,Data,SF,Trade is subject to IBKR Lite Surcharge Fee if volume of such trades exceeds 10% of the total monthly Lite trade volume
+Codes,Data,SI,This order was solicited by Interactive Brokers
+Codes,Data,SL,Specific Lot tax basis election
+Codes,Data,SO,This order was marked as solicited by your Introducing Broker
+Codes,Data,SS,Customer designated this trade for shortened settlement and so is subject to execution at prices above the prevailing market
+Codes,Data,ST,Short Term P/L
+Codes,Data,T,Transfer
+Codes,Data,Un,Unvested shares from stock grant
+Codes,Data,XCH,Mutual Fund Exchange Transaction
+Notes/Legal Notes,Header,Type,Note
+Notes/Legal Notes,Data,Notes,"Stock exchange transactions generally settle on the trade date plus one business day (T+1). Options, futures and US open-end mutual fund transactions also settle on trade date plus one business day. Some exchanges and other transaction types may have longer or shorter settlement periods. Ending settled cash reflects the cash that has actually settled."
+Notes/Legal Notes,Data,Notes,Initial and maintenance margin requirements are available within the Account Window of the Trader Workstation.
+Notes/Legal Notes,Data,Notes,"Quantities preceded by a ""-"" sign indicate sell transactions. Other transactions are purchases. "
+Notes/Legal Notes,Data,Notes,"For shares traded on US markets, Interactive Brokers Ireland Limited (IBIE) acts as agent in executing the fractional portion of your order. In certain circumstances, IBIE routes that portion to an affiliate, which may execute it either as principal or riskless principal. If an IB affiliate executes as i) principal, the order will be executed at the price displayed for the opposite side of the NBBO from your order (the offer if you are buying and the bid if you are selling) at the time of execution, ii) riskless principal, the affiliate will execute that portion of your order at the price it receives for the execution of the whole share. The way in which the fractional portion of the order is executed is indicated by the codes associated with the trade. For shares traded on European Markets, IBIE will generally act as counterparty for any fractional portion of your order for shares, which it will execute as principal, for a total consideration which is equal to (or better than), the total consideration for the execution of a full share available at the European trading venues and SIs to which IBIE has access. In certain circumstances, IBIE may route a full share order to the available European trading venues acting in an Agency capacity and the fractional portion of the order will be allocated to your account at the price traded in the trading venue and the remaining fractional portion will be allocated to an affiliate. "
+Notes/Legal Notes,Data,Notes,"In case of partial executions, commissions are charged on the total quantity executed on the original order. The commission is displayed on the first partial execution only."
+Notes/Legal Notes,Data,Notes,Each closed lot indicated above with a reference to note (6) was chosen by the end of the trading day to be sold versus the specific opening purchase identified in that row.
+Notes/Legal Notes,Data,Notes,Trade execution times are displayed in Eastern Time.
+Notes/Legal Notes,Data,Notes,Applicable regulatory fees for your transactions are available on the IB website at www.interactivebrokers.com/en/accounts/fees/exchangeAndRegulatoryFees.php.
+Notes/Legal Notes,Data,Notes,"Borrow Fee Rate represents the cost to borrow stock expressed in percent per annum. It is applied to the collateral value on the stock borrow contract and is separate from any interest earned on credit cash balances. Similarly, Loan Fee Rate represents the benefit to lend stock. A positive rate indicates a cost to the borrower/benefit to the lender and a negative rate indicates a benefit to the borrower/cost to the lender. In general, the fee rates for hard-to-borrow stocks are higher than for normal availability stocks."
+Notes/Legal Notes,Data,Notes,Interest Rate on Customer Collateral represents the interest paid on the collateral posted to the customer's account and received from lending stock.  A positive rate indicates a benefit to the lender.
+Notes/Legal Notes,Data,Notes,"The closing prices on this Activity Statement are indicative and may come from third-party sources. Interactive Brokers does not warrant the accuracy of the prices provided by third-party sources. Due to time zone differences, certain non-US mutual funds may deliver closing prices after the Activity Statement has been produced and the closing prices for such funds will reflect the previous day's price."
+Notes/Legal Notes,Data,Notes,All Market Data and Research services are provided through Global Financial Information Services (GmbH).
+Notes/Legal Notes,Data,Notes,"Market data is provided by Global Financial Information Services (GmbH). Your local broker collects amounts owed for fees and tax for such data on behalf of Global Financial Information Services (GmbH). Note, you are responsible for any applicable taxes relating to the provision of these services."
+Notes/Legal Notes,Data,Notes,"Directive 2014/65/EU and its implementing measures (MiFID II) applies to all client funds and client financial instruments (Client Assets) on this statement except those Client Assets that are not classified as segregated assets, namely securities lent under the Stock Yield Enhancement Programme as identified in the IBKR Managed Securities Lent section of this statement and Client Assets noted as Not Segregated in the Collateral for Customer Borrowing section of this statement.  IBIE applies the MiFID II Client Asset protection requirements to funds and instruments that are not subject to MiFID II in the same way as it applies those requirements to Client Assets. IBIE is also subject to the client asset requirements set out in the Central Bank (Supervision and Enforcement) Act 2013 (Section 48(1))(Investment Firms) Regulations 2017."
+Notes/Legal Notes,Data,Mutual Fund Notes,"All purchase and sales of mutual funds are calculated against the published NAV (Net Asset Value) of the underlying fund and is displayed on this confirmation as the ""C. Price"" (Closing Price). Due to any fees charged by a fund and/or any share rounding, the net price you pay may vary from the published NAV and is shown on this confirmation as the ""T. Price"" (Trade Price)."
+Notes/Legal Notes,Data,Fixed Income Notes,"Call features for bonds or preferred stocks may affect the yield. For zero coupon, compound interest and multiplier securities, there are no periodic payments and securities may be callable below maturity value without notice to holder unless registered. For asset-backed securities, the actual yield may vary depending on the speed at which the underlying note is pre-paid. For additional information regarding bond yield, please contact the IB Help Desk at: help@interactivebrokers.com. If this debt security is unrated by a nationally recognized statistical rating organization, it may pose a high risk of default. You should consult an independent advisor to determine whether unrated bonds are appropriate for your portfolio in light of your goals and your financial circumstances. Fees charged by bond trading centers are included in the cost of bond transactions."
+Notes/Legal Notes,Data,Legal Notes,"Please promptly report any inaccuracy or discrepancy in this statement, or in your account, to Interactive Brokers Ireland Limited (""IBIE""). You can contact us by telephone or electronically through the IBIE website at, www.interactivebrokers.ie. If you report an error by telephone, you should re-confirm such oral communication in writing in order to protect your rights, including your rights under the Investor Compensation Scheme."
+Notes/Legal Notes,Data,Legal Notes,"Unless otherwise noted, IBIE acted as agent in the execution of the above transactions. IBIE may execute your trades through affiliates or third-party brokers who are members of the relevant exchange or market center. IBIE uses its affiliates Interactive Brokers LLC (""IBLLC"") and Interactive Brokers (U.K.) Limited to custody financial instruments."
+Notes/Legal Notes,Data,Legal Notes,"IBIE acts as agent or riskless principal in foreign currency exchange transactions and CFDs. Such transactions are executed against an IBIE affiliate, which acts as principal in such transactions and may have a long or short position and may have profited or lost in connection with the transaction."
+Notes/Legal Notes,Data,Legal Notes,"IBIE routes orders in US products through its US affiliate, IBLLC. IBLLC accepts liquidity rebates or other order flow payments from Alternative Trading Systems, market makers and exchanges for certain orders in US stocks. IBLLC receives payment for some US option orders pursuant to exchange-mandated marketing fee programs or other arrangements."
+Notes/Legal Notes,Data,Legal Notes,Please promptly notify IB-IE of any material change in your investment objectives or financial situation or circumstances.
+Notes/Legal Notes,Data,Legal Notes,"An up-to-date financial statement of IBIE is available for your personal inspection at www.interactivebrokers.ie or at its offices, or a copy of the financial statement will be mailed to you upon your written request."
+Notes/Legal Notes,Data,Legal Notes,"IBIE is a member of the Investor Compensation Scheme, which provides protection for customers in the event of the failure of IBIE. Further information on the Investor Compensation Scheme can be found at  www.investorcompensation.ie  ."
+Notes/Legal Notes,Data,Legal Notes,IBIE is incorporated under the laws of Ireland and registered with the Irish Companies Registration Office with company registration number 657406.
+Notes/Legal Notes,Data,Legal Notes,IBIE is regulated by the Central Bank of Ireland.
+Notes/Legal Notes,Data,Legal Notes,"IBIE's Registered Office address is 10 Earlsfort Terrace, Dublin, D02 T380, Ireland."
+Notes/Legal Notes,Data,Legal Notes,"IBIE is included in the Central Bank of Ireland's register of authorised firms under number C423427. The CBI's address is New Wapping Street, North Wall Quay, Dublin 1, D01 F7X3. The CBI's website is www.centralbank.ie."
