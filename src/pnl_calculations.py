@@ -8,16 +8,6 @@ rename_rlzd = {'Realized Total': 'Amount'}
 rename_vat = {'Sales Tax': 'Amount'}
 rename_general = {'Currency':'Asset Category'}
 
-def rename_columns(df, rename_dict):
-    """
-    Renames columns in a DataFrame based on a given dictionary.
-    
-    :param df: The DataFrame to rename columns for.
-    :param rename_dict: A dictionary where keys are old column names and values are new names.
-    :return: The DataFrame with renamed columns.
-    """
-    return df.rename(columns=rename_dict)
-
 rename_dict = {
     'Realized & Unrealized Performance Summary':rename_rlzd, 
     'Dividends':rename_general,
@@ -30,7 +20,28 @@ rename_dict = {
     'Sales Tax Details':rename_general | rename_vat, 
     }
 
+expected_rows = {
+    'Realized & Unrealized Performance Summary':['Stocks', 'Equity and Index Options', 'Forex', 'Bonds', 'Treasury Bills'], 
+    'Dividends':['USD', 'Total in EUR'],
+    'Withholding Tax':['USD', 'Total in EUR', 'Total Withholding Tax in EUR'],  
+    'Bond Interest Received':['USD', 'Total', 'Total in EUR'],
+    'Bond Interest Paid':['USD', 'Total', 'Total in EUR'], 
+    'Broker Interest Received':['EUR', 'USD', 'Total Broker Interest Received in EUR'], 
+    'Broker Interest Paid':['EUR', 'USD', 'Total in EUR'],
+    'Other Fees':['Total'], 
+    'Sales Tax Details':['Total'], 
+    }
+
 rename_dict2 = {'X': 'Xi', 'Y': 'Ypsilon', 'Z': 'Zeta'}
+# Define new_rows dictionary
+def new_rows(section_name, df):
+    if section_name == 'Realized & Unrealized Performance Summary':
+        df["Underlying"] = df["Symbol"].apply(extract_underlying)
+    else:
+        df["Symbol"] = df["Description"].apply(extract_underlying)
+        df["Underlying"] = df["Description"].apply(extract_underlying)
+    
+    return df
 
 # Define a function to extract the correct ticker based on different asset types
 def extract_underlying(description):
@@ -56,13 +67,6 @@ def extract_underlying(description):
 
     return None  # Return None if no match is found
 
-def pnl_constructor(lst, section_name):
-    df = pd.DataFrame(lst)
-    df = create_header(df)
-
-
-    return
-
 def create_header(df):
     df.columns = df.iloc[0]  # Set first row as column names
     df = df[1:].reset_index(drop=True)  # Remove the first row and reset index  
@@ -72,169 +76,16 @@ def convert_to_numeric(df, col_name):
     df[col_name] = pd.to_numeric(df[col_name], errors='coerce', )  # Ensure numeric values
     return df
 
-def rlzd(lst, section_name):
+def pnl_constructor(lst, section_name):
     df = pd.DataFrame(lst)
     df = create_header(df)
+    df.rename(columns=rename_dict[section_name], inplace=True)
 
-    rename_columns(df, rename_dict[section_name])  # Rename and update the dictionary
-    df.rename(columns={"Realized Total": "Amount"}, inplace=True)
-    
-    print(df.head())
-    df["Underlying"] = df["Symbol"].apply(extract_underlying)
-    
-    # Convert amounts to numeric
-    df = convert_to_numeric(df, 'Amount')
-    
-    expected_rows = ['Stocks', 'Equity and Index Options', 'Forex', 'Bonds', 'Treasury Bills']
-    
-    filtered = df[df['Asset Category'].isin(expected_rows)] # Filter the rows to include only the expected_rows
+    df = new_rows(section_name, df)
+
+    filtered = df[df['Asset Category'].isin(expected_rows[section_name])] # Filter the rows to include only the expected_rows
     filtered = filtered.loc[:, [section_name] + FILTERED_COLS] # Filter the columns to include only the expected_cols
     
-    print(filtered.head())
-    return filtered
-
-def dividends(lst, section_name):
-    df = pd.DataFrame(lst)
-    df = create_header(df)
-    print(rename_dict.keys())
-    rename_columns(df, rename_dict[section_name])  # Rename and update the dictionary
-    print(df.head())
-    df.rename(columns={'Currency':'Asset Category'}, inplace=True)
-
-    df["Symbol"] = df["Description"].apply(extract_underlying)
-    df["Underlying"] = df["Description"].apply(extract_underlying)
-
-    # Convert amounts to numeric
-    df = convert_to_numeric(df, 'Amount')
-    
-    expected_rows = ['USD', 'Total in EUR']
-
-    filtered = df[df['Asset Category'].isin(expected_rows)] # Filter the rows to include only the expected_rows
-    filtered = filtered.loc[:, [section_name] + FILTERED_COLS] # Filter the columns to include only the expected_cols
-    
-    print(filtered.head())
-    return filtered
-
-def whtax(lst, section_name):
-    df = pd.DataFrame(lst)
-    df = create_header(df)
-    df.rename(columns={'Currency':'Asset Category'}, inplace=True)
- 
-    print(df.head())
-    df["Symbol"] = df["Description"].apply(extract_underlying)
-    df["Underlying"] = df["Description"].apply(extract_underlying)
-    
-    # Convert amounts to numeric
-    df = convert_to_numeric(df, 'Amount')
-    
-    expected_rows = ['USD', 'Total in EUR', 'Total Withholding Tax in EUR']
-
-    filtered = df[df['Asset Category'].isin(expected_rows)] # Filter the rows to include only the expected_rows
-    filtered = filtered.loc[:, [section_name] + FILTERED_COLS] # Filter the columns to include only the expected_cols
-    
-    print(filtered.head())
-    return filtered
-
-def bond_interest_received(lst, section_name):
-    df = pd.DataFrame(lst)
-    df = create_header(df)
-    df.rename(columns={'Currency':'Asset Category'}, inplace=True)
- 
-    print(df.head())
-    df["Symbol"] = df["Description"].apply(extract_underlying)
-    df["Underlying"] = df["Description"].apply(extract_underlying)
- 
-    # Convert amounts to numeric
-    df = convert_to_numeric(df, 'Amount')
-    
-    expected_rows = ['USD', 'Total', 'Total in EUR']
-
-    filtered = df[df['Asset Category'].isin(expected_rows)] # Filter the rows to include only the expected_rows
-    filtered = filtered.loc[:, [section_name] + FILTERED_COLS] # Filter the columns to include only the expected_cols
-    
-    print(filtered.head())
-    return filtered    
-
-def bond_interest_paid(lst, section_name):
-    df = pd.DataFrame(lst)
-    df = create_header(df)
-    df.rename(columns={'Currency':'Asset Category'}, inplace=True)
- 
-    print(df.head())
-    df["Symbol"] = df["Description"].apply(extract_underlying)
-    df["Underlying"] = df["Description"].apply(extract_underlying)
- 
-    # Convert amounts to numeric
-    df = convert_to_numeric(df, 'Amount')
-    
-    expected_rows = ['USD', 'Total', 'Total in EUR']
-
-    filtered = df[df['Asset Category'].isin(expected_rows)] # Filter the rows to include only the expected_rows
-    filtered = filtered.loc[:, [section_name] + FILTERED_COLS] # Filter the columns to include only the expected_cols
-    
-    print(filtered.head())
-    return filtered       
-
-def broker_interest_received(lst, section_name):
-    df = pd.DataFrame(lst)
-    df = create_header(df)
-    df.rename(columns={'Currency':'Asset Category'}, inplace=True)
- 
-    print(df.head())
-    df["Symbol"] = df["Description"].apply(extract_underlying)
-    df["Underlying"] = df["Description"].apply(extract_underlying)
- 
-    # Convert amounts to numeric
-    df = convert_to_numeric(df, 'Amount')
-    
-    expected_rows = ['EUR', 'USD', 'Total Broker Interest Received in EUR']
-
-    filtered = df[df['Asset Category'].isin(expected_rows)] # Filter the rows to include only the expected_rows
-    filtered = filtered.loc[:, [section_name] + FILTERED_COLS] # Filter the columns to include only the expected_cols
-    
-    print(filtered.head())
-    return filtered
-
-def broker_interest_paid(lst, section_name):
-    return
-
-def other_fees(lst, section_name):
-    df = pd.DataFrame(lst)
-    df = create_header(df)
-    df.rename(columns={'Currency':'Asset Category'}, inplace=True)
- 
-    print(df.head())
-    df["Symbol"] = df["Description"].apply(extract_underlying)
-    df["Underlying"] = df["Description"].apply(extract_underlying)
- 
-    # Convert amounts to numeric
-    df = convert_to_numeric(df, 'Amount')
-    
-    expected_rows = ['Total']
-
-    filtered = df[df['Asset Category'].isin(expected_rows)] # Filter the rows to include only the expected_rows
-    filtered = filtered.loc[:, [section_name] + FILTERED_COLS] # Filter the columns to include only the expected_cols
-    
-    print(filtered.head())
-    return filtered
-
-def sales_tax(lst, section_name):
-    df = pd.DataFrame(lst)
-    df = create_header(df)
-    df.rename(columns={'Currency':'Asset Category'}, inplace=True)
-    df.rename(columns={"Sales Tax": "Amount"}, inplace=True)
- 
-    print(df.head())
-    df["Symbol"] = df["Description"].apply(extract_underlying)
-    df["Underlying"] = df["Description"].apply(extract_underlying)
- 
-    # Convert amounts to numeric
-    df = convert_to_numeric(df, 'Amount')
-    
-    expected_rows = ['Total']
-
-    filtered = df[df['Asset Category'].isin(expected_rows)] # Filter the rows to include only the expected_rows
-    filtered = filtered.loc[:, [section_name] + FILTERED_COLS] # Filter the columns to include only the expected_cols
-    
-    print(filtered.head())
+    filtered = convert_to_numeric(filtered, 'Amount')
+    print(filtered.columns)
     return filtered

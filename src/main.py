@@ -16,7 +16,7 @@ from src.pnl_parser import pnl_parser
 def main():
     # month_input = input('Provide YYYYMM:')
     # ib_file_name = 'U16432685' + '_' + month_input + '_' + month_input + ".csv"
-    # ib_file_name = 'U8432685_202408_202408.csv'
+    # ib_file_name = 'U16432685_20250203_20250214.csv'
     ib_file_name = 'U16432685_202501_202501.csv'
     file_path = get_file_path(ib_file_name, 'data', 'raw')
 
